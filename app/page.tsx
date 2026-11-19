@@ -11,7 +11,7 @@ const CARDS = [
     href: "/methods",
     kicker: "How the numbers are made",
     title: "Calculator methods",
-    body: "Reconstitution, blend draws, and single-compartment pharmacokinetics: formulas, assumptions, edge cases, and the unit-arithmetic scope note.",
+    body: "Reconstitution, blend draws, the beta blend screen, and single-compartment pharmacokinetics: formulas, assumptions, edge cases, and the unit-arithmetic scope note.",
   },
   {
     href: "/data",

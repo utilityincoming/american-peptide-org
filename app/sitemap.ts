@@ -13,6 +13,7 @@ const PATHS = [
   "/methods",
   "/methods/reconstitution",
   "/methods/blend",
+  "/methods/blend-screen",
   "/methods/pharmacokinetics",
   "/data",
   "/cite",

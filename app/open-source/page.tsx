@@ -20,7 +20,9 @@ export default function OpenSourcePage() {
       <h2>Calculators</h2>
       <p>
         <code>packages/calculators</code> is dependency-free TypeScript: <code>reconstitution.ts</code>,{" "}
-        <code>blend.ts</code>, and <code>pharmacokinetics.ts</code>. They are the same formulas the .com tools run.
+        <code>blend.ts</code>, <code>blend-screen.ts</code>, and <code>pharmacokinetics.ts</code>. The screen module
+        records the american-peptide commit it was checked against. Catalog lookup stays on the .com site. The
+        arithmetic is the reference those tools are written to match.
         License: MIT. The written method, including edge cases the types do not express, is under{" "}
         <Link href="/methods">/methods</Link>.
       </p>

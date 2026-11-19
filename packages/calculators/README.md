@@ -5,7 +5,8 @@ Reference implementations of the bench math that [americanpeptide.com](https://a
 | Module | Tool it explains |
 | --- | --- |
 | `reconstitution.ts` | [Reconstitution calculator](https://americanpeptide.com/tools/reconstitution-calculator) |
-| `blend.ts` | [Blend calculator](https://americanpeptide.com/tools/blend-calculator) |
+| `blend.ts` | [Blend calculator](https://americanpeptide.com/tools/blend-calculator) draws |
+| `blend-screen.ts` | Same tool, beta association screen. Catalog lookup stays on .com. `BLEND_SCREEN_COM_COMMIT` names the revision this copy was checked against. |
 | `pharmacokinetics.ts` | Steady-state, accumulation, and clearance helpers |
 
 Methodology, assumptions, and edge cases: [americanpeptide.org/methods](https://americanpeptide.org/methods).

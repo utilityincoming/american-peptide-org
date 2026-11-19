@@ -59,7 +59,15 @@ over fraction              (delivered − D_i) / D_i`}</pre>
         <li>Every peptide is transferred in full into one vial. Losses on the spatula, the syringe, or the wall are ignored.</li>
         <li>One draw volume serves every peptide. You cannot hit two intended doses with one volume unless the masses are proportioned to the same dose count.</li>
         <li>The diluent volume is the final volume. Displacement by the powder is ignored.</li>
-        <li>Components are independent solutes. The method has no stability, compatibility, or concentration-limit term.</li>
+        <li>
+          Components are independent solutes for the dose count. Compatibility is a separate{" "}
+          <Link href="/methods/blend-screen">screen</Link>. It does not change <code>N</code> or the over fraction.
+        </li>
+        <li>
+          When the over fraction is above 0.02, the reference module returns a fixed sentence: the shared draw
+          delivers more than the intended dose of a non-limiting peptide because the dose count follows the scarcest
+          component. The threshold is the website’s highlight rule.
+        </li>
         <li>A cap of ten peptides on the website is a form limit. The function takes any list length.</li>
       </ul>
       <h2 id="edge-cases">Edge cases</h2>
