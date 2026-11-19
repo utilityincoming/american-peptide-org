@@ -26,7 +26,7 @@ body {
 a { color: var(--teal); text-underline-offset: 0.15em; }
 a:hover { color: var(--teal-deep); }
 code {
-  font-family: var(--font-mono), ui-monospace, monospace;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   font-size: 0.86em;
   background: var(--paper-2);
   padding: 0.05em 0.35em;
@@ -135,7 +135,7 @@ dl.defs dt { font-weight: 700; }
 dl.defs dd { margin: 0.2rem 0 0; color: var(--muted); }
 
 .formula {
-  font-family: var(--font-mono), ui-monospace, monospace;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   background: var(--teal-deep);
   color: #f4f0e6;
   padding: 0.9rem 1rem;
