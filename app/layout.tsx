@@ -21,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
         <div className="shell">
+          <div className="ribbon" aria-hidden="true" />
           <header className="top">
             <Link href="/" className="brand">
               <strong>American Peptide</strong>
