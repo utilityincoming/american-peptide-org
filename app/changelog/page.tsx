@@ -16,6 +16,14 @@ export default function ChangelogPage() {
         Spec versions are frozen at their URLs. This log is append-only. Corrections to a published spec are also
         recorded under <Link href="/errata">errata</Link> and do not rewrite the old page.
       </p>
+      <h2>2026-11-19 — method section anchors</h2>
+      <ul>
+        <li>
+          Reconstitution, blend, and pharmacokinetic method pages list their sections and give each heading a
+          fragment. The reconstitution formulas are{" "}
+          <Link href="/methods/reconstitution#formulas">/methods/reconstitution#formulas</Link>.
+        </li>
+      </ul>
       <h2>2026-11-19 — example claims</h2>
       <ul>
         <li>
