@@ -9,6 +9,7 @@ const PATHS = [
   "/standards/evidence-tier/v0.1",
   "/standards/evidence-tier/0.1.1",
   "/standards/evidence-tier/0.1.0",
+  "/standards/evidence-tier/examples",
   "/methods",
   "/methods/reconstitution",
   "/methods/blend",

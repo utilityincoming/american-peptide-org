@@ -16,6 +16,15 @@ export default function ChangelogPage() {
         Spec versions are frozen at their URLs. This log is append-only. Corrections to a published spec are also
         recorded under <Link href="/errata">errata</Link> and do not rewrite the old page.
       </p>
+      <h2>2026-11-19 — example claims</h2>
+      <ul>
+        <li>
+          Published two records that satisfy schema 0.1.1:{" "}
+          <a href="/standards/evidence-tier/0.1.1/examples/vendor-price.json">a vendor price</a> and{" "}
+          <a href="/standards/evidence-tier/0.1.1/examples/rodent-half-life.json">a rodent half-life</a>. The reading
+          copy is <Link href="/standards/evidence-tier/examples">example claims</Link>.
+        </li>
+      </ul>
       <h2>2026-11-19 — section anchors</h2>
       <ul>
         <li>
