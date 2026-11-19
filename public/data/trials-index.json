@@ -1,0 +1,283 @@
+{
+  "title": "Trials index snapshot",
+  "version": "2026-11-18",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "upstream": "https://clinicaltrials.gov/api/v2/studies",
+  "retrieved_at": "2026-11-19T02:30:00Z",
+  "note": "Five studies per query term, as returned by ClinicalTrials.gov on the retrieval date, fields reduced to the index columns. Not a complete trials database. Re-query the upstream API before citing a status.",
+  "citation": "American Peptide Project. Trials index snapshot, 18 November 2026. https://americanpeptide.org/data/trials-index.json",
+  "studies": [
+    {
+      "query": "semaglutide",
+      "nct_id": "NCT06803888",
+      "title": "Bariatric Surgery vs. Semaglutide vs. Tirzepatide",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE4"
+      ],
+      "sponsor": "Ali Aminian",
+      "enrollment": 140
+    },
+    {
+      "query": "semaglutide",
+      "nct_id": "NCT06411210",
+      "title": "Obesity Complicating Type 1 Diabetes: GLP-1 Analogue Anti-obesity Treatment",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE2"
+      ],
+      "sponsor": "Yale University",
+      "enrollment": 54
+    },
+    {
+      "query": "semaglutide",
+      "nct_id": "NCT04777409",
+      "title": "A Research Study Investigating Semaglutide in People With Early Alzheimer's Disease (EVOKE Plus)",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE3"
+      ],
+      "sponsor": "Novo Nordisk A/S",
+      "enrollment": 1840
+    },
+    {
+      "query": "semaglutide",
+      "nct_id": "NCT07668414",
+      "title": "A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess Body Weight Lose Weight Compared to Semaglutide",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE3"
+      ],
+      "sponsor": "Novo Nordisk A/S",
+      "enrollment": 650
+    },
+    {
+      "query": "semaglutide",
+      "nct_id": "NCT06234111",
+      "title": "Semaglutide and Physical Activity for Obesity and Multimorbidity",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [],
+      "sponsor": "Hvidovre University Hospital",
+      "enrollment": 35
+    },
+    {
+      "query": "tirzepatide",
+      "nct_id": "NCT06803888",
+      "title": "Bariatric Surgery vs. Semaglutide vs. Tirzepatide",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE4"
+      ],
+      "sponsor": "Ali Aminian",
+      "enrollment": 140
+    },
+    {
+      "query": "tirzepatide",
+      "nct_id": "NCT07191873",
+      "title": "Tirzepatide in Idiopathic Intracranial Hypertension Trial",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE4"
+      ],
+      "sponsor": "Duke University",
+      "enrollment": 60
+    },
+    {
+      "query": "tirzepatide",
+      "nct_id": "NCT06732245",
+      "title": "Safety and Efficacy of NA-931 and Tirzepatide in Adults Who Are Overweight or Obese",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE2"
+      ],
+      "sponsor": "Biomed Industries, Inc.",
+      "enrollment": 224
+    },
+    {
+      "query": "tirzepatide",
+      "nct_id": "NCT07728812",
+      "title": "Pragmatic Trial to Study the Cost-Effectiveness of MyPhenome-RX Test to Guide Anti-Obesity Pharmacotherapy",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "NA"
+      ],
+      "sponsor": "Phenomix Sciences",
+      "enrollment": 424
+    },
+    {
+      "query": "tirzepatide",
+      "nct_id": "NCT07829198",
+      "title": "Efficacy of Tirzepatide for Weight Management in Patients With Suboptimal Weight Loss After Bariatric Surgery: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE3"
+      ],
+      "sponsor": "Universidade do Porto",
+      "enrollment": 70
+    },
+    {
+      "query": "bremelanotide",
+      "nct_id": "NCT06867835",
+      "title": "Single Dose of Vyleesi in Lactating Female Subjects to Measure the Concentration of Bremelanotide in Breast Milk",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE4"
+      ],
+      "sponsor": "Cosette Pharmaceuticals, Inc.",
+      "enrollment": 10
+    },
+    {
+      "query": "bremelanotide",
+      "nct_id": "NCT04179734",
+      "title": "Role of the Melanocortin-4 Receptor in Hypoactive Sexual Desire Disorder",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE4"
+      ],
+      "sponsor": "Imperial College Healthcare NHS Trust",
+      "enrollment": 40
+    },
+    {
+      "query": "bremelanotide",
+      "nct_id": "NCT02338960",
+      "title": "2. Study to Evaluate the Efficacy/Safety of Bremelanotide in Premenopausal Women With Hypoactive Sexual Desire Disorder",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE3"
+      ],
+      "sponsor": "Palatin Technologies, Inc",
+      "enrollment": 714
+    },
+    {
+      "query": "bremelanotide",
+      "nct_id": "NCT00425256",
+      "title": "Evaluate the Safety and Efficacy of Bremelanotide in Women With Female Sexual Arousal Disorder (FSAD)",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "sponsor": "Palatin Technologies, Inc",
+      "enrollment": null
+    },
+    {
+      "query": "bremelanotide",
+      "nct_id": "NCT03973047",
+      "title": "Study to Evaluate Rate of Nausea in Healthy Premenopausal Female Subjects Treated With Single Dose of Bremelanotide Alone or With Zofran",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1"
+      ],
+      "sponsor": "AMAG Pharmaceuticals, Inc.",
+      "enrollment": 228
+    },
+    {
+      "query": "tesamorelin",
+      "nct_id": "NCT00795210",
+      "title": "Effects of Short-term Growth Hormone in HIV-infected Patients",
+      "status": "COMPLETED",
+      "phases": [
+        "NA"
+      ],
+      "sponsor": "Massachusetts General Hospital",
+      "enrollment": 25
+    },
+    {
+      "query": "tesamorelin",
+      "nct_id": "NCT00675506",
+      "title": "Effectiveness of Growth Hormone Releasing Hormone in Reducing Abdominal Fat in People Who Are Obese",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "sponsor": "Massachusetts General Hospital",
+      "enrollment": 60
+    },
+    {
+      "query": "tesamorelin",
+      "nct_id": "NCT01388920",
+      "title": "Efficacy and Safety Study of Tesamorelin in Chronic Obstructive Pulmonary Disease (COPD) Subjects With Muscle Wasting",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2"
+      ],
+      "sponsor": "Theratechnologies",
+      "enrollment": 3
+    },
+    {
+      "query": "tesamorelin",
+      "nct_id": "NCT06554717",
+      "title": "Tesamorelin as an Adjunct to Exercise for Improving Physical Function in HIV",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE2"
+      ],
+      "sponsor": "Massachusetts General Hospital",
+      "enrollment": 100
+    },
+    {
+      "query": "tesamorelin",
+      "nct_id": "NCT02572323",
+      "title": "Phase II Trial of Tesamorelin for Cognition in Aging HIV-Infected Persons",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "sponsor": "University of California, San Diego",
+      "enrollment": 73
+    },
+    {
+      "query": "teriparatide",
+      "nct_id": "NCT04196855",
+      "title": "Study of Teriparatide in Stress Fracture Healing",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE3"
+      ],
+      "sponsor": "University of East Anglia",
+      "enrollment": 136
+    },
+    {
+      "query": "teriparatide",
+      "nct_id": "NCT05018637",
+      "title": "Efficacy of WJ-derived Mesenchymal Stem Cells in Combination With Parathyroid Hormone for Vertebral Compression Fracture",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE2"
+      ],
+      "sponsor": "Inbo Han",
+      "enrollment": 30
+    },
+    {
+      "query": "teriparatide",
+      "nct_id": "NCT01760798",
+      "title": "Weekly vs Daily Teriparatide Therapy in Severe Postmenopausal Osteoporosis",
+      "status": "UNKNOWN",
+      "phases": [
+        "NA"
+      ],
+      "sponsor": "Post Graduate Institute of Medical Education and Research, Chandigarh",
+      "enrollment": 20
+    },
+    {
+      "query": "teriparatide",
+      "nct_id": "NCT03720886",
+      "title": "G56W1 in Women With Postmenopausal Osteoporosis",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "sponsor": "Shenzhen Salubris Pharmaceuticals Co., Ltd.",
+      "enrollment": 148
+    },
+    {
+      "query": "teriparatide",
+      "nct_id": "NCT06164795",
+      "title": "Sequential Therapies After Osteoanabolic Treatment",
+      "status": "RECRUITING",
+      "phases": [],
+      "sponsor": "424 General Military Hospital",
+      "enrollment": 150
+    }
+  ]
+}

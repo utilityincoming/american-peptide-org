@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://americanpeptide.org/standards/evidence-tier/0.1.0/schema.json",
+  "title": "American Peptide Evidence Tier Claim (0.1.0)",
+  "description": "Archived claim shape stamped by code as schema 0.1.0. It has no scope field. Freshness windows in the 0.1.0 notes conflated the commercial estimate kind with a tier; see erratum E-001. Do not use this schema for new claims.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["field", "value", "tier", "freshness", "estimate_kind", "scope_note", "provenance"],
+  "properties": {
+    "id": { "type": "string" },
+    "field": { "type": "string", "minLength": 1 },
+    "value": { "type": ["number", "string"] },
+    "unit": { "type": "string" },
+    "range": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "number" } },
+    "tier": { "enum": ["reference", "clinical", "preclinical", "third_party", "vendor_reported", "community"] },
+    "freshness": { "enum": ["current", "stale", "superseded", "retracted"] },
+    "estimate_kind": { "enum": ["identity", "computed", "pharmacokinetic", "pharmacodynamic", "purity", "dose_convention", "commercial"] },
+    "scope_note": { "type": "string" },
+    "superseded_by": { "type": "string" },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_type", "source_name", "retrieved_at", "schema_version"],
+      "properties": {
+        "source_type": { "enum": ["registry", "publication", "trial", "assay", "vendor", "aggregate"] },
+        "source_name": { "type": "string" },
+        "source_id": { "type": "string" },
+        "source_url": { "type": "string" },
+        "retrieved_at": { "type": "string" },
+        "method": { "type": "string" },
+        "n": { "type": "integer", "minimum": 0 },
+        "schema_version": { "const": "0.1.0" }
+      }
+    }
+  }
+}

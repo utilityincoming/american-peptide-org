@@ -1,0 +1,97 @@
+{
+  "title": "Structured references cited by the methods pages and the half-life table",
+  "version": "2026-11-18",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "citation": "American Peptide Project. Structured references. Version 2026-11-18. https://americanpeptide.org/data/references.json",
+  "note": "Identifiers point at the public record. The source_note strings are the wording stored beside each half-life in the calculator table, not a quotation from the label.",
+  "references": [
+    {
+      "id": "fda-ozempic-wegovy",
+      "type": "label",
+      "title": "Ozempic / Wegovy prescribing information (semaglutide), elimination half-life about 1 week",
+      "source_name": "FDA label",
+      "relates_to": ["semaglutide"]
+    },
+    {
+      "id": "pmid-33567185",
+      "type": "publication",
+      "title": "Wilding et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. NEJM 2021.",
+      "source_id": "PMID 33567185",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33567185/",
+      "relates_to": ["semaglutide"]
+    },
+    {
+      "id": "pmid-40162642",
+      "type": "publication",
+      "title": "McGuire et al. Oral semaglutide and cardiovascular outcomes (SOUL). NEJM 2025.",
+      "source_id": "PMID 40162642",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40162642/",
+      "relates_to": ["semaglutide"]
+    },
+    {
+      "id": "pmid-40305708",
+      "type": "publication",
+      "title": "Sanyal et al. Phase 3 trial of semaglutide in metabolic dysfunction–associated steatohepatitis (ESSENCE). NEJM 2025.",
+      "source_id": "PMID 40305708",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40305708/",
+      "relates_to": ["semaglutide"]
+    },
+    {
+      "id": "fda-mounjaro",
+      "type": "label",
+      "title": "Mounjaro prescribing information (tirzepatide), half-life about 5 days",
+      "source_name": "FDA label",
+      "relates_to": ["tirzepatide"]
+    },
+    {
+      "id": "fda-trulicity",
+      "type": "label",
+      "title": "Trulicity prescribing information (dulaglutide), half-life about 5 days",
+      "source_name": "FDA label",
+      "relates_to": ["dulaglutide"]
+    },
+    {
+      "id": "fda-victoza",
+      "type": "label",
+      "title": "Victoza / Saxenda prescribing information (liraglutide), half-life about 13 hours",
+      "source_name": "FDA label",
+      "relates_to": ["liraglutide"]
+    },
+    {
+      "id": "fda-vyleesi",
+      "type": "label",
+      "title": "Vyleesi prescribing information (bremelanotide), half-life about 2.7 hours",
+      "source_name": "FDA label",
+      "relates_to": ["pt-141"]
+    },
+    {
+      "id": "fda-forteo",
+      "type": "label",
+      "title": "Forteo prescribing information (teriparatide), subcutaneous half-life about 1 hour",
+      "source_name": "FDA label",
+      "relates_to": ["teriparatide"]
+    },
+    {
+      "id": "fda-egrifta",
+      "type": "label",
+      "title": "Egrifta prescribing information (tesamorelin), half-life about 26–38 minutes",
+      "source_name": "FDA label",
+      "relates_to": ["tesamorelin"]
+    },
+    {
+      "id": "ctgov-api",
+      "type": "registry",
+      "title": "ClinicalTrials.gov API v2",
+      "source_url": "https://clinicaltrials.gov/data-api/api",
+      "relates_to": ["trials-index"]
+    },
+    {
+      "id": "pubchem",
+      "type": "registry",
+      "title": "PubChem",
+      "source_name": "NIH/NCBI",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/",
+      "relates_to": ["compounds"]
+    }
+  ]
+}
