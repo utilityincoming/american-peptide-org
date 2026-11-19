@@ -1,0 +1,18 @@
+{
+  "id": "example.rodent-half-life",
+  "field": "half_life",
+  "value": 2.4,
+  "unit": "h",
+  "tier": "preclinical",
+  "estimate_kind": "pharmacokinetic",
+  "freshness": "current",
+  "scope": "rat.sc",
+  "scope_note": "Non-human data. Interspecies scaling of this parameter is unreliable and no human equivalent has been published.",
+  "provenance": {
+    "source_type": "publication",
+    "source_name": "Example rodent pharmacokinetic study",
+    "retrieved_at": "2026-11-18T18:00:00-06:00",
+    "schema_version": "0.1.1",
+    "n": 8
+  }
+}

@@ -27,6 +27,11 @@ export default function StandardsIndex() {
           <h2>0.1.1</h2>
           <p>Same frozen text as v0.1. Use this path when a citation must name the patch.</p>
         </Link>
+        <Link href="/standards/evidence-tier/examples" className="card">
+          <p className="kicker">Worked records</p>
+          <h2>Example claims</h2>
+          <p>A vendor price, where the 30-day kind override wins, and a rodent half-life that a human figure cannot supersede.</p>
+        </Link>
         <Link href="/standards/evidence-tier/0.1.0" className="card">
           <p className="kicker">Superseded</p>
           <h2>0.1.0</h2>

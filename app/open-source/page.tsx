@@ -43,7 +43,9 @@ export default function OpenSourcePage() {
         </li>
       </ul>
       <p>
-        The schema documents are <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, like the spec
+        Worked records that pass the required fields are on{" "}
+        <Link href="/standards/evidence-tier/examples">example claims</Link>. The schema documents are{" "}
+        <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, like the spec
         prose. Normative rules — when a scope note is required, how windows combine, when supersession is blocked —
         live in the <Link href="/standards/evidence-tier/v0.1">spec</Link>, which a validator will not check for you
         beyond the required fields.

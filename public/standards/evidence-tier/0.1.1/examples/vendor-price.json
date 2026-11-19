@@ -1,0 +1,16 @@
+{
+  "id": "example.vendor-price",
+  "field": "price_usd",
+  "value": 42,
+  "unit": "USD",
+  "tier": "vendor_reported",
+  "estimate_kind": "commercial",
+  "freshness": "current",
+  "scope_note": "Supplier’s own claim, not independently verified. Reproduced here as reported.",
+  "provenance": {
+    "source_type": "vendor",
+    "source_name": "Example supplier catalog",
+    "retrieved_at": "2026-11-18T18:00:00-06:00",
+    "schema_version": "0.1.1"
+  }
+}
