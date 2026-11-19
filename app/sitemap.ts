@@ -14,6 +14,7 @@ const PATHS = [
   "/methods/blend",
   "/methods/pharmacokinetics",
   "/data",
+  "/cite",
   "/changelog",
   "/errata",
   "/open-source",
