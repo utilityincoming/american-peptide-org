@@ -38,6 +38,12 @@ export default function StandardsIndex() {
           <p>Archived code-stamped shape, including the freshness defect corrected in 0.1.1.</p>
         </Link>
       </div>
+      <p className="lede" style={{ marginTop: "1.5rem" }}>
+        <strong>Stability.</strong> Each version is frozen at its URL and never rewritten. Patch and minor releases
+        stay backward compatible; a breaking change means a new major at a new URL. To depend on an exact shape, cite
+        a pinned patch such as <code>0.1.1</code> rather than <code>v0.1</code>. The full rule, including the
+        deprecation window, is in the <Link href="/changelog#versioning">versioning policy</Link>.
+      </p>
     </article>
   );
 }
