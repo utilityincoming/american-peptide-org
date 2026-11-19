@@ -10,9 +10,9 @@ const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-serif", dis
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
-  title: { default: "American Peptide · methods and standards", template: "%s · American Peptide" },
+  title: { default: "American Peptide · public methods", template: "%s · American Peptide" },
   description:
-    "The methods and standards home for American Peptide. Versioned evidence-tier schema, calculator methodology, and open dataset exports.",
+    "Public methods and citable standards for American Peptide. The evidence-tier schema, calculator methodology, and open dataset exports.",
   alternates: { canonical: "/" },
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="top">
             <Link href="/" className="brand">
               <strong>American Peptide</strong>
-              <span>methods & standards</span>
+              <span>public methods</span>
             </Link>
             <nav className="nav" aria-label="Primary">
               {NAV.map((item) => (
