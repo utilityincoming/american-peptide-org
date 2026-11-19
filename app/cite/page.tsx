@@ -55,7 +55,9 @@ export default function CitePage() {
       </div>
       <p>
         The reference modules are MIT. Cite the method page for the written assumptions, and the repository for the
-        code: <Link href="/open-source">open source</Link>.
+        code: <Link href="/open-source">open source</Link>. A single section can be named, for example the
+        reconstitution formulas at{" "}
+        <Link href="/methods/reconstitution#formulas">/methods/reconstitution#formulas</Link>.
       </p>
 
       <h2>Dataset snapshot, 18 November 2026</h2>

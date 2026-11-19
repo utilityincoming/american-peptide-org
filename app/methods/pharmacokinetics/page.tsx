@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SectionNav } from "@/components/SectionNav";
 
 export const metadata: Metadata = {
   title: "Pharmacokinetic calculator method",
@@ -18,13 +19,23 @@ export default function Page() {
         {" · "}
         Half-life inputs: <Link href="/data/pk-half-lives.json">pk-half-lives.json</Link>
       </p>
-      <h2>What it answers</h2>
+      <SectionNav
+        items={[
+          { id: "what-it-answers", label: "What it answers" },
+          { id: "formulas", label: "Formulas" },
+          { id: "worked-example", label: "Worked example" },
+          { id: "assumptions", label: "Assumptions" },
+          { id: "edge-cases", label: "Edge cases" },
+          { id: "scope-note", label: "Scope note" },
+        ]}
+      />
+      <h2 id="what-it-answers">What it answers</h2>
       <p>
         Given one elimination half-life in hours, the helpers answer four teaching questions. What fraction of a
         single dose remains. How long until repeated dosing is near steady state. How much repeated dosing
         accumulates. How long until a single dose has effectively cleared.
       </p>
-      <h2>Formulas</h2>
+      <h2 id="formulas">Formulas</h2>
       <p>Time <code>t</code>, interval <code>τ</code>, and half-life <code>t½</code> are hours. Decay uses base 2, which is the same as <code>e^(−ln 2 · t / t½)</code>.</p>
       <pre className="formula">{`fraction remaining          0.5 ^ (t / t½)
 time to fraction f          t½ × log2(1 / f)          for f in (0, 1)
@@ -36,14 +47,14 @@ clearance time              time to fraction 0.03`}</pre>
         A reported range is collapsed with the midpoint <code>(low + high) / 2</code> before any of the formulas run.
         The curve is drawn against that single number. The range itself is not a confidence interval.
       </p>
-      <h2>Worked example</h2>
+      <h2 id="worked-example">Worked example</h2>
       <p>
         Semaglutide’s stored range is 150–184 hours, midpoint 167. One half-life later, fraction remaining is 0.5 by
         construction. Time to 97% of steady state is <code>t½ × log2(1 / 0.03)</code>, about 5.06 half-lives, and it
         does not depend on whether the dose is weekly. An interval many half-lives long gives an accumulation ratio
         indistinguishable from 1.
       </p>
-      <h2>Assumptions</h2>
+      <h2 id="assumptions">Assumptions</h2>
       <ul>
         <li>One compartment, first-order elimination, instantaneous input. No absorption delay, no flip-flop kinetics, no two-compartment distribution.</li>
         <li>The half-life is constant. Saturable clearance, target-mediated disposition, and albumin binding that changes with concentration are outside the model even when they matter for the molecule.</li>
@@ -51,13 +62,13 @@ clearance time              time to fraction 0.03`}</pre>
         <li>97% and 3% are conventions (about five half-lives). They are not a biological threshold.</li>
         <li>Where the table stores <code>null</code>, no curve is drawn. A missing human half-life is not filled with a preclinical number. BPC-157, TB-500, and GHK-Cu are stored that way on purpose.</li>
       </ul>
-      <h2>Edge cases</h2>
+      <h2 id="edge-cases">Edge cases</h2>
       <ul>
         <li>Non-positive half-life or interval returns <code>NaN</code>. A negative elapsed time returns <code>NaN</code>.</li>
         <li>A target fraction outside (0, 1) returns <code>NaN</code>. The function will not solve “time to more than the dose” or “time to zero,” which this model never reaches.</li>
         <li>Class-overlap notes on the website are a separate, conservative scan of shared pharmacological labels. They are not an output of these formulas and they are not a clinical interaction database.</li>
       </ul>
-      <h2>Scope note</h2>
+      <h2 id="scope-note">Scope note</h2>
       <p className="note">
         The half-life row keeps the tier of its source: a figure taken from an FDA label is <code>clinical</code> only
         for the population and route that label measured, and the arithmetic that follows is <code>computed</code>.
