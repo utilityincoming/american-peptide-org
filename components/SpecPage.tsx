@@ -33,7 +33,15 @@ export function SpecPage({
         Canonical URL <a href={canonical}>{canonical}</a>
         {" · "}
         <a href={`/standards/evidence-tier/${version === "0.1.0" ? "0.1.0" : "v0.1"}/schema.json`}>JSON Schema</a>
+        {" · "}
+        <a href="/cite">How to cite</a>
       </p>
+      <div className="cite">
+        <p>
+          American Peptide Project. Evidence Tier Schema, version {version}. 18 November 2026. {SITE}
+          {canonical}
+        </p>
+      </div>
       <Markdown source={source} />
     </article>
   );

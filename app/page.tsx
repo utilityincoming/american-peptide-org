@@ -72,7 +72,7 @@ export default function HomePage() {
           </li>
           <li>
             Dataset snapshot <time dateTime="2026-11-18">18 November 2026</time>. See the{" "}
-            <Link href="/changelog">changelog</Link>.
+            <Link href="/changelog">changelog</Link> and the <Link href="/cite">citation forms</Link>.
           </li>
         </ul>
       </section>

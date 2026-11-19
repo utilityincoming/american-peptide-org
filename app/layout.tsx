@@ -45,8 +45,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 run on <a href="https://americanpeptide.com">americanpeptide.com</a>.
               </p>
               <p>
-                Specifications and datasets: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
-                Calculator modules: <a href="/open-source">MIT</a>.
+                    Specifications and datasets: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+                    Calculator modules: <a href="/open-source">MIT</a>. <a href="/cite">How to cite</a>.
               </p>
             </div>
           </footer>

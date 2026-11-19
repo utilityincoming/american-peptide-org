@@ -16,6 +16,13 @@ export default function ChangelogPage() {
         Spec versions are frozen at their URLs. This log is append-only. Corrections to a published spec are also
         recorded under <Link href="/errata">errata</Link> and do not rewrite the old page.
       </p>
+      <h2>2026-11-18 — citation forms</h2>
+      <ul>
+        <li>
+          Published <Link href="/cite">how to cite</Link>, with BibTeX for Evidence Tier Schema 0.1.1 and the
+          2026-11-18 dataset snapshot. The suggested citation also sits at the top of each spec page.
+        </li>
+      </ul>
       <h2>2026-11-18 — site opens</h2>
       <ul>
         <li>
