@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://americanpeptide.org/standards/evidence-tier/v0.1/schema.json",
+  "$comment": "Frozen alias of Evidence Tier Schema 0.1.1, the text of record for citation URL /standards/evidence-tier/v0.1. This file will not be retargeted to a later patch.",
+  "allOf": [{ "$ref": "https://americanpeptide.org/standards/evidence-tier/0.1.1/schema.json" }]
+}

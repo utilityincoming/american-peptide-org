@@ -1,0 +1,25 @@
+{
+  "name": "american-peptide-org",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Methods and standards home for American Peptide. Evidence tier schema, calculator methodology, and open dataset exports.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test packages/**/*.test.ts"
+  },
+  "dependencies": {
+    "next": "^15.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.9.3"
+  }
+}
