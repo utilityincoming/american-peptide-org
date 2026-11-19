@@ -1,22 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
   poweredByHeader: false,
-  async headers() {
-    return [
-      {
-        source: "/:path*.json",
-        headers: [
-          { key: "Access-Control-Allow-Origin", value: "*" },
-          { key: "X-Content-Type-Options", value: "nosniff" },
-        ],
-      },
-      {
-        source: "/data/:path*",
-        headers: [{ key: "Access-Control-Allow-Origin", value: "*" }],
-      },
-    ];
-  },
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
