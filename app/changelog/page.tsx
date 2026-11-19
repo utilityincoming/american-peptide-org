@@ -46,6 +46,20 @@ export default function ChangelogPage() {
         <Link href="/standards/evidence-tier/0.1.0">0.1.0</Link> for an archived example. To depend on a specific
         shape, cite a pinned patch URL rather than <code>v0.1</code>.
       </p>
+      <h2>2026-11-19 — blend screen</h2>
+      <ul>
+        <li>
+          Published the beta post-reconstitution screen:{" "}
+          <Link href="/methods/blend-screen">/methods/blend-screen</Link>, with{" "}
+          <code>packages/calculators/blend-screen.ts</code> checked against american-peptide{" "}
+          <code>d35605d66498</code> (pull request 203). The module takes a sequence and a copper flag. It does not
+          ship the catalog.
+        </li>
+        <li>
+          The blend module now returns the over-delivery sentence when the over fraction is above 0.02, the same
+          highlight the website already used.
+        </li>
+      </ul>
       <h2>2026-11-19 — method section anchors</h2>
       <ul>
         <li>

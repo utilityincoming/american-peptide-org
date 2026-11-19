@@ -41,6 +41,16 @@ export interface BlendResult {
   components: BlendComponentResult[];
 }
 
+/** The website highlights an over fraction above this. It does not change the dose count. */
+export const OVER_FRACTION_HIGHLIGHT = 0.02;
+
+export const OVER_DELIVERY_NOTE =
+  "The shared draw delivers more than the intended dose of a non-limiting peptide because the dose count follows the scarcest component.";
+
+export function overDeliveryNote(overFraction: number): string | null {
+  return overFraction > OVER_FRACTION_HIGHLIGHT ? OVER_DELIVERY_NOTE : null;
+}
+
 export function blend(waterMl: number, rows: BlendComponent[]): BlendResult {
   const water = waterMl > 0 ? waterMl : 0;
   const components: BlendComponentResult[] = rows.map((row) => {

@@ -29,7 +29,7 @@ export default function MethodsPage() {
         </li>
         <li>
           <Link href="/methods/blend">Blend</Link> — one shared draw across several peptides, limited by the scarcest
-          component.
+          component. The beta tool also runs a <Link href="/methods/blend-screen">post-reconstitution screen</Link>.
         </li>
         <li>
           <Link href="/methods/pharmacokinetics">Pharmacokinetics</Link> — single-compartment elimination, steady
