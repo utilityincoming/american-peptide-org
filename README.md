@@ -1,4 +1,4 @@
-# American Peptide · methods and standards
+# American Peptide · public methods
 
 Companion site to [americanpeptide.com](https://americanpeptide.com). The .com runs the catalog and the calculators. This repository publishes how those numbers are made.
 
