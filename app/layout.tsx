@@ -3,6 +3,7 @@ import { IBM_Plex_Mono, Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import { NAV, SITE } from "@/lib/site";
+import { Analytics } from "@vercel/analytics/next";
 
 const sans = Source_Sans_3({ subsets: ["latin"], variable: "--font-sans" });
 const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-serif" });
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
