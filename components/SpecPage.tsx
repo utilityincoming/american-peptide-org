@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { Markdown } from "@/lib/markdown";
+import { headingSlug, Markdown } from "@/lib/markdown";
 import { SITE } from "@/lib/site";
 
 export function SpecPage({
@@ -13,6 +13,13 @@ export function SpecPage({
   canonical: string;
 }) {
   const source = fs.readFileSync(path.join(process.cwd(), "content", file), "utf8");
+  const sections = source
+    .split("\n")
+    .filter((line) => line.startsWith("## "))
+    .map((line) => {
+      const title = line.slice(3);
+      return { title, id: headingSlug(title) };
+    });
   const ld = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
@@ -42,6 +49,16 @@ export function SpecPage({
           {canonical}
         </p>
       </div>
+      <nav className="toc" aria-label="Sections">
+        <p className="kicker">Sections</p>
+        <ol>
+          {sections.map((section) => (
+            <li key={section.id}>
+              <a href={`#${section.id}`}>{section.title.replace(/[`*]/g, "")}</a>
+            </li>
+          ))}
+        </ol>
+      </nav>
       <Markdown source={source} />
     </article>
   );

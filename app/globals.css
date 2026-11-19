@@ -160,6 +160,28 @@ dl.defs dd { margin: 0.2rem 0 0; color: var(--muted); }
   padding: 0.8rem 1rem;
   color: #3e3426;
 }
+.toc {
+  margin: 0 0 1.6rem;
+  padding: 0.85rem 1rem 0.95rem;
+  background: #fbf8f1;
+  border: 1px solid var(--line);
+  border-top: 2px solid var(--navy);
+  border-radius: 0.8rem;
+  max-width: 46rem;
+}
+.toc ol { margin: 0.35rem 0 0; padding-left: 1.2rem; }
+.toc li { margin: 0.15rem 0; }
+.toc a { text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+
+@media print {
+  .ribbon, .top, .footer, .toc { display: none; }
+  body { background: white; color: black; }
+  main { padding: 0; }
+  a { color: black; }
+  .cite { border-color: black; background: white; }
+}
+
 .pill {
   display: inline-block;
   font-size: 0.72rem;
