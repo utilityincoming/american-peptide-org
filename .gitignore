@@ -6,6 +6,7 @@ tsconfig.tsbuildinfo
 .DS_Store
 
 public/_next
+public/opengraph-image
 public/**/*.html
 public/**/*.txt
 public/sitemap.xml

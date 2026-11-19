@@ -16,6 +16,36 @@ export default function ChangelogPage() {
         Spec versions are frozen at their URLs. This log is append-only. Corrections to a published spec are also
         recorded under <Link href="/errata">errata</Link> and do not rewrite the old page.
       </p>
+      <h2 id="versioning">Versioning policy</h2>
+      <p>
+        Versions follow <code>MAJOR.MINOR.PATCH</code>. The rule is about what a citation can rely on, not about how
+        much text changed.
+      </p>
+      <ul>
+        <li>
+          <strong>Patch</strong> (<code>0.1.0</code> → <code>0.1.1</code>): clarifications and errata. No field is
+          added, removed, renamed, or given a new meaning, so a record valid under the old patch is still valid. The
+          frozen <Link href="/standards/evidence-tier/v0.1">v0.1</Link> URL tracks the newest patch; a path like{" "}
+          <Link href="/standards/evidence-tier/0.1.1">0.1.1</Link> pins one exactly.
+        </li>
+        <li>
+          <strong>Minor</strong> (<code>0.1.x</code> → <code>0.2.0</code>): additive and backward compatible. New
+          optional fields or tiers may appear; existing ones keep their meaning. Records valid under the prior minor
+          stay valid. Each minor gets its own frozen URL.
+        </li>
+        <li>
+          <strong>Major</strong> (<code>0.x</code> → <code>1.0</code>): breaking. A field may be removed, made
+          required, or redefined. A new major is published at a new URL and the previous major is marked superseded
+          but is never deleted or rewritten.
+        </li>
+      </ul>
+      <p>
+        <strong>Deprecation.</strong> Before a field or tier is removed in a later major, it is marked deprecated in a
+        minor release and stays accepted for at least one subsequent minor, with the replacement named here and in
+        the spec text. Superseded versions remain resolvable at their URLs indefinitely; see{" "}
+        <Link href="/standards/evidence-tier/0.1.0">0.1.0</Link> for an archived example. To depend on a specific
+        shape, cite a pinned patch URL rather than <code>v0.1</code>.
+      </p>
       <h2>2026-11-19 — method section anchors</h2>
       <ul>
         <li>

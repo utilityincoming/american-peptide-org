@@ -14,6 +14,20 @@ export const metadata: Metadata = {
   description:
     "Public methods and citable standards for American Peptide. The evidence-tier schema, calculator methodology, and open dataset exports.",
   alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "American Peptide · public methods",
+    url: SITE,
+    title: "American Peptide · public methods",
+    description:
+      "Public methods and citable standards for American Peptide. The evidence-tier schema, calculator methodology, and open dataset exports.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "American Peptide · public methods",
+    description:
+      "Public methods and citable standards for American Peptide. The evidence-tier schema, calculator methodology, and open dataset exports.",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
