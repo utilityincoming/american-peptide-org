@@ -16,6 +16,16 @@ export default function ChangelogPage() {
         Spec versions are frozen at their URLs. This log is append-only. Corrections to a published spec are also
         recorded under <Link href="/errata">errata</Link> and do not rewrite the old page.
       </p>
+      <h2>2026-11-19 — section anchors</h2>
+      <ul>
+        <li>
+          Spec headings now have stable fragment ids, and each spec page lists them. A section can be cited as{" "}
+          <a href="/standards/evidence-tier/v0.1#4-freshness-and-revalidation">
+            /standards/evidence-tier/v0.1#4-freshness-and-revalidation
+          </a>
+          .
+        </li>
+      </ul>
       <h2>2026-11-18 — citation forms</h2>
       <ul>
         <li>

@@ -46,6 +46,14 @@ function isTableSep(line: string): boolean {
   return /^\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?$/.test(line.trim());
 }
 
+export function headingSlug(text: string): string {
+  return text
+    .replace(/[`*]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 export function Markdown({ source }: { source: string }) {
   const lines = source.replace(/\r\n/g, "\n").split("\n");
   const blocks: ReactNode[] = [];
@@ -60,13 +68,21 @@ export function Markdown({ source }: { source: string }) {
     }
     if (line.startsWith("### ")) {
       const text = line.slice(4);
-      blocks.push(<h3 key={k++}>{inline(text, `h3-${k}`)}</h3>);
+      blocks.push(
+        <h3 key={k++} id={headingSlug(text)}>
+          {inline(text, `h3-${k}`)}
+        </h3>,
+      );
       i += 1;
       continue;
     }
     if (line.startsWith("## ")) {
       const text = line.slice(3);
-      blocks.push(<h2 key={k++}>{inline(text, `h2-${k}`)}</h2>);
+      blocks.push(
+        <h2 key={k++} id={headingSlug(text)}>
+          {inline(text, `h2-${k}`)}
+        </h2>,
+      );
       i += 1;
       continue;
     }
