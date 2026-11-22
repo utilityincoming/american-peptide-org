@@ -21,8 +21,8 @@ export default function OpenSourcePage() {
       <p>
         <code>packages/calculators</code> is dependency-free TypeScript: <code>reconstitution.ts</code>,{" "}
         <code>blend.ts</code>, <code>blend-screen.ts</code>, and <code>pharmacokinetics.ts</code>. The screen module
-        records the american-peptide commit it was checked against. Catalog lookup stays on the .com site. The
-        arithmetic is the reference those tools are written to match.
+        records the american-peptide commit it was checked against. Catalog lookup belongs to the product and stays
+        on americanpeptide.com. The arithmetic here is the reference those tools are written to match.
         License: MIT. The written method, including edge cases the types do not express, is under{" "}
         <Link href="/methods">/methods</Link>.
       </p>
@@ -54,9 +54,10 @@ export default function OpenSourcePage() {
       </p>
       <h2>What is not in this tree</h2>
       <p>
-        The research agent, vendor trust scores, and the rendered catalog stay in the application repository behind
-        americanpeptide.com. Dataset exports on <Link href="/data">/data</Link> are the part of that catalog this
-        project redistributes.
+        The research agent, vendor trust scores, and the rendered catalog are the product itself and live in the
+        application repository behind americanpeptide.com. This project publishes the methods and standards they
+        follow; the dataset exports on <Link href="/data">/data</Link> are the part of that catalog it openly
+        redistributes.
       </p>
     </article>
   );
