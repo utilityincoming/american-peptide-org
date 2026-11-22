@@ -13,8 +13,9 @@ export default function MethodsPage() {
       <p className="kicker">Methods</p>
       <h1>How the calculators work</h1>
       <p>
-        The interactive tools live on americanpeptide.com. These pages are the written method: the formula, the
-        assumptions, the edge cases, and the scope note that belongs on any number the arithmetic produces.
+        The interactive tools run on americanpeptide.com, where a reader enters their own figures and the catalog is
+        a click away. These pages are the written method behind them: the formula, the assumptions, the edge cases,
+        and the scope note that belongs on any number the arithmetic produces.
       </p>
       <p>
         Every output of these calculators is estimate kind <code>computed</code> and tier <code>reference</code> when
@@ -38,7 +39,8 @@ export default function MethodsPage() {
       </ul>
       <p>
         Reference implementations: <Link href="/open-source">open-source modules</Link>. Worked numbers in the tests
-        match the examples on these pages.
+        match the examples on these pages, and the same math backs the calculators a reader runs on
+        americanpeptide.com.
       </p>
     </article>
   );

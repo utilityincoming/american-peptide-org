@@ -13,8 +13,9 @@ export default function StandardsIndex() {
       <p className="kicker">Standard</p>
       <h1 className="page-title">Evidence Tier Schema</h1>
       <p className="lede">
-        Claim-level provenance for peptide reference data. A tier says where a number came from. It does not say how
-        confident the prose sounds, and it is not a study-design ladder.
+        Claim-level provenance for peptide reference data, and the grading the catalog on americanpeptide.com applies
+        to every figure it shows. A tier says where a number came from. It does not say how confident the prose
+        sounds, and it is not a study-design ladder.
       </p>
       <div className="grid">
         <Link href="/standards/evidence-tier/v0.1" className="card">

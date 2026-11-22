@@ -11,7 +11,7 @@ const FILES = [
   {
     href: "/data/compounds.json",
     title: "compounds.json",
-    body: "111 catalog entries. Slug, name, aliases, categories, formula, molecular weight, sequence, CAS, PubChem CID, UniProt, approval flag, and synthesis features. Narrative monographs stay on the .com.",
+    body: "111 catalog entries. Slug, name, aliases, categories, formula, molecular weight, sequence, CAS, PubChem CID, UniProt, approval flag, and synthesis features. The full narrative monographs live with the catalog on americanpeptide.com.",
   },
   {
     href: "/data/compounds.csv",
@@ -41,8 +41,9 @@ export default function DataPage() {
       <p className="kicker">Data · CC BY 4.0</p>
       <h1 className="page-title">Dataset exports</h1>
       <p className="lede">
-        Identity tables and the inputs the calculators actually use. You can copy them, with attribution to the
-        American Peptide Project and a link to the file’s version.
+        Identity tables and the inputs the calculators actually use — the same records that feed the catalog and
+        tools on americanpeptide.com. You can copy them, with attribution to the American Peptide Project and a link
+        to the file’s version.
       </p>
       <div className="cite">
         <p>
