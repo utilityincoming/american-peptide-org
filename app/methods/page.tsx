@@ -1,3 +1,4 @@
+import { methods } from "@/lib/calculator-methods";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -13,9 +14,7 @@ export default function MethodsPage() {
       <p className="kicker">Methods</p>
       <h1>How the calculators work</h1>
       <p>
-        The interactive tools run on americanpeptide.com, where a reader enters their own figures and the catalog is
-        a click away. These pages are the written method behind them: the formula, the assumptions, the edge cases,
-        and the scope note that belongs on any number the arithmetic produces.
+        These pages document the formulas, assumptions, edge cases, and scope notes behind the calculators.
       </p>
       <p>
         Every output of these calculators is estimate kind <code>computed</code> and tier <code>reference</code> when
@@ -23,20 +22,12 @@ export default function MethodsPage() {
         from the stated inputs. This is a value, not a dosing recommendation.” Registry-backed inputs, such as a
         half-life copied from a label, keep the tier of that source. The arithmetic does not promote them.
       </p>
-      <ul>
-        <li>
-          <Link href="/methods/reconstitution">Reconstitution</Link> — concentration, U-100 draw, doses per vial, and
-          the reverse solve for diluent volume.
-        </li>
-        <li>
-          <Link href="/methods/blend">Blend</Link> — one shared draw across several peptides, limited by the scarcest
-          component. The beta tool also runs a <Link href="/methods/blend-screen">post-reconstitution screen</Link>.
-        </li>
-        <li>
-          <Link href="/methods/pharmacokinetics">Pharmacokinetics</Link> — single-compartment elimination, steady
-          state, accumulation, and clearance time.
-        </li>
-      </ul>
+      <div className="pipeline">
+        {methods.map((method) => <Link key={method.id} href={`/methods/${method.id}`}>
+          <img src={`/illustrations/method-${method.id}.webp`} alt="" />
+          {method.title}
+        </Link>)}
+      </div>
       <p>
         Reference implementations: <Link href="/open-source">open-source modules</Link>. Worked numbers in the tests
         match the examples on these pages, and the same math backs the calculators a reader runs on

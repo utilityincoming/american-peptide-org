@@ -1,0 +1,112 @@
+slug,name,aliases,categories,molecular_weight_da,molecular_formula,sequence,cas,pubchem_cid,uniprot_id,fda_approved,synthetic_features,synthesis_difficulty,unlisted
+semaglutide,Semaglutide,"[""Ozempic"",""Wegovy"",""Rybelsus""]","[""metabolic""]",4113.6,C187H291N45O59,,910463-68-2,56843331,,True,"[""Fatty-acid acylation"",""Unnatural residue""]",demanding,False
+liraglutide,Liraglutide,"[""Victoza"",""Saxenda"",""NN2211""]","[""metabolic""]",3751.2,C172H265N43O51,,204656-20-2,16134956,,True,"[""Fatty-acid acylation""]",demanding,False
+tirzepatide,Tirzepatide,"[""Mounjaro"",""Zepbound""]","[""metabolic""]",4813.5,C225H348N48O68,,2023788-19-2,166567236,,True,"[""Fatty-acid acylation"",""Unnatural residue""]",demanding,False
+retatrutide,Retatrutide,"[""LY3437943"",""Triple G"",""GGG agonist"",""GIP/GLP-1/glucagon triple agonist""]","[""metabolic""]",4731.5,C221H342N46O68,,,171390338,,False,"[""Fatty-acid acylation"",""Albumin-binding linker"",""Unnatural residue""]",demanding,False
+survodutide,Survodutide,"[""BI 456906""]","[""metabolic""]",4232,C192H289N47O61,,2805997-46-8,171378821,,False,"[""Fatty-acid acylation"",""Unnatural residue""]",demanding,False
+mazdutide,Mazdutide,"[""IBI362"",""LY3305677""]","[""metabolic""]",4476,C207H317N45O65,,2259884-03-0,167312357,,False,"[""Fatty-acid acylation"",""Unnatural residue""]",demanding,False
+cagrilintide,Cagrilintide,[],"[""metabolic""]",4409.2,C194H312N54O59S2,,1415456-99-3,171397054,,False,"[""Fatty-acid acylation"",""Disulfide bridge"",""C-terminal amide""]",demanding,False
+cagrisema,CagriSema,"[""Cagrilintide/semaglutide"",""cagrilintide + semaglutide""]","[""metabolic""]",,,,,,,False,[],,False
+orforglipron,Orforglipron,"[""Foundayo"",""LY3502970"",""OWL833""]","[""metabolic""]",883,C48H48F2N10O5,,2212020-52-3,137319706,,True,[],,False
+dulaglutide,Dulaglutide,"[""Trulicity"",""LY2189265""]","[""metabolic"",""peptide-hormone""]",59700,,,923950-08-7,,,True,[],,False
+exenatide,Exenatide,"[""Byetta"",""Bydureon"",""Exendin-4"",""AC2993""]","[""metabolic"",""peptide-hormone""]",4186.6,C184H282N50O60S,HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS,141758-74-9,45588096,,True,[],,False
+amycretin,Amycretin,"[""Zenagamtide""]","[""metabolic""]",,,,,,,False,[],,False
+maritide,MariTide,"[""Maridebart cafraglutide"",""AMG 133""]","[""metabolic""]",150000,,,,,,False,[],,False
+petrelintide,Petrelintide,"[""ZP8396""]","[""metabolic""]",4192,C185H305N49O61,,,172915807,,False,[],,False
+eloralintide,Eloralintide,"[""LY3841136""]","[""metabolic""]",4526,C201H319N49O65S2,γ-Glu-[Cys-Asn-Thr-Ala-Thr-Cys]-Ala-Thr-Gly-Orn-Leu-Ala-Glu-(α-Me)Phe-Leu-Val-Arg-Ser-Ser-Asn-(N-Me)Asn-Phe-Gly-Pro-Lys(γ-Glu-γ-Glu-C20 diacid)-Leu-Pro-Pro-Thr-Glu-Val-Gly-Ser-Asn-Thr-Tyr-NH2,2883634-40-8,175663130,,False,"[""Fatty-acid acylation"",""Albumin-binding linker"",""Unnatural residue"",""C-terminal amide""]",demanding,False
+pemvidutide,Pemvidutide,"[""ALT-801""]","[""metabolic""]",,,,,,,False,[],,False
+insulin,Insulin (human),"[""Recombinant human insulin"",""rhInsulin"",""regular insulin"",""Humulin"",""Novolin""]","[""metabolic"",""peptide-hormone""]",5808,C257H383N65O77S6,A chain: GIVEQCCTSICSLYQLENYCN | B chain: FVNQHLCGSHLVEALYLVCGERGFFYTPKT,11061-68-0,,,True,"[""Recombinant protein"",""Multiple disulfides""]",demanding,True
+glucagon,Glucagon,"[""GlucaGen"",""Baqsimi"",""Gvoke""]","[""metabolic"",""peptide-hormone""]",3485,C153H225N43O49S,HSQGTFTSDYSKYLDSRRAQDFVQWLMNT,16941-32-5,,,True,[],moderate,True
+bpc-157,BPC-157,"[""Body Protective Compound 157"",""PL 14736""]","[""healing-repair""]",1419.5,C62H98N16O22,GEPPPGKPADDAGLV,,9941957,,False,[],standard,False
+tb-500,TB-500,"[""Thymosin Beta-4 fragment""]","[""healing-repair""]",889,C38H68N10O14,LKKTETQ,,62707662,,False,"[""N-terminal acetylation""]",moderate,False
+b7-33,B7-33,"[""Single-chain relaxin"",""relaxin B7-33""]","[""healing-repair""]",,,,1818415-56-3,,P04090,False,[],moderate,False
+ghk-cu,GHK-Cu,"[""Copper Peptide"",""Tripeptide-1 Copper"",""Copper Tripeptide-1""]","[""cosmetic"",""healing-repair""]",401.9,C14H22CuN6O4,GHK,49557-75-7,139035031,,False,"[""Copper complex""]",moderate,False
+ahk-cu,AHK-Cu,"[""Copper Tripeptide AHK"",""Ala-His-Lys Copper""]","[""cosmetic""]",415.9,C15H24CuN6O4,AHK,682809-81-0,168431292,,False,"[""Copper complex""]",moderate,False
+matrixyl,Matrixyl (Palmitoyl Pentapeptide-4),"[""Palmitoyl Pentapeptide-4"",""Pal-KTTKS"",""Matrixyl""]","[""cosmetic""]",802,,KTTKS,214047-00-4,,,False,"[""Fatty-acid acylation""]",moderate,True
+argireline,Argireline,"[""Acetyl Hexapeptide-8"",""Acetyl Hexapeptide-3"",""Ac-EEMQRR-NH2""]","[""cosmetic""]",887,C35H62N14O11S,Ac-Glu-Glu-Met-Gln-Arg-Arg-NH2,616204-22-9,71587772,,False,"[""N-terminal acetylation"",""C-terminal amide""]",moderate,False
+snap-8,SNAP-8,"[""Acetyl Octapeptide-3"",""Acetyl Octapeptide-1"",""Ac-EEMQRRAD-NH2""]","[""cosmetic""]",1075.2,C41H70N16O16S,Ac-Glu-Glu-Met-Gln-Arg-Arg-Ala-Asp-NH2,868844-74-0,76283482,,False,"[""N-terminal acetylation"",""C-terminal amide""]",moderate,False
+epo,EPO (Erythropoietin),"[""Erythropoietin"",""Epoetin alfa"",""Epogen"",""Procrit"",""recombinant human erythropoietin"",""rhEPO""]","[""healing-repair""]",30400,,,113427-24-0,,P01588,True,"[""Recombinant protein"",""Glycosylated"",""Multiple disulfides""]",demanding,False
+ara-290,ARA-290,"[""Cibinetide"",""pHBSP"",""Pyroglutamate helix B surface peptide""]","[""healing-repair""]",1257.3,C51H84N16O21,pGlu-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser,1208243-50-8,91810664,,False,[],moderate,False
+teriparatide,Teriparatide (PTH 1-34),"[""PTH(1-34)"",""Forteo"",""Bonsity"",""recombinant parathyroid hormone""]","[""healing-repair"",""longevity"",""peptide-hormone""]",4117.8,C181H291N55O51S2,SVSEIQLMHNLGKHLNSMERVEWLRKKLQDVHNF,52232-67-4,,,True,"[""Recombinant protein""]",moderate,False
+somatropin,Somatropin (rHGH),"[""Recombinant human growth hormone"",""rhGH"",""191aa HGH"",""Human growth hormone"",""Genotropin"",""Humatrope"",""Norditropin"",""Nutropin"",""Saizen"",""Omnitrope"",""Serostim""]","[""growth-hormone"",""longevity""]",22124,C990H1528N262O300S7,FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF,12629-01-5,,P01241,True,"[""Recombinant protein"",""Multiple disulfides""]",demanding,False
+igf-1,IGF-1 (Mecasermin),"[""Insulin-like growth factor 1"",""Mecasermin"",""Increlex"",""Somatomedin C"",""rhIGF-1""]","[""growth-hormone"",""longevity""]",7649,C331H512N94O101S7,GPETLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA,68562-41-4,,P05019,True,"[""Recombinant protein"",""Multiple disulfides""]",demanding,False
+igf-1-lr3,IGF-1 LR3,"[""Long R3 IGF-1"",""LR3 IGF-1""]","[""growth-hormone""]",,,,946870-92-4,,P05019,False,"[""Recombinant protein"",""Multiple disulfides""]",demanding,False
+igf-1-des,IGF-1 DES,"[""DES(1-3)IGF-1"",""des-IGF-1"",""DES(1-3) IGF-1""]","[""growth-hormone""]",7371.5,,TLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA,112603-35-7,,,False,"[""Recombinant protein"",""Multiple disulfides""]",demanding,False
+mgf,MGF (Mechano Growth Factor),"[""Mechano Growth Factor"",""IGF-1Ec"",""IGF-1 Ec""]","[""growth-hormone""]",2868.2,,YQPPSTNKNTKSQRRKGSTFEERK,,,P05019,False,[],moderate,False
+cjc-1295-no-dac,CJC-1295 (no DAC),"[""Modified GRF (1-29)"",""Mod GRF 1-29""]","[""growth-hormone""]",3367.9,C152H252N44O42,YADAIFTQSYRKVLAQLSARKLLQDILSR,,56841945,,False,"[""Unnatural residue"",""C-terminal amide""]",moderate,False
+cjc-1295-with-dac,CJC-1295 (with DAC),"[""CJC-1295 DAC""]","[""growth-hormone""]",3647.2,C165H269N47O46,,,91971820,,False,"[""Unnatural residue"",""Albumin-binding linker"",""C-terminal amide""]",demanding,False
+ipamorelin,Ipamorelin,[],"[""growth-hormone""]",711.9,C38H49N9O5,Aib-His-D-2-Nal-D-Phe-Lys-NH2,170851-70-4,9831659,,False,"[""Unnatural residue"",""D-amino acid"",""C-terminal amide""]",moderate,False
+tesamorelin,Tesamorelin,"[""Egrifta""]","[""growth-hormone"",""metabolic""]",5135.9,C221H366N72O67S,,218949-48-5,16137828,,True,"[""Fatty-acid acylation""]",demanding,False
+sermorelin,Sermorelin,"[""GRF 1-29"",""Geref""]","[""growth-hormone""]",3358,C149H246N44O42S,YADAIFTNSYRKVLGQLSARKLLQDIMSR,86168-78-7,16132413,,False,"[""C-terminal amide""]",moderate,False
+hexarelin,Hexarelin,[],"[""growth-hormone""]",887,C47H58N12O6,His-D-2-MeTrp-Ala-Trp-D-Phe-Lys-NH2,140703-51-1,6918297,,False,"[""Unnatural residue"",""D-amino acid"",""C-terminal amide""]",moderate,False
+ghrp-2,GHRP-2,"[""Pralmorelin"",""KP-102"",""GPA-748""]","[""growth-hormone""]",817.99,C45H55N9O6,D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH2,158861-67-7,6918245,,False,"[""Unnatural residue"",""D-amino acid"",""C-terminal amide""]",moderate,False
+ghrp-6,GHRP-6,"[""Growth Hormone Releasing Peptide-6"",""Growth hormone-releasing hexapeptide"",""GHRP""]","[""growth-hormone""]",873.04,C46H56N12O6,His-D-Trp-Ala-Trp-D-Phe-Lys-NH2,87616-84-0,4345065,,False,"[""D-amino acid"",""C-terminal amide""]",moderate,False
+mk-677,MK-677,"[""Ibutamoren"",""Ibutamoren mesylate"",""MK-0677"",""L-163,191""]","[""growth-hormone""]",528.67,C27H36N4O5S,,159634-47-6,178024,,False,"[""Small molecule""]",standard,False
+myostatin,Myostatin (GDF-8),"[""GDF-8"",""Growth differentiation factor 8"",""MSTN""]","[""growth-hormone"",""metabolic""]",12400,,,,,O14793,False,"[""Recombinant protein"",""Multiple disulfides""]",demanding,False
+follistatin,Follistatin,"[""FST"",""FS-288"",""FS-315"",""follistatin-344""]","[""growth-hormone"",""metabolic""]",34000,,,,,P19883,False,"[""Recombinant protein"",""Glycosylated""]",demanding,False
+apitegromab,Apitegromab,"[""SRK-015"",""SRK-439""]","[""growth-hormone"",""metabolic""]",150000,,,,,,False,"[""Monoclonal antibody""]",demanding,True
+trevogrumab,Trevogrumab,"[""REGN1033""]","[""growth-hormone"",""metabolic""]",150000,,,,,,False,"[""Monoclonal antibody""]",demanding,False
+emugrobart,Emugrobart,"[""GYM-329"",""RG6237"",""RG-70240""]","[""growth-hormone"",""metabolic""]",150000,,,,,,False,"[""Monoclonal antibody""]",demanding,True
+garetosmab,Garetosmab,"[""REGN2477"",""Pasatru"",""garetosmab-grts""]","[""growth-hormone"",""metabolic""]",150000,,,,,,True,"[""Monoclonal antibody""]",demanding,False
+bimagrumab,Bimagrumab,"[""BYM338""]","[""growth-hormone"",""metabolic""]",150000,,,,,,False,"[""Monoclonal antibody""]",demanding,True
+mots-c,MOTS-c,[],"[""mitochondrial"",""longevity"",""metabolic""]",2174.6,C101H152N28O22S2,MRWQEMGYIFYPRKLR,,146675088,,False,[],moderate,False
+humanin,Humanin,"[""HN"",""MT-RNR2 peptide""]","[""mitochondrial"",""longevity""]",2687.2,C119H204N34O32S2,MAPRGFSCLLLLTSEIDLPVKRRA,330936-69-1,16131438,,False,[],demanding,False
+ss-31,SS-31,"[""Elamipretide"",""Bendavia""]","[""mitochondrial"",""longevity""]",639.8,C32H49N9O5,D-Arg-Dmt-Lys-Phe-NH2,736992-21-5,11764719,,False,"[""Unnatural residue"",""D-amino acid"",""C-terminal amide""]",moderate,False
+epitalon,Epitalon,"[""Epithalon"",""Epithalamin fragment""]","[""longevity"",""bioregulator""]",390.4,C14H22N4O9,AEDG,307297-39-8,219042,,False,[],standard,False
+endoluten,Endoluten,"[""A-3 pineal peptide"",""pineal peptide complex""]","[""longevity"",""bioregulator""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+foxo4-dri,FOXO4-DRI,"[""Proxofim"",""FOXO4 D-Retro-Inverso peptide""]","[""longevity""]",5358.2,C228H388N86O64,,2460055-10-9,,,False,"[""D-amino acid""]",demanding,False
+thymalin,Thymalin,"[""Thymulin (distinct)"",""Thymus polypeptide fraction""]","[""immune"",""bioregulator""]",,,,86402-19-7,,,False,"[""Tissue extract""]",moderate,False
+thymogen,Thymogen,"[""Glutamyl-Tryptophan"",""Glu-Trp dipeptide"",""Bestim""]","[""immune"",""bioregulator""]",333.34,C16H19N3O5,Glu-Trp,,,,False,[],standard,False
+vilon,Vilon,"[""Lys-Glu"",""KE dipeptide""]","[""immune"",""bioregulator"",""longevity""]",275.3,,KE,,,,False,[],standard,False
+vesugen,Vesugen,"[""Lys-Glu-Asp"",""KED tripeptide""]","[""bioregulator"",""longevity""]",390.4,,KED,,,,False,[],standard,False
+pinealon,Pinealon,"[""Glu-Asp-Arg"",""EDR tripeptide""]","[""cognitive"",""bioregulator""]",418.4,,EDR,,,,False,[],standard,False
+bronchogen,Bronchogen,"[""Ala-Asp-Glu-Leu"",""ADEL tetrapeptide""]","[""immune"",""bioregulator""]",446.5,,ADEL,,,,False,[],standard,False
+cardiogen,Cardiogen,"[""Ala-Glu-Asp-Arg"",""AEDR tetrapeptide""]","[""bioregulator"",""healing-repair""]",489.5,,AEDR,,,,False,[],standard,False
+pancragen,Pancragen,"[""Lys-Glu-Asp-Trp"",""KEDW tetrapeptide"",""Pancragen""]","[""bioregulator"",""metabolic""]",576.6,,KEDW,,,,False,[],standard,False
+testagen,Testagen,"[""Lys-Glu-Asp-Gly"",""KEDG tetrapeptide""]","[""reproductive"",""bioregulator""]",447.4,C17H29N5O9,KEDG,,,,False,[],standard,False
+prostamax,Prostamax,"[""Lys-Glu-Asp-Pro"",""KEDP tetrapeptide""]","[""reproductive"",""bioregulator""]",487.5,C20H33N5O9,KEDP,,,,False,[],standard,False
+vladonix,Vladonix,"[""A-6 thymus peptide"",""thymus peptide complex""]","[""immune"",""bioregulator""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+ventfort,Ventfort,"[""A-3 vessel peptide"",""vascular peptide complex""]","[""bioregulator""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+chelohart,Chelohart,"[""A-14 heart peptide"",""cardiac peptide complex""]","[""bioregulator""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+cerluten,Cerluten,"[""A-1 brain peptide"",""neuronal peptide complex""]","[""cognitive"",""bioregulator""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+suprefort,Suprefort,"[""A-7 pancreas peptide"",""pancreatic peptide complex""]","[""bioregulator"",""metabolic""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+taxorest,Taxorest,"[""A-17 bronchi peptide"",""respiratory peptide complex""]","[""immune"",""bioregulator""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+testoluten,Testoluten,"[""A-12 testis peptide"",""testicular peptide complex""]","[""reproductive"",""bioregulator""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+sigumir,Sigumir,"[""A-4 cartilage peptide"",""cartilage / bone peptide complex""]","[""bioregulator"",""healing-repair""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+gotratix,Gotratix,"[""A-11 muscle peptide"",""skeletal-muscle peptide complex""]","[""bioregulator"",""healing-repair""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+svetinorm,Svetinorm,"[""A-2 liver peptide"",""hepatic peptide complex""]","[""bioregulator"",""longevity""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+visoluten,Visoluten,"[""A-5 retina peptide"",""retinal peptide complex""]","[""bioregulator"",""longevity""]",,,,,,,False,"[""Tissue extract""]",moderate,False
+semax,Semax,[],"[""cognitive""]",813.9,C37H51N9O10S,MEHFPGP,80714-61-0,9811102,,False,[],moderate,False
+selank,Selank,[],"[""cognitive""]",751.9,C33H57N11O9,TKPRPGP,129954-34-3,11765600,,False,[],moderate,False
+dsip,DSIP,"[""Delta Sleep-Inducing Peptide""]","[""cognitive""]",848.8,C35H48N10O15,WAGGDASGE,62568-57-4,68816,,False,[],moderate,False
+cerebrolysin,Cerebrolysin,"[""FPF-1070"",""porcine brain-derived peptide preparation""]","[""cognitive""]",,,,,,,False,"[""Tissue extract""]",demanding,False
+dihexa,Dihexa,"[""PNB-0408"",""N-hexanoic-Tyr-Ile-(6) aminohexanoic amide""]","[""cognitive""]",504.7,C27H44N4O5,,1401708-83-5,129010512,,False,"[""Unnatural residue""]",moderate,False
+melanotan-2,Melanotan II,"[""MT-2"",""MT-II""]","[""cosmetic"",""reproductive""]",1024.2,C50H69N15O9,,121062-08-6,92432,,False,"[""Cyclic / lactam"",""D-amino acid"",""C-terminal amide""]",demanding,False
+melanotan-1,Afamelanotide,"[""Melanotan I"",""Melanotan-1"",""MT-I"",""MT-1"",""CUV1647"",""Scenesse""]","[""cosmetic""]",1646.8,C78H111N21O19,,,16197727,,True,"[""Unnatural residue"",""D-amino acid"",""C-terminal amide""]",moderate,False
+pt-141,PT-141,"[""Bremelanotide"",""Vyleesi""]","[""reproductive""]",1025.2,C50H68N14O10,,189691-06-3,9941379,,True,"[""Cyclic / lactam"",""D-amino acid""]",demanding,False
+kisspeptin-10,Kisspeptin-10,[],"[""reproductive""]",1302.4,C63H83N17O14,YNWNSFGLRF-NH2,,25240297,,False,"[""C-terminal amide""]",moderate,False
+gonadorelin,Gonadorelin,"[""GnRH"",""LHRH"",""Gonadoliberin"",""Luteinizing hormone-releasing hormone"",""Factrel"",""Lutrepulse""]","[""reproductive"",""peptide-hormone""]",1182.29,C55H75N17O13,pGlu-His-Trp-Ser-Tyr-Gly-Leu-Arg-Pro-Gly-NH2,33515-09-2,638793,,False,"[""C-terminal amide""]",moderate,False
+leuprolide,Leuprolide,"[""Leuprorelin"",""Lupron"",""Eligard"",""Leuprolide acetate""]","[""reproductive"",""peptide-hormone""]",1209.4,C59H84N16O12,pGlu-His-Trp-Ser-Tyr-D-Leu-Leu-Arg-Pro-NHEt,53714-56-0,657181,P01148,True,"[""D-amino acid"",""C-terminal amide""]",moderate,False
+triptorelin,Triptorelin,"[""Trelstar"",""Decapeptyl"",""Triptorelin pamoate""]","[""reproductive"",""peptide-hormone""]",1311.4,C64H82N18O13,pGlu-His-Trp-Ser-Tyr-D-Trp-Leu-Arg-Pro-Gly-NH2,57773-63-4,25074470,P01148,True,"[""D-amino acid"",""C-terminal amide""]",moderate,False
+hcg,HCG,"[""Human chorionic gonadotropin"",""Choriogonadotropin alfa"",""Ovidrel"",""Pregnyl"",""Novarel""]","[""reproductive""]",36700,,,9002-61-3,,,True,"[""Recombinant protein"",""Glycosylated"",""Multiple disulfides""]",demanding,False
+oxytocin,Oxytocin,"[""Pitocin"",""Syntocinon"",""the love hormone""]","[""reproductive"",""cognitive"",""peptide-hormone""]",1007.19,C43H66N12O12S2,CYIQNCPLG-NH2,50-56-6,,,True,"[""Disulfide bridge"",""C-terminal amide""]",moderate,False
+fsh,FSH (Follitropin),"[""Follicle-stimulating hormone"",""Follitropin alfa"",""Gonal-f"",""Follistim"",""Puregon""]","[""reproductive""]",30000,,,,,P01225,True,"[""Recombinant protein"",""Glycosylated"",""Multiple disulfides""]",demanding,False
+thymosin-alpha-1,Thymosin Alpha-1,"[""Tα1"",""Thymalfasin"",""Zadaxin""]","[""immune""]",3108.3,C129H215N33O55,SDAAVDTSSEITTKDLKEKKEVVEEAEN,62304-98-7,16130571,,False,"[""N-terminal acetylation""]",moderate,False
+ll-37,LL-37,"[""Cathelicidin"",""hCAP-18 fragment""]","[""immune"",""healing-repair""]",4493.3,C205H340N60O53,,154947-66-7,16198951,,False,[],demanding,False
+kpv,KPV,[],"[""immune"",""healing-repair""]",342.4,C16H30N4O4,KPV,,125672,,False,[],standard,False
+hgh-fragment-176-191,HGH Fragment 176-191,"[""HGH Frag 176-191"",""hGH 176-191"",""Somatropin fragment 176-191""]","[""metabolic""]",1799.1,C78H123N23O22S2,FLRIVQCRSVEGSCGF,66004-57-7,,,False,"[""Disulfide bridge""]",moderate,False
+aod-9604,AOD-9604,[],"[""metabolic""]",1815.1,C78H123N23O23S2,,,71300630,,False,"[""Disulfide bridge""]",moderate,False
+adipotide,Adipotide,"[""FTPP"",""Prohibitin-targeting peptide-1"",""CKGGRAKDC-GG-D(KLAKLAK)2""]","[""metabolic""]",2557.2,C111H206N36O28S2,CKGGRAKDC-GG-D(KLAKLAK)2,859216-15-2,163360068,,False,"[""Disulfide bridge"",""D-amino acid"",""C-terminal amide""]",demanding,False
+5-amino-1mq,5-Amino-1MQ,[],"[""metabolic"",""longevity""]",159.21,C10H11N2+,,209783-80-2,950107,,False,"[""Small molecule""]",standard,False
+nad-plus,NAD+,"[""Nicotinamide Adenine Dinucleotide""]","[""mitochondrial"",""longevity""]",663.4,C21H27N7O14P2,,53-84-9,5893,,False,"[""Small molecule""]",standard,False
+glutathione,Glutathione,"[""GSH"",""γ-Glu-Cys-Gly"",""reduced glutathione""]","[""mitochondrial"",""longevity""]",307.32,C10H17N3O6S,γ-Glu-Cys-Gly,70-18-8,124886,,False,[],standard,False
+vasopressin,Vasopressin,"[""Arginine vasopressin"",""AVP"",""Antidiuretic hormone"",""ADH"",""Vasostrict"",""Desmopressin (analog)""]","[""peptide-hormone""]",1084.2,,"CYFQNCPRG (1–6 disulfide, C-terminal amide)",113-79-1,,,True,"[""Disulfide bridge"",""C-terminal amide""]",moderate,False
+somatostatin,Somatostatin,"[""SST"",""Somatotropin release-inhibiting factor"",""SRIF"",""GHIH"",""Octreotide (analog)"",""Sandostatin""]","[""peptide-hormone"",""growth-hormone""]",1637.9,,AGCKNFFWKTFTSC (3–14 disulfide),38916-34-6,,,False,"[""Disulfide bridge""]",moderate,False
+calcitonin,Calcitonin (salmon),"[""Salmon calcitonin"",""Miacalcin"",""Fortical"",""sCT""]","[""peptide-hormone""]",3431.9,,"CSNLSTCVLGKLSQELHKLQTYPRTNTGSGTP (1–7 disulfide, C-terminal amide; salmon)",47931-85-1,,,True,"[""Disulfide bridge"",""C-terminal amide""]",demanding,False
+amylin,Amylin,"[""IAPP"",""Islet amyloid polypeptide"",""Pramlintide (analog)"",""Symlin""]","[""peptide-hormone"",""metabolic""]",3903.3,,"KCNTATCATQRLANFLVHSSNNFGAILSSTNVGSNTY (2–7 disulfide, C-terminal amide; human)",122384-88-7,,,False,"[""Disulfide bridge"",""C-terminal amide""]",demanding,False
+pramlintide,Pramlintide,"[""Symlin"",""AC-137"",""Tripro-amylin"",""Amylin analog""]","[""metabolic"",""peptide-hormone""]",3949.4,C171H267N51O53S2,"KCNTATCATQRLANFLVHSSNNFGPILPPTNVGSNTY (2–7 disulfide, C-terminal amide)",151126-32-8,70691388,P10997,True,"[""Disulfide bridge"",""C-terminal amide""]",demanding,False
+acth,ACTH (Corticotropin),"[""Adrenocorticotropic hormone"",""Corticotropin"",""Acthar"",""Cosyntropin (1–24 analog)"",""Tetracosactide""]","[""peptide-hormone""]",4541.1,,SYSMEHFRWGKPVGKKRRPVKVYPNGAEDESAEAFPLEF (human 1–39),9002-60-2,,,True,[],demanding,False
+secretin,Secretin,"[""ChiRhoStim"",""human secretin""]","[""peptide-hormone""]",3039.4,,HSDGTFTSELSRLREGARLQRLLQGLV (C-terminal amide; human),,,,False,"[""C-terminal amide""]",moderate,False
+vip,VIP (Vasoactive Intestinal Peptide),"[""Vasoactive Intestinal Peptide"",""Aviptadil"",""VIP""]","[""peptide-hormone"",""immune""]",3326.8,C147H237N43O43S,HSDAVFTDNYTRLRKQMAVKKYLNSILN-NH2,37221-79-7,53314964,,False,"[""C-terminal amide""]",demanding,False
+ghrelin,Ghrelin,"[""Lenomorelin"",""the hunger hormone"",""acyl-ghrelin""]","[""peptide-hormone"",""growth-hormone""]",3370.9,,GSSFLSPEHQRVQQRKESKKPPAKLQPR (Ser3 O-octanoylated; human),304853-26-7,,,False,"[""Fatty-acid acylation""]",demanding,False
+apelin,Apelin,"[""Apelin-13"",""[Pyr1]apelin-13"",""APJ ligand""]","[""peptide-hormone"",""metabolic""]",1550.8,C69H111N23O16S,QRPRLSHKGPMPF (apelin-13; N-terminal Gln cyclizes to pyroglutamate in [Pyr1]apelin-13),217082-58-1,25078060,Q9ULZ1,False,[],moderate,False

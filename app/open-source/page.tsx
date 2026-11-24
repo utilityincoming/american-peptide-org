@@ -1,3 +1,6 @@
+import CalculatorExample from "@/components/CalculatorExample";
+import { calculatorSource, methods, METHODS_REVISION } from "@/lib/calculator-methods";
+import { SITE } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { REPO } from "@/lib/site";
@@ -27,7 +30,20 @@ export default function OpenSourcePage() {
         <Link href="/methods">/methods</Link>.
       </p>
       <pre className="formula">{`node --experimental-strip-types --test packages/calculators/calculators.test.ts`}</pre>
+      {methods.map((method) => <section key={method.id} id={method.id}>
+        <h3>{method.title}</h3>
+        <p><a href={calculatorSource(method.id)} download>Download {method.id}.ts</a>{" · "}
+          <Link href={`/methods/${method.id}`}>Method</Link>{" · "}
+          <a href={`${REPO}/blob/${METHODS_REVISION}/app/methods/${method.id}/page.tsx`}>Revision <code>{METHODS_REVISION.slice(0, 12)}</code></a>{" · "}
+          <a href={`/calculators/${METHODS_REVISION}/LICENSE`}>License</a>
+        </p>
+        <CalculatorExample id={method.id} />
+      </section>)}
       <h2>Evidence tier schema</h2>
+      <p>Use this badge after checking a record against the <Link href="/standards/evidence-tier/0.1.1">0.1.1 release</Link>.
+        The badge refers to JSON Schema validation.</p>
+      <img src="/badges/evidence-tier-0.1.1.svg" width="346" height="30" alt="Validated against americanpeptide.org v0.1.1" />
+      <pre className="formula">{`<a href="${SITE}/standards/evidence-tier/0.1.1"><img src="${SITE}/badges/evidence-tier-0.1.1.svg" alt="Validated against americanpeptide.org v0.1.1"></a>`}</pre>
       <p>
         <code>packages/evidence-tier</code> holds JSON Schema draft 2020-12 for a claim.{" "}
         <code>schema-0.1.1.json</code> is the text of record. <code>schema-0.1.0.json</code> is the archived shape

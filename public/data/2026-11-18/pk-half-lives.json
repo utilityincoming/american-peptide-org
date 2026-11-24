@@ -1,0 +1,447 @@
+{
+  "title": "Half-life reference table used by the pharmacokinetic calculators",
+  "version": "2026-11-18",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "scope_note": "Published approximate elimination half-lives, in hours, for the parent compound. Null means no established human figure is stored. These rows are inputs to a single-compartment model, not dosing guidance.",
+  "citation": "American Peptide Project. Pharmacokinetic half-life table. Version 2026-11-18. https://americanpeptide.org/data/pk-half-lives.json",
+  "records": [
+    {
+      "slug": "semaglutide",
+      "label": "Semaglutide",
+      "half_life_hours_low": 150,
+      "half_life_hours_high": 184,
+      "source_note": "FDA label (Ozempic/Wegovy): ~1 week",
+      "classes": [
+        "glp1"
+      ]
+    },
+    {
+      "slug": "liraglutide",
+      "label": "Liraglutide",
+      "half_life_hours_low": 12,
+      "half_life_hours_high": 14,
+      "source_note": "FDA label (Victoza/Saxenda): ~13 h",
+      "classes": [
+        "glp1"
+      ]
+    },
+    {
+      "slug": "tirzepatide",
+      "label": "Tirzepatide",
+      "half_life_hours_low": 115,
+      "half_life_hours_high": 125,
+      "source_note": "FDA label (Mounjaro): ~5 days",
+      "classes": [
+        "glp1",
+        "gip"
+      ]
+    },
+    {
+      "slug": "retatrutide",
+      "label": "Retatrutide",
+      "half_life_hours_low": 144,
+      "half_life_hours_high": 168,
+      "source_note": "Phase-II PK reports: ~6 days (once-weekly)",
+      "classes": [
+        "glp1",
+        "gip",
+        "glucagon"
+      ]
+    },
+    {
+      "slug": "cagrilintide",
+      "label": "Cagrilintide",
+      "half_life_hours_low": 159,
+      "half_life_hours_high": 195,
+      "source_note": "Phase-I PK: ~7\u20138 days (once-weekly)",
+      "classes": [
+        "amylin"
+      ]
+    },
+    {
+      "slug": "cagrisema",
+      "label": "CagriSema",
+      "half_life_hours_low": 150,
+      "half_life_hours_high": 184,
+      "source_note": "Semaglutide + cagrilintide co-formulation, once-weekly",
+      "classes": [
+        "glp1",
+        "amylin"
+      ]
+    },
+    {
+      "slug": "mazdutide",
+      "label": "Mazdutide",
+      "half_life_hours_low": 120,
+      "half_life_hours_high": 168,
+      "source_note": "GLP-1/glucagon dual agonist, once-weekly PK reports",
+      "classes": [
+        "glp1",
+        "glucagon"
+      ]
+    },
+    {
+      "slug": "survodutide",
+      "label": "Survodutide",
+      "half_life_hours_low": 120,
+      "half_life_hours_high": 168,
+      "source_note": "GLP-1/glucagon dual agonist, once-weekly PK reports",
+      "classes": [
+        "glp1",
+        "glucagon"
+      ]
+    },
+    {
+      "slug": "orforglipron",
+      "label": "Orforglipron",
+      "half_life_hours_low": 29,
+      "half_life_hours_high": 49,
+      "source_note": "Phase-I PK: 29\u201349 h (once-daily oral)",
+      "classes": [
+        "glp1"
+      ]
+    },
+    {
+      "slug": "dulaglutide",
+      "label": "Dulaglutide",
+      "half_life_hours_low": 108,
+      "half_life_hours_high": 132,
+      "source_note": "FDA label (Trulicity): ~5 days",
+      "classes": [
+        "glp1"
+      ]
+    },
+    {
+      "slug": "exenatide",
+      "label": "Exenatide",
+      "half_life_hours_low": 2.4,
+      "half_life_hours_high": 2.4,
+      "source_note": "FDA label (Byetta, immediate-release): ~2.4 h",
+      "classes": [
+        "glp1"
+      ]
+    },
+    {
+      "slug": "petrelintide",
+      "label": "Petrelintide",
+      "half_life_hours_low": 216,
+      "half_life_hours_high": 264,
+      "source_note": "Phase-I PK: ~10 days (once-weekly)",
+      "classes": [
+        "amylin"
+      ]
+    },
+    {
+      "slug": "pramlintide",
+      "label": "Pramlintide",
+      "half_life_hours_low": 0.8,
+      "half_life_hours_high": 0.8,
+      "source_note": "FDA label (Symlin): ~48 min",
+      "classes": [
+        "amylin"
+      ]
+    },
+    {
+      "slug": "amylin",
+      "label": "Amylin",
+      "half_life_hours_low": 0.2,
+      "half_life_hours_high": 0.22,
+      "source_note": "Native amylin: ~13 min",
+      "classes": [
+        "amylin"
+      ]
+    },
+    {
+      "slug": "glucagon",
+      "label": "Glucagon",
+      "half_life_hours_low": 0.1,
+      "half_life_hours_high": 0.3,
+      "source_note": "Native glucagon: 8\u201318 min",
+      "classes": [
+        "glucagon"
+      ]
+    },
+    {
+      "slug": "aod-9604",
+      "label": "AOD-9604",
+      "half_life_hours_low": 0.5,
+      "half_life_hours_high": 1,
+      "source_note": "hGH-fragment analog, short reference half-life",
+      "classes": []
+    },
+    {
+      "slug": "hgh-fragment-176-191",
+      "label": "HGH Fragment 176-191",
+      "half_life_hours_low": 0.3,
+      "half_life_hours_high": 0.6,
+      "source_note": "Short fragment, reference estimate",
+      "classes": []
+    },
+    {
+      "slug": "somatropin",
+      "label": "Somatropin (rhGH)",
+      "half_life_hours_low": 2.5,
+      "half_life_hours_high": 3.5,
+      "source_note": "Subcutaneous rhGH: ~2\u20134 h",
+      "classes": []
+    },
+    {
+      "slug": "sermorelin",
+      "label": "Sermorelin",
+      "half_life_hours_low": 0.17,
+      "half_life_hours_high": 0.2,
+      "source_note": "GHRH(1-29): ~10\u201312 min",
+      "classes": [
+        "ghrh"
+      ]
+    },
+    {
+      "slug": "tesamorelin",
+      "label": "Tesamorelin",
+      "half_life_hours_low": 0.4,
+      "half_life_hours_high": 0.6,
+      "source_note": "FDA label (Egrifta): ~26\u201338 min",
+      "classes": [
+        "ghrh"
+      ]
+    },
+    {
+      "slug": "cjc-1295-no-dac",
+      "label": "CJC-1295 (no DAC)",
+      "half_life_hours_low": 0.4,
+      "half_life_hours_high": 0.6,
+      "source_note": "Mod-GRF(1-29): ~30 min",
+      "classes": [
+        "ghrh"
+      ]
+    },
+    {
+      "slug": "cjc-1295-with-dac",
+      "label": "CJC-1295 (DAC)",
+      "half_life_hours_low": 144,
+      "half_life_hours_high": 192,
+      "source_note": "Albumin-binding DAC: ~6\u20138 days",
+      "classes": [
+        "ghrh"
+      ]
+    },
+    {
+      "slug": "ipamorelin",
+      "label": "Ipamorelin",
+      "half_life_hours_low": 2,
+      "half_life_hours_high": 2,
+      "source_note": "GHRP: ~2 h reference",
+      "classes": [
+        "gh-secretagogue"
+      ]
+    },
+    {
+      "slug": "ghrp-2",
+      "label": "GHRP-2",
+      "half_life_hours_low": 0.25,
+      "half_life_hours_high": 0.5,
+      "source_note": "GHRP: ~15\u201330 min",
+      "classes": [
+        "gh-secretagogue"
+      ]
+    },
+    {
+      "slug": "ghrp-6",
+      "label": "GHRP-6",
+      "half_life_hours_low": 0.25,
+      "half_life_hours_high": 0.5,
+      "source_note": "GHRP: ~15\u201330 min",
+      "classes": [
+        "gh-secretagogue"
+      ]
+    },
+    {
+      "slug": "hexarelin",
+      "label": "Hexarelin",
+      "half_life_hours_low": 0.5,
+      "half_life_hours_high": 1,
+      "source_note": "GHRP: ~30\u201360 min",
+      "classes": [
+        "gh-secretagogue"
+      ]
+    },
+    {
+      "slug": "mk-677",
+      "label": "MK-677 (Ibutamoren)",
+      "half_life_hours_low": 20,
+      "half_life_hours_high": 24,
+      "source_note": "Oral secretagogue: ~24 h (once-daily)",
+      "classes": [
+        "gh-secretagogue"
+      ]
+    },
+    {
+      "slug": "ghrelin",
+      "label": "Ghrelin",
+      "half_life_hours_low": 0.25,
+      "half_life_hours_high": 0.5,
+      "source_note": "Native ghrelin: ~15\u201330 min",
+      "classes": [
+        "gh-secretagogue"
+      ]
+    },
+    {
+      "slug": "igf-1",
+      "label": "IGF-1",
+      "half_life_hours_low": 0.1,
+      "half_life_hours_high": 0.2,
+      "source_note": "Free IGF-1 ~10 min; bound fraction much longer",
+      "classes": [
+        "igf"
+      ]
+    },
+    {
+      "slug": "igf-1-lr3",
+      "label": "IGF-1 LR3",
+      "half_life_hours_low": 20,
+      "half_life_hours_high": 30,
+      "source_note": "Reduced IGFBP binding extends reference half-life",
+      "classes": [
+        "igf"
+      ]
+    },
+    {
+      "slug": "igf-1-des",
+      "label": "IGF-1 DES",
+      "half_life_hours_low": 0.3,
+      "half_life_hours_high": 0.5,
+      "source_note": "Short-acting analog, reference estimate",
+      "classes": [
+        "igf"
+      ]
+    },
+    {
+      "slug": "mgf",
+      "label": "MGF",
+      "half_life_hours_low": 0.1,
+      "half_life_hours_high": 0.15,
+      "source_note": "Mechano-growth factor: very short reference",
+      "classes": [
+        "igf"
+      ]
+    },
+    {
+      "slug": "bpc-157",
+      "label": "BPC-157",
+      "half_life_hours_low": null,
+      "half_life_hours_high": null,
+      "source_note": "No established human half-life \u2014 reference figures are preclinical only",
+      "classes": [
+        "healing-repair"
+      ]
+    },
+    {
+      "slug": "tb-500",
+      "label": "TB-500",
+      "half_life_hours_low": null,
+      "half_life_hours_high": null,
+      "source_note": "No established human half-life for the synthetic fragment",
+      "classes": [
+        "healing-repair"
+      ]
+    },
+    {
+      "slug": "ghk-cu",
+      "label": "GHK-Cu",
+      "half_life_hours_low": null,
+      "half_life_hours_high": null,
+      "source_note": "No established systemic human half-life",
+      "classes": [
+        "healing-repair"
+      ]
+    },
+    {
+      "slug": "melanotan-2",
+      "label": "Melanotan II",
+      "half_life_hours_low": 1,
+      "half_life_hours_high": 2.6,
+      "source_note": "Reference PK: ~1\u20132.6 h",
+      "classes": [
+        "melanocortin"
+      ]
+    },
+    {
+      "slug": "melanotan-1",
+      "label": "Melanotan I (afamelanotide)",
+      "half_life_hours_low": 0.5,
+      "half_life_hours_high": 1,
+      "source_note": "Afamelanotide parent peptide reference",
+      "classes": [
+        "melanocortin"
+      ]
+    },
+    {
+      "slug": "pt-141",
+      "label": "PT-141 (Bremelanotide)",
+      "half_life_hours_low": 2.7,
+      "half_life_hours_high": 2.7,
+      "source_note": "FDA label (Vyleesi): ~2.7 h",
+      "classes": [
+        "melanocortin"
+      ]
+    },
+    {
+      "slug": "gonadorelin",
+      "label": "Gonadorelin",
+      "half_life_hours_low": 0.03,
+      "half_life_hours_high": 0.07,
+      "source_note": "Native GnRH: ~2\u20134 min",
+      "classes": [
+        "hpg-axis"
+      ]
+    },
+    {
+      "slug": "kisspeptin-10",
+      "label": "Kisspeptin-10",
+      "half_life_hours_low": 0.03,
+      "half_life_hours_high": 0.07,
+      "source_note": "Reference: ~minutes",
+      "classes": [
+        "hpg-axis"
+      ]
+    },
+    {
+      "slug": "hcg",
+      "label": "hCG",
+      "half_life_hours_low": 24,
+      "half_life_hours_high": 36,
+      "source_note": "Biphasic; terminal ~33 h reference",
+      "classes": [
+        "hpg-axis"
+      ]
+    },
+    {
+      "slug": "oxytocin",
+      "label": "Oxytocin",
+      "half_life_hours_low": 0.03,
+      "half_life_hours_high": 0.1,
+      "source_note": "Native oxytocin: ~1\u20136 min",
+      "classes": []
+    },
+    {
+      "slug": "teriparatide",
+      "label": "Teriparatide",
+      "half_life_hours_low": 1,
+      "half_life_hours_high": 1,
+      "source_note": "FDA label (Forteo): ~1 h subcutaneous",
+      "classes": [
+        "thyroid-calcium"
+      ]
+    },
+    {
+      "slug": "calcitonin",
+      "label": "Calcitonin",
+      "half_life_hours_low": 0.75,
+      "half_life_hours_high": 1.5,
+      "source_note": "Salmon calcitonin reference",
+      "classes": [
+        "thyroid-calcium"
+      ]
+    }
+  ]
+}

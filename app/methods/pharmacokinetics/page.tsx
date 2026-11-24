@@ -1,3 +1,4 @@
+import MethodIllustration from "@/components/MethodIllustration";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionNav } from "@/components/SectionNav";
@@ -14,6 +15,7 @@ export default function Page() {
     <article className="prose">
       <p className="kicker">Method</p>
       <h1>Pharmacokinetics</h1>
+      <MethodIllustration id="pharmacokinetics" />
       <p className="meta">
         Module: <code>packages/calculators/pharmacokinetics.ts</code>
         {" · "}

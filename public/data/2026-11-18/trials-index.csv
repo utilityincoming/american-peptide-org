@@ -1,0 +1,26 @@
+query,nct_id,title,status,phases,sponsor,enrollment
+semaglutide,NCT06803888,Bariatric Surgery vs. Semaglutide vs. Tirzepatide,ACTIVE_NOT_RECRUITING,"[""PHASE4""]",Ali Aminian,140
+semaglutide,NCT06411210,Obesity Complicating Type 1 Diabetes: GLP-1 Analogue Anti-obesity Treatment,RECRUITING,"[""PHASE2""]",Yale University,54
+semaglutide,NCT04777409,A Research Study Investigating Semaglutide in People With Early Alzheimer's Disease (EVOKE Plus),COMPLETED,"[""PHASE3""]",Novo Nordisk A/S,1840
+semaglutide,NCT07668414,A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess Body Weight Lose Weight Compared to Semaglutide,RECRUITING,"[""PHASE3""]",Novo Nordisk A/S,650
+semaglutide,NCT06234111,Semaglutide and Physical Activity for Obesity and Multimorbidity,ACTIVE_NOT_RECRUITING,[],Hvidovre University Hospital,35
+tirzepatide,NCT06803888,Bariatric Surgery vs. Semaglutide vs. Tirzepatide,ACTIVE_NOT_RECRUITING,"[""PHASE4""]",Ali Aminian,140
+tirzepatide,NCT07191873,Tirzepatide in Idiopathic Intracranial Hypertension Trial,RECRUITING,"[""PHASE4""]",Duke University,60
+tirzepatide,NCT06732245,Safety and Efficacy of NA-931 and Tirzepatide in Adults Who Are Overweight or Obese,NOT_YET_RECRUITING,"[""PHASE2""]","Biomed Industries, Inc.",224
+tirzepatide,NCT07728812,Pragmatic Trial to Study the Cost-Effectiveness of MyPhenome-RX Test to Guide Anti-Obesity Pharmacotherapy,NOT_YET_RECRUITING,"[""NA""]",Phenomix Sciences,424
+tirzepatide,NCT07829198,"Efficacy of Tirzepatide for Weight Management in Patients With Suboptimal Weight Loss After Bariatric Surgery: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial",NOT_YET_RECRUITING,"[""PHASE3""]",Universidade do Porto,70
+bremelanotide,NCT06867835,Single Dose of Vyleesi in Lactating Female Subjects to Measure the Concentration of Bremelanotide in Breast Milk,COMPLETED,"[""PHASE4""]","Cosette Pharmaceuticals, Inc.",10
+bremelanotide,NCT04179734,Role of the Melanocortin-4 Receptor in Hypoactive Sexual Desire Disorder,COMPLETED,"[""PHASE4""]",Imperial College Healthcare NHS Trust,40
+bremelanotide,NCT02338960,2. Study to Evaluate the Efficacy/Safety of Bremelanotide in Premenopausal Women With Hypoactive Sexual Desire Disorder,COMPLETED,"[""PHASE3""]","Palatin Technologies, Inc",714
+bremelanotide,NCT00425256,Evaluate the Safety and Efficacy of Bremelanotide in Women With Female Sexual Arousal Disorder (FSAD),COMPLETED,"[""PHASE2""]","Palatin Technologies, Inc",
+bremelanotide,NCT03973047,Study to Evaluate Rate of Nausea in Healthy Premenopausal Female Subjects Treated With Single Dose of Bremelanotide Alone or With Zofran,COMPLETED,"[""PHASE1""]","AMAG Pharmaceuticals, Inc.",228
+tesamorelin,NCT00795210,Effects of Short-term Growth Hormone in HIV-infected Patients,COMPLETED,"[""NA""]",Massachusetts General Hospital,25
+tesamorelin,NCT00675506,Effectiveness of Growth Hormone Releasing Hormone in Reducing Abdominal Fat in People Who Are Obese,COMPLETED,"[""PHASE2""]",Massachusetts General Hospital,60
+tesamorelin,NCT01388920,Efficacy and Safety Study of Tesamorelin in Chronic Obstructive Pulmonary Disease (COPD) Subjects With Muscle Wasting,TERMINATED,"[""PHASE2""]",Theratechnologies,3
+tesamorelin,NCT06554717,Tesamorelin as an Adjunct to Exercise for Improving Physical Function in HIV,RECRUITING,"[""PHASE2""]",Massachusetts General Hospital,100
+tesamorelin,NCT02572323,Phase II Trial of Tesamorelin for Cognition in Aging HIV-Infected Persons,COMPLETED,"[""PHASE2""]","University of California, San Diego",73
+teriparatide,NCT04196855,Study of Teriparatide in Stress Fracture Healing,UNKNOWN,"[""PHASE3""]",University of East Anglia,136
+teriparatide,NCT05018637,Efficacy of WJ-derived Mesenchymal Stem Cells in Combination With Parathyroid Hormone for Vertebral Compression Fracture,UNKNOWN,"[""PHASE2""]",Inbo Han,30
+teriparatide,NCT01760798,Weekly vs Daily Teriparatide Therapy in Severe Postmenopausal Osteoporosis,UNKNOWN,"[""NA""]","Post Graduate Institute of Medical Education and Research, Chandigarh",20
+teriparatide,NCT03720886,G56W1 in Women With Postmenopausal Osteoporosis,UNKNOWN,"[""PHASE1"",""PHASE2""]","Shenzhen Salubris Pharmaceuticals Co., Ltd.",148
+teriparatide,NCT06164795,Sequential Therapies After Osteoanabolic Treatment,RECRUITING,[],424 General Military Hospital,150

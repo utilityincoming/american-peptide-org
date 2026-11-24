@@ -1,3 +1,4 @@
+import PageCitation from "@/components/PageCitation";
 import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
@@ -54,9 +55,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </main>
           <footer className="footer">
             <div className="wrap">
+              <PageCitation />
               <p>
-                Research reference. Not medical advice, not a dosing protocol, and not an offer for sale. The tools
-                run on <a href="https://americanpeptide.com">americanpeptide.com</a>.
+                Public methods and research reference. Companion site: <a href="https://americanpeptide.com">americanpeptide.com</a>.
               </p>
               <p>
                     Specifications and datasets: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
