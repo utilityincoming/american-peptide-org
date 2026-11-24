@@ -30,7 +30,6 @@ const datasetTitles: Record<string, string> = {
 
 export const paths = Object.keys(titles);
 const revision = process.env.NEXT_PUBLIC_SOURCE_REVISION;
-const deployment = process.env.NEXT_PUBLIC_RELEASE_ORIGIN;
 const author = "American Peptide Project";
 export const citationLicense = "https://creativecommons.org/licenses/by/4.0/";
 
@@ -47,14 +46,15 @@ export function citation(path: string, selected?: { from?: string; to: string })
   const key = [path === "/" ? "home" : path.slice(1).replace(/[\/#]/g, "-"),
     selected?.from, version, DATASET_SNAPSHOT].filter(Boolean).join("--");
   const frozenSpec = /^\/standards\/evidence-tier\/\d+\.\d+\.\d+$/.test(pinnedPath);
-  const url = dataset
+  const renderedUrl = dataset
     ? `${SITE}/data/${DATASET_SNAPSHOT}/${dataset}.json`
-    : `${frozenSpec || !deployment ? SITE : deployment}${pinnedPath}${query.size ? `?${query}` : ""}`;
+    : `${SITE}${pinnedPath}${query.size ? `?${query}` : ""}`;
   const source = revision && `${REPO}/blob/${revision}/app${path === "/" ? "" : path.split("#")[0]}/page.tsx`;
+  const url = frozenSpec || dataset ? renderedUrl : source || renderedUrl;
   const versionNote = revision && !frozenSpec && !dataset ? `; source revision ${revision}` : "";
   const versions = selected?.from ? `${selected.from} and ${version}` : version;
   const text = `${author}. ${title}. Evidence Tier Schema ${versions}; dataset snapshot ${DATASET_SNAPSHOT}${versionNote}. ${url}`;
-  return { key, title, version, versions, from: selected?.from, url, text, path, source, versionNote, dataset };
+  return { key, title, version, versions, from: selected?.from, url, text, path, source, renderedUrl, versionNote, dataset };
 }
 
 const compare = "/standards/evidence-tier/compare";
@@ -93,9 +93,11 @@ export function dataCite(record: NonNullable<ReturnType<typeof citation>>) {
     types: { resourceTypeGeneral: record.dataset ? "Dataset" : "Text" },
     version: record.dataset ? DATASET_SNAPSHOT : record.versions,
     url: record.url,
-    alternateIdentifiers: [{ alternateIdentifier: record.url, alternateIdentifierType: "URL" }],
+    alternateIdentifiers: [
+      ...new Set([record.url, record.renderedUrl]),
+    ].map((url) => ({ alternateIdentifier: url, alternateIdentifierType: "URL" })),
     relatedIdentifiers: [
-      ...(record.source ? [{ relatedIdentifier: record.source, relatedIdentifierType: "URL", relationType: "IsDerivedFrom" }] : []),
+      ...(record.source && record.source !== record.url ? [{ relatedIdentifier: record.source, relatedIdentifierType: "URL", relationType: "IsDerivedFrom" }] : []),
       ...[...new Set([record.from, record.version])].flatMap((version) => version ? [
         { relatedIdentifier: `${SITE}${releasePath(version)}`, relatedIdentifierType: "URL", relationType: "References" },
       ] : []),

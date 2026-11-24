@@ -19,7 +19,6 @@ const nextConfig: NextConfig = {
   images: { unoptimized: true },
   env: {
     NEXT_PUBLIC_SOURCE_REVISION: sourceRevision(),
-    NEXT_PUBLIC_RELEASE_ORIGIN: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "",
   },
 };
 
