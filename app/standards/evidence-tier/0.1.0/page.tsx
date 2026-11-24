@@ -4,8 +4,8 @@ import { SpecPage } from "@/components/SpecPage";
 export const metadata: Metadata = {
   title: "Evidence Tier Schema 0.1.0 (archived)",
   description: "Archived Evidence Tier Schema 0.1.0, including the freshness-window defect corrected in 0.1.1.",
-  openGraph: { images: ["/illustrations/og-0.1.0.png"] },
-  twitter: { card: "summary_large_image", images: ["/illustrations/og-0.1.0.png"] },
+  openGraph: { images: [{ url: "/assets/og-release-0.1.0.png", width: 1200, height: 630, alt: "Evidence Tier Schema. Release 0.1.0." }] },
+  twitter: { card: "summary_large_image", images: ["/assets/og-release-0.1.0.png"] },
   alternates: { canonical: "/standards/evidence-tier/0.1.0" },
 };
 

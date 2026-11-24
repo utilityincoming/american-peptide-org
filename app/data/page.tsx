@@ -1,3 +1,4 @@
+import { SectionHero } from "@/components/AssetPicture";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { citation, citationFile } from "@/lib/citations";
@@ -7,6 +8,8 @@ import datasets from "@/public/data/2026-11-18/manifest.json";
 export const metadata: Metadata = {
   title: "Open data",
   description: "Versioned CC BY 4.0 exports with checksums and field schemas.",
+  openGraph: { images: [{ url: "/assets/og-data.png", width: 1200, height: 630, alt: "Dataset exports. Public methods and standards." }] },
+  twitter: { card: "summary_large_image", images: ["/assets/og-data.png"] },
   alternates: { canonical: "/data" },
 };
 
@@ -14,6 +17,7 @@ export default function DataPage() {
   return <article className="prose">
     <p className="kicker">Data · CC BY 4.0</p>
     <h1>Dataset exports</h1>
+      <SectionHero name="data" />
     <p>Attribute the American Peptide Project and link to the snapshot you used. PubChem and ClinicalTrials.gov remain the upstream records.</p>
     <p><a href={`/data/${DATASET_SNAPSHOT}/manifest.json`}>Download the machine-readable manifest</a>.</p>
     {datasets.map((dataset) => <section key={dataset.id} id={dataset.id}>

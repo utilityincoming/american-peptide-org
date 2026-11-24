@@ -15,6 +15,13 @@ export const metadata: Metadata = {
   description:
     "Public methods and citable standards for American Peptide. The evidence-tier schema, calculator methodology, and open dataset exports.",
   alternates: { canonical: "/" },
+  icons: {
+    icon: [
+      { url: "/assets/icon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/assets/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [{ url: "/assets/icon-180.png", sizes: "180x180", type: "image/png" }],
+  },
   openGraph: {
     type: "website",
     siteName: "American Peptide · public methods",
@@ -61,7 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </p>
               <p>
                     Specifications and datasets: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
-                    Calculator modules: <a href="/open-source">MIT</a>. <a href="/cite">How to cite</a>.
+                    Calculator modules: <a href="/open-source">MIT</a>. Artwork: <a href="/assets/LICENSE.md">CC BY 4.0</a>. <a href="/cite">How to cite</a>.
               </p>
             </div>
           </footer>

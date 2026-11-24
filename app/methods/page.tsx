@@ -1,3 +1,4 @@
+import { SectionHero, AssetPicture } from "@/components/AssetPicture";
 import { methods } from "@/lib/calculator-methods";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -5,6 +6,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Calculator methods",
   description: "Methodology for the American Peptide reconstitution, blend, and pharmacokinetic calculators.",
+  openGraph: { images: [{ url: "/assets/og-methods.png", width: 1200, height: 630, alt: "Calculator methods. Public methods and standards." }] },
+  twitter: { card: "summary_large_image", images: ["/assets/og-methods.png"] },
   alternates: { canonical: "/methods" },
 };
 
@@ -13,6 +16,7 @@ export default function MethodsPage() {
     <article className="prose">
       <p className="kicker">Methods</p>
       <h1>How the calculators work</h1>
+      <SectionHero name="methods" />
       <p>
         These pages document the formulas, assumptions, edge cases, and scope notes behind the calculators.
       </p>
@@ -24,7 +28,7 @@ export default function MethodsPage() {
       </p>
       <div className="pipeline">
         {methods.map((method) => <Link key={method.id} href={`/methods/${method.id}`}>
-          <img src={`/illustrations/method-${method.id}.webp`} alt="" />
+          <AssetPicture name={`method-${method.id}`} width={480} height={220} alt="" />
           {method.title}
         </Link>)}
       </div>

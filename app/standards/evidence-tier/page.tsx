@@ -1,9 +1,12 @@
+import { SectionHero, SchemaFlow } from "@/components/AssetPicture";
 import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Evidence Tier Schema",
   description: "Version index for the American Peptide Evidence Tier Schema.",
+  openGraph: { images: [{ url: "/assets/og-evidence.png", width: 1200, height: 630, alt: "Evidence Tier Schema. Public methods and standards." }] },
+  twitter: { card: "summary_large_image", images: ["/assets/og-evidence.png"] },
   alternates: { canonical: "/standards/evidence-tier" },
 };
 
@@ -17,13 +20,8 @@ export default function StandardsIndex() {
         to every figure it shows. A tier says where a number came from. It does not say how confident the prose
         sounds, and it is not a study-design ladder.
       </p>
-      <ol className="pipeline" aria-label="Evidence tier pipeline">
-        {["Claim", "Source", "Tier", "Citation"].map((label) => <li key={label}>
-          <img src={`/illustrations/pipeline-${label.toLowerCase()}.webp`} alt="" />
-          <span>{label}</span>
-        </li>)}
-      </ol>
-      <p className="meta"><a href="/illustrations/LICENSE.md">Illustrations · CC BY 4.0 / MIT</a></p>
+      <SectionHero name="evidence" />
+      <SchemaFlow />
       <div className="grid">
         <Link href="/standards/evidence-tier/compare" className="card">
           <h2>Compare releases</h2><p>See what changed between two releases.</p>

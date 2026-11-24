@@ -1,3 +1,4 @@
+import { AssetPicture } from "@/components/AssetPicture";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -17,7 +18,10 @@ export default function ErrataPage() {
         from here and from the <Link href="/changelog">changelog</Link>.
       </p>
 
-      <h2 id="e-001">E-001 — Price freshness matched two windows</h2>
+      <div className="erratum-heading">
+        <AssetPicture name="erratum-marker" width={220} height={148} alt="" />
+        <h2 id="e-001">E-001 — Price freshness matched two windows</h2>
+      </div>
       <p className="meta">Affects schema 0.1.0 · Corrected in 0.1.1 · Filed 18 November 2026</p>
       <p>
         <strong>What was wrong.</strong> Notes accompanying schema 0.1.0 put revalidation windows in a single table

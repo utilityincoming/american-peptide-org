@@ -1,3 +1,4 @@
+import { AssetPicture } from "@/components/AssetPicture";
 import { releases, releasePath } from "@/lib/releases";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -20,7 +21,7 @@ export default function ChangelogPage() {
       <h2>Evidence Tier Schema releases</h2>
       <p><Link href="/standards/evidence-tier/compare">Compare released versions</Link></p>
       <div className="release-covers">{releases.map((release) => <figure key={release.version} id={release.notes}>
-        <Link href={releasePath(release.version)}><img src={`/illustrations/release-${release.version}.webp`} alt="" /></Link>
+        <AssetPicture name={`release-${release.version}`} width={250} height={120} alt="" />
         <figcaption><Link href={releasePath(release.version)}>Evidence Tier Schema {release.version}</Link>
           {" · "}<time dateTime={release.date}>{release.date}</time>
           <ul>{Object.entries(release.terms).map(([name, term]) => <li key={name}>
@@ -28,7 +29,7 @@ export default function ChangelogPage() {
           </li>)}</ul>
         </figcaption>
       </figure>)}</div>
-      <p className="meta"><a href="/illustrations/LICENSE.md">Release art · CC BY 4.0 / MIT</a></p>
+      <p className="meta"><a href="/assets/LICENSE.md">Release art · CC BY 4.0</a></p>
       <h2 id="versioning">Versioning policy</h2>
       <p>
         Versions follow <code>MAJOR.MINOR.PATCH</code>. The rule is about what a citation can rely on, not about how
