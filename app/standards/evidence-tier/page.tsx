@@ -17,7 +17,20 @@ export default function StandardsIndex() {
         to every figure it shows. A tier says where a number came from. It does not say how confident the prose
         sounds, and it is not a study-design ladder.
       </p>
+      <ol className="pipeline" aria-label="Evidence tier pipeline">
+        {["Claim", "Source", "Tier", "Citation"].map((label) => <li key={label}>
+          <img src={`/illustrations/pipeline-${label.toLowerCase()}.webp`} alt="" />
+          <span>{label}</span>
+        </li>)}
+      </ol>
+      <p className="meta"><a href="/illustrations/LICENSE.md">Illustrations · CC BY 4.0 / MIT</a></p>
       <div className="grid">
+        <Link href="/standards/evidence-tier/compare" className="card">
+          <h2>Compare releases</h2><p>See what changed between two releases.</p>
+        </Link>
+        <Link href="/standards/evidence-tier/validate" className="card">
+          <h2>Validate a claim</h2><p>Check a JSON record against a published schema.</p>
+        </Link>
         <Link href="/standards/evidence-tier/v0.1" className="card">
           <p className="kicker">Cite this URL</p>
           <h2>v0.1</h2>

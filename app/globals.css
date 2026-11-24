@@ -192,3 +192,35 @@ dl.defs dd { margin: 0.2rem 0 0; color: var(--muted); }
   padding: 0.1rem 0.5rem;
   color: var(--muted);
 }
+
+.tool-controls { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+.tool-controls label { display: grid; gap: .25rem; }
+.tool-controls input, .tool-controls select, .validator textarea, main button {
+  font: inherit; color: inherit; padding: .45rem .65rem; border: 1px solid #8794a4;
+  border-radius: 4px; background: #fff;
+}
+main button { background: #101e36; color: #fff; cursor: pointer; }
+main button:disabled { opacity: .55; cursor: default; }
+.validator textarea { box-sizing: border-box; display: block; width: 100%; margin: .4rem 0 .8rem; font-family: monospace; }
+.table-scroll { overflow-x: auto; }
+.diff-table { width: 100%; border-collapse: collapse; table-layout: fixed; min-width: 40rem; }
+.diff-table th, .diff-table td { border: 1px solid #d9dce0; padding: .55rem; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.diff-table th:first-child { width: 24%; }
+.diff-table pre { margin: 0; white-space: pre-wrap; font-size: .82rem; }
+.diff-table tr:target, .diff-table tr[data-status="Changed"] { background: #fbf1d5; }
+.diff-table tr[data-status="Added"] { background: #e2f1e9; }
+.diff-table tr[data-status="Deprecated"], .diff-table tr[data-status="Removed"] { background: #f9e6e4; }
+.diff-table tr:target th { box-shadow: inset 4px 0 #101e36; }
+.term-status, .diff-table small { display: block; }
+.file-table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+.file-table th, .file-table td { text-align: left; padding: .35rem .6rem; border-bottom: 1px solid #d9dce0; }
+.file-table td { overflow-wrap: anywhere; }
+.pipeline, .release-covers { display: grid; gap: .8rem; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 1.5rem 0; padding: 0; }
+.pipeline li { list-style: none; text-align: center; font-weight: 700; }
+.pipeline img, .release-covers img, .method-art img { display: block; width: 100%; border-radius: 5px; }
+.release-covers { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.release-covers figure, .method-art { margin: 0; }
+.method-art { max-width: 32rem; margin-bottom: 1.2rem; }
+.method-art figcaption, .release-covers figcaption { margin-top: .35rem; }
+@media (max-width: 36rem) { .pipeline { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.diff-table tr[id] { scroll-margin-top: 6rem; }

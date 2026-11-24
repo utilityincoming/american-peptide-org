@@ -1,3 +1,4 @@
+import MethodIllustration from "@/components/MethodIllustration";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionNav } from "@/components/SectionNav";
@@ -15,6 +16,7 @@ export default function Page() {
     <article className="prose">
       <p className="kicker">Method · reference tier</p>
       <h1>Blend draws</h1>
+      <MethodIllustration id="blend" />
       <p className="meta">
         Tool: <a href={`${COM}/tools/blend-calculator`}>{COM}/tools/blend-calculator</a>
         {" · "}

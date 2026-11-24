@@ -1,0 +1,2714 @@
+{
+  "title": "American Peptide compound identity table",
+  "version": "2026-11-18",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://americanpeptide.com/catalog",
+  "fields_note": "Identity and registry fields only. Narrative monographs stay on americanpeptide.com.",
+  "categories": [
+    {
+      "id": "metabolic",
+      "label": "Metabolic",
+      "blurb": "GLP-1 / GIP / glucagon agonists and adipose-targeting peptides."
+    },
+    {
+      "id": "growth-hormone",
+      "label": "Growth Hormone",
+      "blurb": "GHRH analogs, GHRPs, and growth hormone secretagogues."
+    },
+    {
+      "id": "healing-repair",
+      "label": "Healing & Repair",
+      "blurb": "Tissue repair, angiogenesis, and regenerative peptides."
+    },
+    {
+      "id": "cognitive",
+      "label": "Cognitive",
+      "blurb": "Nootropics, neurotrophics, and synaptic modulators."
+    },
+    {
+      "id": "longevity",
+      "label": "Longevity",
+      "blurb": "Senolytics, telomere, and aging-axis peptides."
+    },
+    {
+      "id": "cosmetic",
+      "label": "Cosmetic",
+      "blurb": "Pigmentation, hair, and skin-targeting peptides."
+    },
+    {
+      "id": "reproductive",
+      "label": "Reproductive",
+      "blurb": "HPG-axis, kisspeptin, and reproductive hormones."
+    },
+    {
+      "id": "immune",
+      "label": "Immune",
+      "blurb": "Thymic peptides and immunomodulators."
+    },
+    {
+      "id": "mitochondrial",
+      "label": "Mitochondrial",
+      "blurb": "Mitochondrial bioenergetics and NAD+ axis."
+    },
+    {
+      "id": "bioregulator",
+      "label": "Bioregulators",
+      "blurb": "Short peptide bioregulators (Khavinson peptides) \u2014 tissue-specific gene-regulatory peptides."
+    },
+    {
+      "id": "peptide-hormone",
+      "label": "Peptide Hormones",
+      "blurb": "How hormone sequences become manufacturable synthetic drugs \u2014 analog engineering, disulfides, acylation, and why purity is hard."
+    }
+  ],
+  "compounds": [
+    {
+      "slug": "semaglutide",
+      "name": "Semaglutide",
+      "aliases": [
+        "Ozempic",
+        "Wegovy",
+        "Rybelsus"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 4113.6,
+      "molecular_formula": "C187H291N45O59",
+      "sequence": null,
+      "cas": "910463-68-2",
+      "pubchem_cid": 56843331,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Fatty-acid acylation",
+        "Unnatural residue"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "liraglutide",
+      "name": "Liraglutide",
+      "aliases": [
+        "Victoza",
+        "Saxenda",
+        "NN2211"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 3751.2,
+      "molecular_formula": "C172H265N43O51",
+      "sequence": null,
+      "cas": "204656-20-2",
+      "pubchem_cid": 16134956,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Fatty-acid acylation"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "tirzepatide",
+      "name": "Tirzepatide",
+      "aliases": [
+        "Mounjaro",
+        "Zepbound"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 4813.5,
+      "molecular_formula": "C225H348N48O68",
+      "sequence": null,
+      "cas": "2023788-19-2",
+      "pubchem_cid": 166567236,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Fatty-acid acylation",
+        "Unnatural residue"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "retatrutide",
+      "name": "Retatrutide",
+      "aliases": [
+        "LY3437943",
+        "Triple G",
+        "GGG agonist",
+        "GIP/GLP-1/glucagon triple agonist"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 4731.5,
+      "molecular_formula": "C221H342N46O68",
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": 171390338,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Fatty-acid acylation",
+        "Albumin-binding linker",
+        "Unnatural residue"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "survodutide",
+      "name": "Survodutide",
+      "aliases": [
+        "BI 456906"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 4232,
+      "molecular_formula": "C192H289N47O61",
+      "sequence": null,
+      "cas": "2805997-46-8",
+      "pubchem_cid": 171378821,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Fatty-acid acylation",
+        "Unnatural residue"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "mazdutide",
+      "name": "Mazdutide",
+      "aliases": [
+        "IBI362",
+        "LY3305677"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 4476,
+      "molecular_formula": "C207H317N45O65",
+      "sequence": null,
+      "cas": "2259884-03-0",
+      "pubchem_cid": 167312357,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Fatty-acid acylation",
+        "Unnatural residue"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "cagrilintide",
+      "name": "Cagrilintide",
+      "aliases": [],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 4409.2,
+      "molecular_formula": "C194H312N54O59S2",
+      "sequence": null,
+      "cas": "1415456-99-3",
+      "pubchem_cid": 171397054,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Fatty-acid acylation",
+        "Disulfide bridge",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "cagrisema",
+      "name": "CagriSema",
+      "aliases": [
+        "Cagrilintide/semaglutide",
+        "cagrilintide + semaglutide"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": null,
+      "unlisted": false
+    },
+    {
+      "slug": "orforglipron",
+      "name": "Orforglipron",
+      "aliases": [
+        "Foundayo",
+        "LY3502970",
+        "OWL833"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 883,
+      "molecular_formula": "C48H48F2N10O5",
+      "sequence": null,
+      "cas": "2212020-52-3",
+      "pubchem_cid": 137319706,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [],
+      "synthesis_difficulty": null,
+      "unlisted": false
+    },
+    {
+      "slug": "dulaglutide",
+      "name": "Dulaglutide",
+      "aliases": [
+        "Trulicity",
+        "LY2189265"
+      ],
+      "categories": [
+        "metabolic",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 59700,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": "923950-08-7",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [],
+      "synthesis_difficulty": null,
+      "unlisted": false
+    },
+    {
+      "slug": "exenatide",
+      "name": "Exenatide",
+      "aliases": [
+        "Byetta",
+        "Bydureon",
+        "Exendin-4",
+        "AC2993"
+      ],
+      "categories": [
+        "metabolic",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 4186.6,
+      "molecular_formula": "C184H282N50O60S",
+      "sequence": "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS",
+      "cas": "141758-74-9",
+      "pubchem_cid": 45588096,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [],
+      "synthesis_difficulty": null,
+      "unlisted": false
+    },
+    {
+      "slug": "amycretin",
+      "name": "Amycretin",
+      "aliases": [
+        "Zenagamtide"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": null,
+      "unlisted": false
+    },
+    {
+      "slug": "maritide",
+      "name": "MariTide",
+      "aliases": [
+        "Maridebart cafraglutide",
+        "AMG 133"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 150000,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": null,
+      "unlisted": false
+    },
+    {
+      "slug": "petrelintide",
+      "name": "Petrelintide",
+      "aliases": [
+        "ZP8396"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 4192,
+      "molecular_formula": "C185H305N49O61",
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": 172915807,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": null,
+      "unlisted": false
+    },
+    {
+      "slug": "eloralintide",
+      "name": "Eloralintide",
+      "aliases": [
+        "LY3841136"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 4526,
+      "molecular_formula": "C201H319N49O65S2",
+      "sequence": "\u03b3-Glu-[Cys-Asn-Thr-Ala-Thr-Cys]-Ala-Thr-Gly-Orn-Leu-Ala-Glu-(\u03b1-Me)Phe-Leu-Val-Arg-Ser-Ser-Asn-(N-Me)Asn-Phe-Gly-Pro-Lys(\u03b3-Glu-\u03b3-Glu-C20 diacid)-Leu-Pro-Pro-Thr-Glu-Val-Gly-Ser-Asn-Thr-Tyr-NH2",
+      "cas": "2883634-40-8",
+      "pubchem_cid": 175663130,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Fatty-acid acylation",
+        "Albumin-binding linker",
+        "Unnatural residue",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "pemvidutide",
+      "name": "Pemvidutide",
+      "aliases": [
+        "ALT-801"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": null,
+      "unlisted": false
+    },
+    {
+      "slug": "insulin",
+      "name": "Insulin (human)",
+      "aliases": [
+        "Recombinant human insulin",
+        "rhInsulin",
+        "regular insulin",
+        "Humulin",
+        "Novolin"
+      ],
+      "categories": [
+        "metabolic",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 5808,
+      "molecular_formula": "C257H383N65O77S6",
+      "sequence": "A chain: GIVEQCCTSICSLYQLENYCN | B chain: FVNQHLCGSHLVEALYLVCGERGFFYTPKT",
+      "cas": "11061-68-0",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": true
+    },
+    {
+      "slug": "glucagon",
+      "name": "Glucagon",
+      "aliases": [
+        "GlucaGen",
+        "Baqsimi",
+        "Gvoke"
+      ],
+      "categories": [
+        "metabolic",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 3485,
+      "molecular_formula": "C153H225N43O49S",
+      "sequence": "HSQGTFTSDYSKYLDSRRAQDFVQWLMNT",
+      "cas": "16941-32-5",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": true
+    },
+    {
+      "slug": "bpc-157",
+      "name": "BPC-157",
+      "aliases": [
+        "Body Protective Compound 157",
+        "PL 14736"
+      ],
+      "categories": [
+        "healing-repair"
+      ],
+      "molecular_weight_da": 1419.5,
+      "molecular_formula": "C62H98N16O22",
+      "sequence": "GEPPPGKPADDAGLV",
+      "cas": null,
+      "pubchem_cid": 9941957,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "tb-500",
+      "name": "TB-500",
+      "aliases": [
+        "Thymosin Beta-4 fragment"
+      ],
+      "categories": [
+        "healing-repair"
+      ],
+      "molecular_weight_da": 889,
+      "molecular_formula": "C38H68N10O14",
+      "sequence": "LKKTETQ",
+      "cas": null,
+      "pubchem_cid": 62707662,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "N-terminal acetylation"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "b7-33",
+      "name": "B7-33",
+      "aliases": [
+        "Single-chain relaxin",
+        "relaxin B7-33"
+      ],
+      "categories": [
+        "healing-repair"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": "1818415-56-3",
+      "pubchem_cid": null,
+      "uniprot_id": "P04090",
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "ghk-cu",
+      "name": "GHK-Cu",
+      "aliases": [
+        "Copper Peptide",
+        "Tripeptide-1 Copper",
+        "Copper Tripeptide-1"
+      ],
+      "categories": [
+        "cosmetic",
+        "healing-repair"
+      ],
+      "molecular_weight_da": 401.9,
+      "molecular_formula": "C14H22CuN6O4",
+      "sequence": "GHK",
+      "cas": "49557-75-7",
+      "pubchem_cid": 139035031,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Copper complex"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "ahk-cu",
+      "name": "AHK-Cu",
+      "aliases": [
+        "Copper Tripeptide AHK",
+        "Ala-His-Lys Copper"
+      ],
+      "categories": [
+        "cosmetic"
+      ],
+      "molecular_weight_da": 415.9,
+      "molecular_formula": "C15H24CuN6O4",
+      "sequence": "AHK",
+      "cas": "682809-81-0",
+      "pubchem_cid": 168431292,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Copper complex"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "matrixyl",
+      "name": "Matrixyl (Palmitoyl Pentapeptide-4)",
+      "aliases": [
+        "Palmitoyl Pentapeptide-4",
+        "Pal-KTTKS",
+        "Matrixyl"
+      ],
+      "categories": [
+        "cosmetic"
+      ],
+      "molecular_weight_da": 802,
+      "molecular_formula": null,
+      "sequence": "KTTKS",
+      "cas": "214047-00-4",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Fatty-acid acylation"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": true
+    },
+    {
+      "slug": "argireline",
+      "name": "Argireline",
+      "aliases": [
+        "Acetyl Hexapeptide-8",
+        "Acetyl Hexapeptide-3",
+        "Ac-EEMQRR-NH2"
+      ],
+      "categories": [
+        "cosmetic"
+      ],
+      "molecular_weight_da": 887,
+      "molecular_formula": "C35H62N14O11S",
+      "sequence": "Ac-Glu-Glu-Met-Gln-Arg-Arg-NH2",
+      "cas": "616204-22-9",
+      "pubchem_cid": 71587772,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "N-terminal acetylation",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "snap-8",
+      "name": "SNAP-8",
+      "aliases": [
+        "Acetyl Octapeptide-3",
+        "Acetyl Octapeptide-1",
+        "Ac-EEMQRRAD-NH2"
+      ],
+      "categories": [
+        "cosmetic"
+      ],
+      "molecular_weight_da": 1075.2,
+      "molecular_formula": "C41H70N16O16S",
+      "sequence": "Ac-Glu-Glu-Met-Gln-Arg-Arg-Ala-Asp-NH2",
+      "cas": "868844-74-0",
+      "pubchem_cid": 76283482,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "N-terminal acetylation",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "epo",
+      "name": "EPO (Erythropoietin)",
+      "aliases": [
+        "Erythropoietin",
+        "Epoetin alfa",
+        "Epogen",
+        "Procrit",
+        "recombinant human erythropoietin",
+        "rhEPO"
+      ],
+      "categories": [
+        "healing-repair"
+      ],
+      "molecular_weight_da": 30400,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": "113427-24-0",
+      "pubchem_cid": null,
+      "uniprot_id": "P01588",
+      "fda_approved": true,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Glycosylated",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "ara-290",
+      "name": "ARA-290",
+      "aliases": [
+        "Cibinetide",
+        "pHBSP",
+        "Pyroglutamate helix B surface peptide"
+      ],
+      "categories": [
+        "healing-repair"
+      ],
+      "molecular_weight_da": 1257.3,
+      "molecular_formula": "C51H84N16O21",
+      "sequence": "pGlu-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser",
+      "cas": "1208243-50-8",
+      "pubchem_cid": 91810664,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "teriparatide",
+      "name": "Teriparatide (PTH 1-34)",
+      "aliases": [
+        "PTH(1-34)",
+        "Forteo",
+        "Bonsity",
+        "recombinant parathyroid hormone"
+      ],
+      "categories": [
+        "healing-repair",
+        "longevity",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 4117.8,
+      "molecular_formula": "C181H291N55O51S2",
+      "sequence": "SVSEIQLMHNLGKHLNSMERVEWLRKKLQDVHNF",
+      "cas": "52232-67-4",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Recombinant protein"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "somatropin",
+      "name": "Somatropin (rHGH)",
+      "aliases": [
+        "Recombinant human growth hormone",
+        "rhGH",
+        "191aa HGH",
+        "Human growth hormone",
+        "Genotropin",
+        "Humatrope",
+        "Norditropin",
+        "Nutropin",
+        "Saizen",
+        "Omnitrope",
+        "Serostim"
+      ],
+      "categories": [
+        "growth-hormone",
+        "longevity"
+      ],
+      "molecular_weight_da": 22124,
+      "molecular_formula": "C990H1528N262O300S7",
+      "sequence": "FPTIPLSRLFDNAMLRAHRLHQLAFDTYQEFEEAYIPKEQKYSFLQNPQTSLCFSESIPTPSNREETQQKSNLELLRISLLLIQSWLEPVQFLRSVFANSLVYGASDSNVYDLLKDLEEGIQTLMGRLEDGSPRTGQIFKQTYSKFDTNSHNDDALLKNYGLLYCFRKDMDKVETFLRIVQCRSVEGSCGF",
+      "cas": "12629-01-5",
+      "pubchem_cid": null,
+      "uniprot_id": "P01241",
+      "fda_approved": true,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "igf-1",
+      "name": "IGF-1 (Mecasermin)",
+      "aliases": [
+        "Insulin-like growth factor 1",
+        "Mecasermin",
+        "Increlex",
+        "Somatomedin C",
+        "rhIGF-1"
+      ],
+      "categories": [
+        "growth-hormone",
+        "longevity"
+      ],
+      "molecular_weight_da": 7649,
+      "molecular_formula": "C331H512N94O101S7",
+      "sequence": "GPETLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA",
+      "cas": "68562-41-4",
+      "pubchem_cid": null,
+      "uniprot_id": "P05019",
+      "fda_approved": true,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "aliases": [
+        "Long R3 IGF-1",
+        "LR3 IGF-1"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": "946870-92-4",
+      "pubchem_cid": null,
+      "uniprot_id": "P05019",
+      "fda_approved": false,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "igf-1-des",
+      "name": "IGF-1 DES",
+      "aliases": [
+        "DES(1-3)IGF-1",
+        "des-IGF-1",
+        "DES(1-3) IGF-1"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 7371.5,
+      "molecular_formula": null,
+      "sequence": "TLCGAELVDALQFVCGDRGFYFNKPTGYGSSSRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPAKSA",
+      "cas": "112603-35-7",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "mgf",
+      "name": "MGF (Mechano Growth Factor)",
+      "aliases": [
+        "Mechano Growth Factor",
+        "IGF-1Ec",
+        "IGF-1 Ec"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 2868.2,
+      "molecular_formula": null,
+      "sequence": "YQPPSTNKNTKSQRRKGSTFEERK",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": "P05019",
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "cjc-1295-no-dac",
+      "name": "CJC-1295 (no DAC)",
+      "aliases": [
+        "Modified GRF (1-29)",
+        "Mod GRF 1-29"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 3367.9,
+      "molecular_formula": "C152H252N44O42",
+      "sequence": "YADAIFTQSYRKVLAQLSARKLLQDILSR",
+      "cas": null,
+      "pubchem_cid": 56841945,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Unnatural residue",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "cjc-1295-with-dac",
+      "name": "CJC-1295 (with DAC)",
+      "aliases": [
+        "CJC-1295 DAC"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 3647.2,
+      "molecular_formula": "C165H269N47O46",
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": 91971820,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Unnatural residue",
+        "Albumin-binding linker",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "ipamorelin",
+      "name": "Ipamorelin",
+      "aliases": [],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 711.9,
+      "molecular_formula": "C38H49N9O5",
+      "sequence": "Aib-His-D-2-Nal-D-Phe-Lys-NH2",
+      "cas": "170851-70-4",
+      "pubchem_cid": 9831659,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Unnatural residue",
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "tesamorelin",
+      "name": "Tesamorelin",
+      "aliases": [
+        "Egrifta"
+      ],
+      "categories": [
+        "growth-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 5135.9,
+      "molecular_formula": "C221H366N72O67S",
+      "sequence": null,
+      "cas": "218949-48-5",
+      "pubchem_cid": 16137828,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Fatty-acid acylation"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "sermorelin",
+      "name": "Sermorelin",
+      "aliases": [
+        "GRF 1-29",
+        "Geref"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 3358,
+      "molecular_formula": "C149H246N44O42S",
+      "sequence": "YADAIFTNSYRKVLGQLSARKLLQDIMSR",
+      "cas": "86168-78-7",
+      "pubchem_cid": 16132413,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "hexarelin",
+      "name": "Hexarelin",
+      "aliases": [],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 887,
+      "molecular_formula": "C47H58N12O6",
+      "sequence": "His-D-2-MeTrp-Ala-Trp-D-Phe-Lys-NH2",
+      "cas": "140703-51-1",
+      "pubchem_cid": 6918297,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Unnatural residue",
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "ghrp-2",
+      "name": "GHRP-2",
+      "aliases": [
+        "Pralmorelin",
+        "KP-102",
+        "GPA-748"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 817.99,
+      "molecular_formula": "C45H55N9O6",
+      "sequence": "D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH2",
+      "cas": "158861-67-7",
+      "pubchem_cid": 6918245,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Unnatural residue",
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "ghrp-6",
+      "name": "GHRP-6",
+      "aliases": [
+        "Growth Hormone Releasing Peptide-6",
+        "Growth hormone-releasing hexapeptide",
+        "GHRP"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 873.04,
+      "molecular_formula": "C46H56N12O6",
+      "sequence": "His-D-Trp-Ala-Trp-D-Phe-Lys-NH2",
+      "cas": "87616-84-0",
+      "pubchem_cid": 4345065,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "mk-677",
+      "name": "MK-677",
+      "aliases": [
+        "Ibutamoren",
+        "Ibutamoren mesylate",
+        "MK-0677",
+        "L-163,191"
+      ],
+      "categories": [
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 528.67,
+      "molecular_formula": "C27H36N4O5S",
+      "sequence": null,
+      "cas": "159634-47-6",
+      "pubchem_cid": 178024,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Small molecule"
+      ],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "myostatin",
+      "name": "Myostatin (GDF-8)",
+      "aliases": [
+        "GDF-8",
+        "Growth differentiation factor 8",
+        "MSTN"
+      ],
+      "categories": [
+        "growth-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 12400,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": "O14793",
+      "fda_approved": false,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "follistatin",
+      "name": "Follistatin",
+      "aliases": [
+        "FST",
+        "FS-288",
+        "FS-315",
+        "follistatin-344"
+      ],
+      "categories": [
+        "growth-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 34000,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": "P19883",
+      "fda_approved": false,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Glycosylated"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "apitegromab",
+      "name": "Apitegromab",
+      "aliases": [
+        "SRK-015",
+        "SRK-439"
+      ],
+      "categories": [
+        "growth-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 150000,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Monoclonal antibody"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": true
+    },
+    {
+      "slug": "trevogrumab",
+      "name": "Trevogrumab",
+      "aliases": [
+        "REGN1033"
+      ],
+      "categories": [
+        "growth-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 150000,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Monoclonal antibody"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "emugrobart",
+      "name": "Emugrobart",
+      "aliases": [
+        "GYM-329",
+        "RG6237",
+        "RG-70240"
+      ],
+      "categories": [
+        "growth-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 150000,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Monoclonal antibody"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": true
+    },
+    {
+      "slug": "garetosmab",
+      "name": "Garetosmab",
+      "aliases": [
+        "REGN2477",
+        "Pasatru",
+        "garetosmab-grts"
+      ],
+      "categories": [
+        "growth-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 150000,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Monoclonal antibody"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "bimagrumab",
+      "name": "Bimagrumab",
+      "aliases": [
+        "BYM338"
+      ],
+      "categories": [
+        "growth-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 150000,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Monoclonal antibody"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": true
+    },
+    {
+      "slug": "mots-c",
+      "name": "MOTS-c",
+      "aliases": [],
+      "categories": [
+        "mitochondrial",
+        "longevity",
+        "metabolic"
+      ],
+      "molecular_weight_da": 2174.6,
+      "molecular_formula": "C101H152N28O22S2",
+      "sequence": "MRWQEMGYIFYPRKLR",
+      "cas": null,
+      "pubchem_cid": 146675088,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "humanin",
+      "name": "Humanin",
+      "aliases": [
+        "HN",
+        "MT-RNR2 peptide"
+      ],
+      "categories": [
+        "mitochondrial",
+        "longevity"
+      ],
+      "molecular_weight_da": 2687.2,
+      "molecular_formula": "C119H204N34O32S2",
+      "sequence": "MAPRGFSCLLLLTSEIDLPVKRRA",
+      "cas": "330936-69-1",
+      "pubchem_cid": 16131438,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "ss-31",
+      "name": "SS-31",
+      "aliases": [
+        "Elamipretide",
+        "Bendavia"
+      ],
+      "categories": [
+        "mitochondrial",
+        "longevity"
+      ],
+      "molecular_weight_da": 639.8,
+      "molecular_formula": "C32H49N9O5",
+      "sequence": "D-Arg-Dmt-Lys-Phe-NH2",
+      "cas": "736992-21-5",
+      "pubchem_cid": 11764719,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Unnatural residue",
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "epitalon",
+      "name": "Epitalon",
+      "aliases": [
+        "Epithalon",
+        "Epithalamin fragment"
+      ],
+      "categories": [
+        "longevity",
+        "bioregulator"
+      ],
+      "molecular_weight_da": 390.4,
+      "molecular_formula": "C14H22N4O9",
+      "sequence": "AEDG",
+      "cas": "307297-39-8",
+      "pubchem_cid": 219042,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "endoluten",
+      "name": "Endoluten",
+      "aliases": [
+        "A-3 pineal peptide",
+        "pineal peptide complex"
+      ],
+      "categories": [
+        "longevity",
+        "bioregulator"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "foxo4-dri",
+      "name": "FOXO4-DRI",
+      "aliases": [
+        "Proxofim",
+        "FOXO4 D-Retro-Inverso peptide"
+      ],
+      "categories": [
+        "longevity"
+      ],
+      "molecular_weight_da": 5358.2,
+      "molecular_formula": "C228H388N86O64",
+      "sequence": null,
+      "cas": "2460055-10-9",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "D-amino acid"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "thymalin",
+      "name": "Thymalin",
+      "aliases": [
+        "Thymulin (distinct)",
+        "Thymus polypeptide fraction"
+      ],
+      "categories": [
+        "immune",
+        "bioregulator"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": "86402-19-7",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "thymogen",
+      "name": "Thymogen",
+      "aliases": [
+        "Glutamyl-Tryptophan",
+        "Glu-Trp dipeptide",
+        "Bestim"
+      ],
+      "categories": [
+        "immune",
+        "bioregulator"
+      ],
+      "molecular_weight_da": 333.34,
+      "molecular_formula": "C16H19N3O5",
+      "sequence": "Glu-Trp",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "vilon",
+      "name": "Vilon",
+      "aliases": [
+        "Lys-Glu",
+        "KE dipeptide"
+      ],
+      "categories": [
+        "immune",
+        "bioregulator",
+        "longevity"
+      ],
+      "molecular_weight_da": 275.3,
+      "molecular_formula": null,
+      "sequence": "KE",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "vesugen",
+      "name": "Vesugen",
+      "aliases": [
+        "Lys-Glu-Asp",
+        "KED tripeptide"
+      ],
+      "categories": [
+        "bioregulator",
+        "longevity"
+      ],
+      "molecular_weight_da": 390.4,
+      "molecular_formula": null,
+      "sequence": "KED",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "pinealon",
+      "name": "Pinealon",
+      "aliases": [
+        "Glu-Asp-Arg",
+        "EDR tripeptide"
+      ],
+      "categories": [
+        "cognitive",
+        "bioregulator"
+      ],
+      "molecular_weight_da": 418.4,
+      "molecular_formula": null,
+      "sequence": "EDR",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "bronchogen",
+      "name": "Bronchogen",
+      "aliases": [
+        "Ala-Asp-Glu-Leu",
+        "ADEL tetrapeptide"
+      ],
+      "categories": [
+        "immune",
+        "bioregulator"
+      ],
+      "molecular_weight_da": 446.5,
+      "molecular_formula": null,
+      "sequence": "ADEL",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "cardiogen",
+      "name": "Cardiogen",
+      "aliases": [
+        "Ala-Glu-Asp-Arg",
+        "AEDR tetrapeptide"
+      ],
+      "categories": [
+        "bioregulator",
+        "healing-repair"
+      ],
+      "molecular_weight_da": 489.5,
+      "molecular_formula": null,
+      "sequence": "AEDR",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "pancragen",
+      "name": "Pancragen",
+      "aliases": [
+        "Lys-Glu-Asp-Trp",
+        "KEDW tetrapeptide",
+        "Pancragen"
+      ],
+      "categories": [
+        "bioregulator",
+        "metabolic"
+      ],
+      "molecular_weight_da": 576.6,
+      "molecular_formula": null,
+      "sequence": "KEDW",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "testagen",
+      "name": "Testagen",
+      "aliases": [
+        "Lys-Glu-Asp-Gly",
+        "KEDG tetrapeptide"
+      ],
+      "categories": [
+        "reproductive",
+        "bioregulator"
+      ],
+      "molecular_weight_da": 447.4,
+      "molecular_formula": "C17H29N5O9",
+      "sequence": "KEDG",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "prostamax",
+      "name": "Prostamax",
+      "aliases": [
+        "Lys-Glu-Asp-Pro",
+        "KEDP tetrapeptide"
+      ],
+      "categories": [
+        "reproductive",
+        "bioregulator"
+      ],
+      "molecular_weight_da": 487.5,
+      "molecular_formula": "C20H33N5O9",
+      "sequence": "KEDP",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "vladonix",
+      "name": "Vladonix",
+      "aliases": [
+        "A-6 thymus peptide",
+        "thymus peptide complex"
+      ],
+      "categories": [
+        "immune",
+        "bioregulator"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "ventfort",
+      "name": "Ventfort",
+      "aliases": [
+        "A-3 vessel peptide",
+        "vascular peptide complex"
+      ],
+      "categories": [
+        "bioregulator"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "chelohart",
+      "name": "Chelohart",
+      "aliases": [
+        "A-14 heart peptide",
+        "cardiac peptide complex"
+      ],
+      "categories": [
+        "bioregulator"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "cerluten",
+      "name": "Cerluten",
+      "aliases": [
+        "A-1 brain peptide",
+        "neuronal peptide complex"
+      ],
+      "categories": [
+        "cognitive",
+        "bioregulator"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "suprefort",
+      "name": "Suprefort",
+      "aliases": [
+        "A-7 pancreas peptide",
+        "pancreatic peptide complex"
+      ],
+      "categories": [
+        "bioregulator",
+        "metabolic"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "taxorest",
+      "name": "Taxorest",
+      "aliases": [
+        "A-17 bronchi peptide",
+        "respiratory peptide complex"
+      ],
+      "categories": [
+        "immune",
+        "bioregulator"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "testoluten",
+      "name": "Testoluten",
+      "aliases": [
+        "A-12 testis peptide",
+        "testicular peptide complex"
+      ],
+      "categories": [
+        "reproductive",
+        "bioregulator"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "sigumir",
+      "name": "Sigumir",
+      "aliases": [
+        "A-4 cartilage peptide",
+        "cartilage / bone peptide complex"
+      ],
+      "categories": [
+        "bioregulator",
+        "healing-repair"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "gotratix",
+      "name": "Gotratix",
+      "aliases": [
+        "A-11 muscle peptide",
+        "skeletal-muscle peptide complex"
+      ],
+      "categories": [
+        "bioregulator",
+        "healing-repair"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "svetinorm",
+      "name": "Svetinorm",
+      "aliases": [
+        "A-2 liver peptide",
+        "hepatic peptide complex"
+      ],
+      "categories": [
+        "bioregulator",
+        "longevity"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "visoluten",
+      "name": "Visoluten",
+      "aliases": [
+        "A-5 retina peptide",
+        "retinal peptide complex"
+      ],
+      "categories": [
+        "bioregulator",
+        "longevity"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "semax",
+      "name": "Semax",
+      "aliases": [],
+      "categories": [
+        "cognitive"
+      ],
+      "molecular_weight_da": 813.9,
+      "molecular_formula": "C37H51N9O10S",
+      "sequence": "MEHFPGP",
+      "cas": "80714-61-0",
+      "pubchem_cid": 9811102,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "selank",
+      "name": "Selank",
+      "aliases": [],
+      "categories": [
+        "cognitive"
+      ],
+      "molecular_weight_da": 751.9,
+      "molecular_formula": "C33H57N11O9",
+      "sequence": "TKPRPGP",
+      "cas": "129954-34-3",
+      "pubchem_cid": 11765600,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "dsip",
+      "name": "DSIP",
+      "aliases": [
+        "Delta Sleep-Inducing Peptide"
+      ],
+      "categories": [
+        "cognitive"
+      ],
+      "molecular_weight_da": 848.8,
+      "molecular_formula": "C35H48N10O15",
+      "sequence": "WAGGDASGE",
+      "cas": "62568-57-4",
+      "pubchem_cid": 68816,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "cerebrolysin",
+      "name": "Cerebrolysin",
+      "aliases": [
+        "FPF-1070",
+        "porcine brain-derived peptide preparation"
+      ],
+      "categories": [
+        "cognitive"
+      ],
+      "molecular_weight_da": null,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Tissue extract"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "dihexa",
+      "name": "Dihexa",
+      "aliases": [
+        "PNB-0408",
+        "N-hexanoic-Tyr-Ile-(6) aminohexanoic amide"
+      ],
+      "categories": [
+        "cognitive"
+      ],
+      "molecular_weight_da": 504.7,
+      "molecular_formula": "C27H44N4O5",
+      "sequence": null,
+      "cas": "1401708-83-5",
+      "pubchem_cid": 129010512,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Unnatural residue"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "melanotan-2",
+      "name": "Melanotan II",
+      "aliases": [
+        "MT-2",
+        "MT-II"
+      ],
+      "categories": [
+        "cosmetic",
+        "reproductive"
+      ],
+      "molecular_weight_da": 1024.2,
+      "molecular_formula": "C50H69N15O9",
+      "sequence": null,
+      "cas": "121062-08-6",
+      "pubchem_cid": 92432,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Cyclic / lactam",
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "melanotan-1",
+      "name": "Afamelanotide",
+      "aliases": [
+        "Melanotan I",
+        "Melanotan-1",
+        "MT-I",
+        "MT-1",
+        "CUV1647",
+        "Scenesse"
+      ],
+      "categories": [
+        "cosmetic"
+      ],
+      "molecular_weight_da": 1646.8,
+      "molecular_formula": "C78H111N21O19",
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": 16197727,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Unnatural residue",
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "pt-141",
+      "name": "PT-141",
+      "aliases": [
+        "Bremelanotide",
+        "Vyleesi"
+      ],
+      "categories": [
+        "reproductive"
+      ],
+      "molecular_weight_da": 1025.2,
+      "molecular_formula": "C50H68N14O10",
+      "sequence": null,
+      "cas": "189691-06-3",
+      "pubchem_cid": 9941379,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Cyclic / lactam",
+        "D-amino acid"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "kisspeptin-10",
+      "name": "Kisspeptin-10",
+      "aliases": [],
+      "categories": [
+        "reproductive"
+      ],
+      "molecular_weight_da": 1302.4,
+      "molecular_formula": "C63H83N17O14",
+      "sequence": "YNWNSFGLRF-NH2",
+      "cas": null,
+      "pubchem_cid": 25240297,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "gonadorelin",
+      "name": "Gonadorelin",
+      "aliases": [
+        "GnRH",
+        "LHRH",
+        "Gonadoliberin",
+        "Luteinizing hormone-releasing hormone",
+        "Factrel",
+        "Lutrepulse"
+      ],
+      "categories": [
+        "reproductive",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 1182.29,
+      "molecular_formula": "C55H75N17O13",
+      "sequence": "pGlu-His-Trp-Ser-Tyr-Gly-Leu-Arg-Pro-Gly-NH2",
+      "cas": "33515-09-2",
+      "pubchem_cid": 638793,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "leuprolide",
+      "name": "Leuprolide",
+      "aliases": [
+        "Leuprorelin",
+        "Lupron",
+        "Eligard",
+        "Leuprolide acetate"
+      ],
+      "categories": [
+        "reproductive",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 1209.4,
+      "molecular_formula": "C59H84N16O12",
+      "sequence": "pGlu-His-Trp-Ser-Tyr-D-Leu-Leu-Arg-Pro-NHEt",
+      "cas": "53714-56-0",
+      "pubchem_cid": 657181,
+      "uniprot_id": "P01148",
+      "fda_approved": true,
+      "synthetic_features": [
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "triptorelin",
+      "name": "Triptorelin",
+      "aliases": [
+        "Trelstar",
+        "Decapeptyl",
+        "Triptorelin pamoate"
+      ],
+      "categories": [
+        "reproductive",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 1311.4,
+      "molecular_formula": "C64H82N18O13",
+      "sequence": "pGlu-His-Trp-Ser-Tyr-D-Trp-Leu-Arg-Pro-Gly-NH2",
+      "cas": "57773-63-4",
+      "pubchem_cid": 25074470,
+      "uniprot_id": "P01148",
+      "fda_approved": true,
+      "synthetic_features": [
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "hcg",
+      "name": "HCG",
+      "aliases": [
+        "Human chorionic gonadotropin",
+        "Choriogonadotropin alfa",
+        "Ovidrel",
+        "Pregnyl",
+        "Novarel"
+      ],
+      "categories": [
+        "reproductive"
+      ],
+      "molecular_weight_da": 36700,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": "9002-61-3",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Glycosylated",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "oxytocin",
+      "name": "Oxytocin",
+      "aliases": [
+        "Pitocin",
+        "Syntocinon",
+        "the love hormone"
+      ],
+      "categories": [
+        "reproductive",
+        "cognitive",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 1007.19,
+      "molecular_formula": "C43H66N12O12S2",
+      "sequence": "CYIQNCPLG-NH2",
+      "cas": "50-56-6",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Disulfide bridge",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "fsh",
+      "name": "FSH (Follitropin)",
+      "aliases": [
+        "Follicle-stimulating hormone",
+        "Follitropin alfa",
+        "Gonal-f",
+        "Follistim",
+        "Puregon"
+      ],
+      "categories": [
+        "reproductive"
+      ],
+      "molecular_weight_da": 30000,
+      "molecular_formula": null,
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": "P01225",
+      "fda_approved": true,
+      "synthetic_features": [
+        "Recombinant protein",
+        "Glycosylated",
+        "Multiple disulfides"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "thymosin-alpha-1",
+      "name": "Thymosin Alpha-1",
+      "aliases": [
+        "T\u03b11",
+        "Thymalfasin",
+        "Zadaxin"
+      ],
+      "categories": [
+        "immune"
+      ],
+      "molecular_weight_da": 3108.3,
+      "molecular_formula": "C129H215N33O55",
+      "sequence": "SDAAVDTSSEITTKDLKEKKEVVEEAEN",
+      "cas": "62304-98-7",
+      "pubchem_cid": 16130571,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "N-terminal acetylation"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "ll-37",
+      "name": "LL-37",
+      "aliases": [
+        "Cathelicidin",
+        "hCAP-18 fragment"
+      ],
+      "categories": [
+        "immune",
+        "healing-repair"
+      ],
+      "molecular_weight_da": 4493.3,
+      "molecular_formula": "C205H340N60O53",
+      "sequence": null,
+      "cas": "154947-66-7",
+      "pubchem_cid": 16198951,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "kpv",
+      "name": "KPV",
+      "aliases": [],
+      "categories": [
+        "immune",
+        "healing-repair"
+      ],
+      "molecular_weight_da": 342.4,
+      "molecular_formula": "C16H30N4O4",
+      "sequence": "KPV",
+      "cas": null,
+      "pubchem_cid": 125672,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "hgh-fragment-176-191",
+      "name": "HGH Fragment 176-191",
+      "aliases": [
+        "HGH Frag 176-191",
+        "hGH 176-191",
+        "Somatropin fragment 176-191"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 1799.1,
+      "molecular_formula": "C78H123N23O22S2",
+      "sequence": "FLRIVQCRSVEGSCGF",
+      "cas": "66004-57-7",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Disulfide bridge"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "aod-9604",
+      "name": "AOD-9604",
+      "aliases": [],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 1815.1,
+      "molecular_formula": "C78H123N23O23S2",
+      "sequence": null,
+      "cas": null,
+      "pubchem_cid": 71300630,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Disulfide bridge"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "adipotide",
+      "name": "Adipotide",
+      "aliases": [
+        "FTPP",
+        "Prohibitin-targeting peptide-1",
+        "CKGGRAKDC-GG-D(KLAKLAK)2"
+      ],
+      "categories": [
+        "metabolic"
+      ],
+      "molecular_weight_da": 2557.2,
+      "molecular_formula": "C111H206N36O28S2",
+      "sequence": "CKGGRAKDC-GG-D(KLAKLAK)2",
+      "cas": "859216-15-2",
+      "pubchem_cid": 163360068,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Disulfide bridge",
+        "D-amino acid",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "5-amino-1mq",
+      "name": "5-Amino-1MQ",
+      "aliases": [],
+      "categories": [
+        "metabolic",
+        "longevity"
+      ],
+      "molecular_weight_da": 159.21,
+      "molecular_formula": "C10H11N2+",
+      "sequence": null,
+      "cas": "209783-80-2",
+      "pubchem_cid": 950107,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Small molecule"
+      ],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "nad-plus",
+      "name": "NAD+",
+      "aliases": [
+        "Nicotinamide Adenine Dinucleotide"
+      ],
+      "categories": [
+        "mitochondrial",
+        "longevity"
+      ],
+      "molecular_weight_da": 663.4,
+      "molecular_formula": "C21H27N7O14P2",
+      "sequence": null,
+      "cas": "53-84-9",
+      "pubchem_cid": 5893,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Small molecule"
+      ],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "glutathione",
+      "name": "Glutathione",
+      "aliases": [
+        "GSH",
+        "\u03b3-Glu-Cys-Gly",
+        "reduced glutathione"
+      ],
+      "categories": [
+        "mitochondrial",
+        "longevity"
+      ],
+      "molecular_weight_da": 307.32,
+      "molecular_formula": "C10H17N3O6S",
+      "sequence": "\u03b3-Glu-Cys-Gly",
+      "cas": "70-18-8",
+      "pubchem_cid": 124886,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "standard",
+      "unlisted": false
+    },
+    {
+      "slug": "vasopressin",
+      "name": "Vasopressin",
+      "aliases": [
+        "Arginine vasopressin",
+        "AVP",
+        "Antidiuretic hormone",
+        "ADH",
+        "Vasostrict",
+        "Desmopressin (analog)"
+      ],
+      "categories": [
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 1084.2,
+      "molecular_formula": null,
+      "sequence": "CYFQNCPRG (1\u20136 disulfide, C-terminal amide)",
+      "cas": "113-79-1",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Disulfide bridge",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "somatostatin",
+      "name": "Somatostatin",
+      "aliases": [
+        "SST",
+        "Somatotropin release-inhibiting factor",
+        "SRIF",
+        "GHIH",
+        "Octreotide (analog)",
+        "Sandostatin"
+      ],
+      "categories": [
+        "peptide-hormone",
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 1637.9,
+      "molecular_formula": null,
+      "sequence": "AGCKNFFWKTFTSC (3\u201314 disulfide)",
+      "cas": "38916-34-6",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Disulfide bridge"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "calcitonin",
+      "name": "Calcitonin (salmon)",
+      "aliases": [
+        "Salmon calcitonin",
+        "Miacalcin",
+        "Fortical",
+        "sCT"
+      ],
+      "categories": [
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 3431.9,
+      "molecular_formula": null,
+      "sequence": "CSNLSTCVLGKLSQELHKLQTYPRTNTGSGTP (1\u20137 disulfide, C-terminal amide; salmon)",
+      "cas": "47931-85-1",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [
+        "Disulfide bridge",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "amylin",
+      "name": "Amylin",
+      "aliases": [
+        "IAPP",
+        "Islet amyloid polypeptide",
+        "Pramlintide (analog)",
+        "Symlin"
+      ],
+      "categories": [
+        "peptide-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 3903.3,
+      "molecular_formula": null,
+      "sequence": "KCNTATCATQRLANFLVHSSNNFGAILSSTNVGSNTY (2\u20137 disulfide, C-terminal amide; human)",
+      "cas": "122384-88-7",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Disulfide bridge",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "pramlintide",
+      "name": "Pramlintide",
+      "aliases": [
+        "Symlin",
+        "AC-137",
+        "Tripro-amylin",
+        "Amylin analog"
+      ],
+      "categories": [
+        "metabolic",
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 3949.4,
+      "molecular_formula": "C171H267N51O53S2",
+      "sequence": "KCNTATCATQRLANFLVHSSNNFGPILPPTNVGSNTY (2\u20137 disulfide, C-terminal amide)",
+      "cas": "151126-32-8",
+      "pubchem_cid": 70691388,
+      "uniprot_id": "P10997",
+      "fda_approved": true,
+      "synthetic_features": [
+        "Disulfide bridge",
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "acth",
+      "name": "ACTH (Corticotropin)",
+      "aliases": [
+        "Adrenocorticotropic hormone",
+        "Corticotropin",
+        "Acthar",
+        "Cosyntropin (1\u201324 analog)",
+        "Tetracosactide"
+      ],
+      "categories": [
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 4541.1,
+      "molecular_formula": null,
+      "sequence": "SYSMEHFRWGKPVGKKRRPVKVYPNGAEDESAEAFPLEF (human 1\u201339)",
+      "cas": "9002-60-2",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": true,
+      "synthetic_features": [],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "secretin",
+      "name": "Secretin",
+      "aliases": [
+        "ChiRhoStim",
+        "human secretin"
+      ],
+      "categories": [
+        "peptide-hormone"
+      ],
+      "molecular_weight_da": 3039.4,
+      "molecular_formula": null,
+      "sequence": "HSDGTFTSELSRLREGARLQRLLQGLV (C-terminal amide; human)",
+      "cas": null,
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    },
+    {
+      "slug": "vip",
+      "name": "VIP (Vasoactive Intestinal Peptide)",
+      "aliases": [
+        "Vasoactive Intestinal Peptide",
+        "Aviptadil",
+        "VIP"
+      ],
+      "categories": [
+        "peptide-hormone",
+        "immune"
+      ],
+      "molecular_weight_da": 3326.8,
+      "molecular_formula": "C147H237N43O43S",
+      "sequence": "HSDAVFTDNYTRLRKQMAVKKYLNSILN-NH2",
+      "cas": "37221-79-7",
+      "pubchem_cid": 53314964,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "C-terminal amide"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "ghrelin",
+      "name": "Ghrelin",
+      "aliases": [
+        "Lenomorelin",
+        "the hunger hormone",
+        "acyl-ghrelin"
+      ],
+      "categories": [
+        "peptide-hormone",
+        "growth-hormone"
+      ],
+      "molecular_weight_da": 3370.9,
+      "molecular_formula": null,
+      "sequence": "GSSFLSPEHQRVQQRKESKKPPAKLQPR (Ser3 O-octanoylated; human)",
+      "cas": "304853-26-7",
+      "pubchem_cid": null,
+      "uniprot_id": null,
+      "fda_approved": false,
+      "synthetic_features": [
+        "Fatty-acid acylation"
+      ],
+      "synthesis_difficulty": "demanding",
+      "unlisted": false
+    },
+    {
+      "slug": "apelin",
+      "name": "Apelin",
+      "aliases": [
+        "Apelin-13",
+        "[Pyr1]apelin-13",
+        "APJ ligand"
+      ],
+      "categories": [
+        "peptide-hormone",
+        "metabolic"
+      ],
+      "molecular_weight_da": 1550.8,
+      "molecular_formula": "C69H111N23O16S",
+      "sequence": "QRPRLSHKGPMPF (apelin-13; N-terminal Gln cyclizes to pyroglutamate in [Pyr1]apelin-13)",
+      "cas": "217082-58-1",
+      "pubchem_cid": 25078060,
+      "uniprot_id": "Q9ULZ1",
+      "fda_approved": false,
+      "synthetic_features": [],
+      "synthesis_difficulty": "moderate",
+      "unlisted": false
+    }
+  ],
+  "citation": "American Peptide Project. Compound identity table. Version 2026-11-18. https://americanpeptide.org/data/compounds.json",
+  "retrieved": "2026-11-18"
+}

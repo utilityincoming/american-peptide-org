@@ -1,0 +1,275 @@
+[
+  {
+    "id": "compounds",
+    "title": "Compound identity table",
+    "snapshot": "2026-11-18",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "rowCount": 111,
+    "rowKey": "compounds",
+    "files": {
+      "json": {
+        "url": "/data/2026-11-18/compounds.json",
+        "sha256": "83a4e7352155980130676107fa087baa119bd48604e2d1847a6baf86b7668af7"
+      },
+      "csv": {
+        "url": "/data/2026-11-18/compounds.csv",
+        "sha256": "46e8f3df903c5d2b3ebcfe9ea033ae4eca40b1152461b4de56a8f9add3f22db3"
+      },
+      "parquet": {
+        "url": "/data/2026-11-18/compounds.parquet",
+        "sha256": "b1e911ee2a1da77224a8f632a9175eede60e629bf4025e4d1f55a2958daab799"
+      }
+    },
+    "rowSchema": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "type": "object",
+      "required": [
+        "slug",
+        "name",
+        "aliases",
+        "categories",
+        "molecular_weight_da",
+        "molecular_formula",
+        "sequence",
+        "cas",
+        "pubchem_cid",
+        "uniprot_id",
+        "fda_approved",
+        "synthetic_features",
+        "synthesis_difficulty",
+        "unlisted"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "description": "Stable catalog identifier"
+        },
+        "name": {
+          "type": "string",
+          "description": "Catalog display name"
+        },
+        "aliases": {
+          "type": "array",
+          "description": "Alternate names",
+          "items": {
+            "type": "string"
+          }
+        },
+        "categories": {
+          "type": "array",
+          "description": "Catalog category identifiers",
+          "items": {
+            "type": "string"
+          }
+        },
+        "molecular_weight_da": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Molecular weight in daltons"
+        },
+        "molecular_formula": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Published molecular formula"
+        },
+        "sequence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Published sequence"
+        },
+        "cas": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "CAS registry identifier"
+        },
+        "pubchem_cid": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "PubChem compound identifier"
+        },
+        "uniprot_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "UniProt accession"
+        },
+        "fda_approved": {
+          "type": "boolean",
+          "description": "Catalog FDA approval flag"
+        },
+        "synthetic_features": {
+          "type": "array",
+          "description": "Catalog synthesis feature labels",
+          "items": {
+            "type": "string"
+          }
+        },
+        "synthesis_difficulty": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Catalog synthesis difficulty label"
+        },
+        "unlisted": {
+          "type": "boolean",
+          "description": "Catalog visibility flag"
+        }
+      }
+    }
+  },
+  {
+    "id": "pk-half-lives",
+    "title": "Half-life inputs",
+    "snapshot": "2026-11-18",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "rowCount": 44,
+    "rowKey": "records",
+    "files": {
+      "json": {
+        "url": "/data/2026-11-18/pk-half-lives.json",
+        "sha256": "db0b9a135c767ea36068ee6456273aa7ee77b73b1a3450eda705e213b520d61f"
+      },
+      "csv": {
+        "url": "/data/2026-11-18/pk-half-lives.csv",
+        "sha256": "59ce08aed8dc669bc6f8e7b4192fddddf97b9fb698dd3e17e665e2a2d457d19c"
+      },
+      "parquet": {
+        "url": "/data/2026-11-18/pk-half-lives.parquet",
+        "sha256": "4b7feb82f39f5eb9ec5419535e8b9686a4b59239b480330b0d47f9e600703a6a"
+      }
+    },
+    "rowSchema": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "type": "object",
+      "required": [
+        "slug",
+        "label",
+        "half_life_hours_low",
+        "half_life_hours_high",
+        "source_note",
+        "classes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "description": "Stable catalog identifier"
+        },
+        "label": {
+          "type": "string",
+          "description": "Display label"
+        },
+        "half_life_hours_low": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Lower half-life estimate in hours"
+        },
+        "half_life_hours_high": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Upper half-life estimate in hours"
+        },
+        "source_note": {
+          "type": "string",
+          "description": "Source and context note"
+        },
+        "classes": {
+          "type": "array",
+          "description": "Calculator class identifiers",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "trials-index",
+    "title": "ClinicalTrials.gov snapshot",
+    "snapshot": "2026-11-18",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "rowCount": 25,
+    "rowKey": "studies",
+    "files": {
+      "json": {
+        "url": "/data/2026-11-18/trials-index.json",
+        "sha256": "ca1f63efdcd80fc9bf87621610c200bc2b438268d1bb45ef4c8a00d08c0e0059"
+      },
+      "csv": {
+        "url": "/data/2026-11-18/trials-index.csv",
+        "sha256": "12adad3bc83760d37e82edc1b2d3a7e1919143d817f34d7b2b2e4454dc7c914a"
+      },
+      "parquet": {
+        "url": "/data/2026-11-18/trials-index.parquet",
+        "sha256": "26e9a56296d8c7ed3205549276df72da4393fe488df1a4abd19173988dcb35bb"
+      }
+    },
+    "rowSchema": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "type": "object",
+      "required": [
+        "query",
+        "nct_id",
+        "title",
+        "status",
+        "phases",
+        "sponsor",
+        "enrollment"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search term used to retrieve the study"
+        },
+        "nct_id": {
+          "type": "string",
+          "description": "ClinicalTrials.gov study identifier"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title in the upstream record"
+        },
+        "status": {
+          "type": "string",
+          "description": "Status at snapshot retrieval"
+        },
+        "phases": {
+          "type": "array",
+          "description": "Study phase codes",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sponsor": {
+          "type": "string",
+          "description": "Sponsor name"
+        },
+        "enrollment": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Enrollment count"
+        }
+      }
+    }
+  }
+]

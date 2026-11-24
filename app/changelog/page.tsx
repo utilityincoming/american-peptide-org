@@ -1,3 +1,4 @@
+import { releases, releasePath } from "@/lib/releases";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -16,6 +17,18 @@ export default function ChangelogPage() {
         Spec versions are frozen at their URLs. This log is append-only. Corrections to a published spec are also
         recorded under <Link href="/errata">errata</Link> and do not rewrite the old page.
       </p>
+      <h2>Evidence Tier Schema releases</h2>
+      <p><Link href="/standards/evidence-tier/compare">Compare released versions</Link></p>
+      <div className="release-covers">{releases.map((release) => <figure key={release.version} id={release.notes}>
+        <Link href={releasePath(release.version)}><img src={`/illustrations/release-${release.version}.webp`} alt="" /></Link>
+        <figcaption><Link href={releasePath(release.version)}>Evidence Tier Schema {release.version}</Link>
+          {" · "}<time dateTime={release.date}>{release.date}</time>
+          <ul>{Object.entries(release.terms).map(([name, term]) => <li key={name}>
+            <Link href={`${releasePath(release.version)}#${term.anchor}`}><code>{name}</code></Link> · {term.status}
+          </li>)}</ul>
+        </figcaption>
+      </figure>)}</div>
+      <p className="meta"><a href="/illustrations/LICENSE.md">Release art · CC BY 4.0 / MIT</a></p>
       <h2 id="versioning">Versioning policy</h2>
       <p>
         Versions follow <code>MAJOR.MINOR.PATCH</code>. The rule is about what a citation can rely on, not about how

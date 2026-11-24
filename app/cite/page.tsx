@@ -1,3 +1,4 @@
+import { citation, citations, citationFile } from "@/lib/citations";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -8,11 +9,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/cite" },
 };
 
-const SPEC = `American Peptide Project. Evidence Tier Schema, version 0.1.1. 18 November 2026. https://americanpeptide.org/standards/evidence-tier/v0.1`;
+const SPEC = `American Peptide Project. Evidence Tier Schema, version 0.1.1. 18 November 2026. https://americanpeptide.org/standards/evidence-tier/0.1.1`;
 
 const METHODS = `American Peptide Project. Calculator methods: reconstitution, blend draws, and single-compartment pharmacokinetics. 18 November 2026. https://americanpeptide.org/methods`;
 
-const DATA = `American Peptide Project. Compound identity table. Version 2026-11-18. https://americanpeptide.org/data/compounds.json`;
+const DATA = `American Peptide Project. Compound identity table. Version 2026-11-18. https://americanpeptide.org/data/2026-11-18/compounds.json`;
 
 export default function CitePage() {
   return (
@@ -28,7 +29,7 @@ export default function CitePage() {
       <div className="cite">
         <p>{SPEC}</p>
         <p className="meta">
-          <a href="/cite/evidence-tier-0.1.1.bib">BibTeX</a>
+          <a href={citationFile(citation("/standards/evidence-tier/0.1.1")!.key, "bib")} download>BibTeX</a>
           {" · "}
           <Link href="/standards/evidence-tier/v0.1">Spec</Link>
           {" · "}
@@ -64,17 +65,23 @@ export default function CitePage() {
       <div className="cite">
         <p>{DATA}</p>
         <p className="meta">
-          <a href="/cite/datasets-2026-11-18.bib">BibTeX for the three tables</a>
+          <Link href="/data#compounds">Dataset citations and metadata</Link>
           {" · "}
           <Link href="/data">All exports</Link>
         </p>
       </div>
       <p>
         Name the file you used. Half-life inputs are{" "}
-        <a href="/data/pk-half-lives.json">pk-half-lives.json</a>. The trials index is{" "}
-        <a href="/data/trials-index.json">trials-index.json</a>, a reduced ClinicalTrials.gov extract that goes stale.
+        <a href="/data/2026-11-18/pk-half-lives.json">pk-half-lives.json</a>. The trials index is{" "}
+        <a href="/data/2026-11-18/trials-index.json">trials-index.json</a>, a reduced ClinicalTrials.gov extract that goes stale.
         PubChem and ClinicalTrials.gov remain the upstream records.
       </p>
+      <h2>Page citations</h2>
+      <ul>{citations.map((record) => <li key={record.key} id={record.key}>
+        <p>{record.text}</p>
+        <p className="meta"><a href={citationFile(record.key, "bib")} download>BibTeX</a>{" · "}
+          <a href={citationFile(record.key, "json")}>DataCite metadata</a></p>
+      </li>)}</ul>
     </article>
   );
 }
