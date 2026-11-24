@@ -22,7 +22,9 @@ export default function CitePage() {
       <h1>How to cite this record</h1>
       <p>
         Cite the URL that names the version you used. The v0.1 path is the line. A patch path is for a sentence that
-        must name 0.1.1 or the archived 0.1.0 text. Dataset files are dated snapshots, not a living table.
+        must name 0.1.1 or the archived 0.1.0 text. Dataset files are dated snapshots. General page citations point to the page source at a specific
+        public Git commit. DataCite metadata also links to the rendered page, where interactive views retain their
+        schema selections.
       </p>
 
       <h2>Evidence Tier Schema</h2>

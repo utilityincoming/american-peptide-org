@@ -30,10 +30,11 @@ PyArrow. The date comes from the original JSON exports. Commit the dated files
 and manifest together, and retain older snapshot directories. Dated CSVs encode
 list values as JSON arrays. The existing undated URLs stay available.
 
-The citation downloads are generated during the Next.js export. On Vercel,
-general page citations use the specific deployment URL and record its Git
-revision. Exact schema citations use the public patch URLs. Keep the production
-deployment accessible for readers following its citations.
+The citation downloads are generated during the Next.js export. Exact schema
+and dataset citations use their public patch or snapshot URLs. General page
+citations use public Git commit permalinks, and the DataCite metadata also
+includes the live rendered URL. Vercel supplies the build commit. Local builds
+use their checked-out commit when the working tree is clean.
 
 ## Artwork
 
