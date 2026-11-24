@@ -34,3 +34,12 @@ The citation downloads are generated during the Next.js export. On Vercel,
 general page citations use the specific deployment URL and record its Git
 revision. Exact schema citations use the public patch URLs. Keep the production
 deployment accessible for readers following its citations.
+
+## Artwork
+
+Run `npm run assets` to regenerate the illustrations from the current palette
+and the SVG geometry. Generate one release with
+`npm run assets -- 0.2 brass`, supplying an existing CSS color token as the
+second argument. Commit its new assets and both manifest copies with the
+release. See [the illustration style guide](assets/STYLE.md) and
+[asset manifest](assets/manifest.json).

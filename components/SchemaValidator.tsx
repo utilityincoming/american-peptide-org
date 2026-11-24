@@ -1,5 +1,7 @@
 "use client";
 
+import { AssetPicture } from "./AssetPicture";
+
 import { useEffect, useRef, useState } from "react";
 import type { ErrorObject, ValidateFunction } from "ajv";
 import { citation, citationFile } from "@/lib/citations";
@@ -113,10 +115,15 @@ export default function SchemaValidator() {
       }} /></label>
     </div>
     <label htmlFor="claim-json">Paste a JSON record or drop a JSON file here.</label>
-    <textarea id="claim-json" rows={14} value={input} spellCheck={false}
-      onChange={(event) => { reset(); setInput(event.target.value); }}
-      onDragOver={(event) => { if (event.dataTransfer.types.includes("Files")) event.preventDefault(); }}
-      onDrop={(event) => { if (event.dataTransfer.files.length) { event.preventDefault(); void read(event.dataTransfer.files[0]); } }} />
+    <div className="validator-input">
+      <textarea id="claim-json" rows={14} value={input} spellCheck={false}
+        onChange={(event) => { reset(); setInput(event.target.value); }}
+        onDragOver={(event) => { if (event.dataTransfer.types.includes("Files")) event.preventDefault(); }}
+        onDrop={(event) => { if (event.dataTransfer.files.length) { event.preventDefault(); void read(event.dataTransfer.files[0]); } }} />
+      {!input.trim() && <div className="validator-empty">
+        <AssetPicture name="empty-record" width={200} height={148} alt="" />
+      </div>}
+    </div>
     <p><a href={citationFile(record.key, "bib")} download>Cite schema selection (BibTeX)</a>{" · "}<a href={citationFile(record.key, "json")}>DataCite metadata</a></p>
     <button type="submit" disabled={!input.trim()}>Validate JSON</button>
     <p role="status">{message}</p>

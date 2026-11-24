@@ -224,3 +224,21 @@ main button:disabled { opacity: .55; cursor: default; }
 .method-art figcaption, .release-covers figcaption { margin-top: .35rem; }
 @media (max-width: 36rem) { .pipeline { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .diff-table tr[id] { scroll-margin-top: 6rem; }
+
+.section-art { width: min(100%, 48rem); margin-block: 1.25rem; }
+.section-art img, .schema-flow img, .pipeline img, .method-art img, .release-covers img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.schema-flow { display: block; margin: 1.4rem 0; }
+.release-covers figcaption { overflow-wrap: anywhere; }
+.erratum-heading { display: flex; align-items: center; gap: .8rem; }
+.erratum-heading img { display: block; width: 6rem; height: auto; }
+.erratum-heading h2 { margin-block: 0; scroll-margin-top: 6rem; }
+.validator-empty img { display: block; width: 6rem; height: auto; }
+@media (max-width: 40rem) {
+  .schema-flow { width: min(100%, 20rem); margin-inline: auto; }
+}
+.validator-input { position: relative; }
+.validator-empty { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; opacity: .55; }

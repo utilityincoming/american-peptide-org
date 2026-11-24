@@ -1,0 +1,805 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceRevision": "archival-plates-v1",
+  "palette": {
+    "paper": "#f4efe4",
+    "ink": "#1a2744",
+    "muted": "#5a6270",
+    "line": "#d4cbb8",
+    "navy": "#1b3a5f",
+    "navy-deep": "#101e36",
+    "crimson": "#8e2f34",
+    "brass": "#8a6840"
+  },
+  "files": {
+    "empty-record.png": {
+      "page": "/standards/evidence-tier/validate",
+      "release": null,
+      "width": 200,
+      "height": 148,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "empty-record.webp": {
+      "page": "/standards/evidence-tier/validate",
+      "release": null,
+      "width": 200,
+      "height": 148,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "empty-record@2x.png": {
+      "page": "/standards/evidence-tier/validate",
+      "release": null,
+      "width": 400,
+      "height": 296,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "empty-record@2x.webp": {
+      "page": "/standards/evidence-tier/validate",
+      "release": null,
+      "width": 400,
+      "height": 296,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "erratum-marker.png": {
+      "page": "/errata#e-001",
+      "release": "0.1.1",
+      "width": 220,
+      "height": 148,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "erratum-marker.webp": {
+      "page": "/errata#e-001",
+      "release": "0.1.1",
+      "width": 220,
+      "height": 148,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "erratum-marker@2x.png": {
+      "page": "/errata#e-001",
+      "release": "0.1.1",
+      "width": 440,
+      "height": 296,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "erratum-marker@2x.webp": {
+      "page": "/errata#e-001",
+      "release": "0.1.1",
+      "width": 440,
+      "height": 296,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-data.png": {
+      "page": "/data",
+      "release": "2026-11-18",
+      "width": 1200,
+      "height": 630,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-data.webp": {
+      "page": "/data",
+      "release": "2026-11-18",
+      "width": 1200,
+      "height": 630,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-data@2x.png": {
+      "page": "/data",
+      "release": "2026-11-18",
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-data@2x.webp": {
+      "page": "/data",
+      "release": "2026-11-18",
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-evidence.png": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 1200,
+      "height": 630,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-evidence.webp": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 1200,
+      "height": 630,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-evidence@2x.png": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-evidence@2x.webp": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-methods.png": {
+      "page": "/methods",
+      "release": null,
+      "width": 1200,
+      "height": 630,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-methods.webp": {
+      "page": "/methods",
+      "release": null,
+      "width": 1200,
+      "height": 630,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-methods@2x.png": {
+      "page": "/methods",
+      "release": null,
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "hero-methods@2x.webp": {
+      "page": "/methods",
+      "release": null,
+      "width": 2400,
+      "height": 1260,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "icon-180.png": {
+      "page": "*",
+      "release": null,
+      "width": 180,
+      "height": 180,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "icon-32.png": {
+      "page": "*",
+      "release": null,
+      "width": 32,
+      "height": 32,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "icon-512.png": {
+      "page": "*",
+      "release": null,
+      "width": 512,
+      "height": 512,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-blend-screen.png": {
+      "page": [
+        "/methods",
+        "/methods/blend-screen"
+      ],
+      "release": null,
+      "width": 480,
+      "height": 220,
+      "alt": "Two schematic profiles overlap a shaded screening window, illustrating a comparison of blend properties.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-blend-screen.webp": {
+      "page": [
+        "/methods",
+        "/methods/blend-screen"
+      ],
+      "release": null,
+      "width": 480,
+      "height": 220,
+      "alt": "Two schematic profiles overlap a shaded screening window, illustrating a comparison of blend properties.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-blend-screen@2x.png": {
+      "page": [
+        "/methods",
+        "/methods/blend-screen"
+      ],
+      "release": null,
+      "width": 960,
+      "height": 440,
+      "alt": "Two schematic profiles overlap a shaded screening window, illustrating a comparison of blend properties.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-blend-screen@2x.webp": {
+      "page": [
+        "/methods",
+        "/methods/blend-screen"
+      ],
+      "release": null,
+      "width": 960,
+      "height": 440,
+      "alt": "Two schematic profiles overlap a shaded screening window, illustrating a comparison of blend properties.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-blend.png": {
+      "page": [
+        "/methods",
+        "/methods/blend"
+      ],
+      "release": null,
+      "width": 480,
+      "height": 220,
+      "alt": "Two sample paths converge and feed a single graduated chamber, illustrating a shared draw.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-blend.webp": {
+      "page": [
+        "/methods",
+        "/methods/blend"
+      ],
+      "release": null,
+      "width": 480,
+      "height": 220,
+      "alt": "Two sample paths converge and feed a single graduated chamber, illustrating a shared draw.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-blend@2x.png": {
+      "page": [
+        "/methods",
+        "/methods/blend"
+      ],
+      "release": null,
+      "width": 960,
+      "height": 440,
+      "alt": "Two sample paths converge and feed a single graduated chamber, illustrating a shared draw.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-blend@2x.webp": {
+      "page": [
+        "/methods",
+        "/methods/blend"
+      ],
+      "release": null,
+      "width": 960,
+      "height": 440,
+      "alt": "Two sample paths converge and feed a single graduated chamber, illustrating a shared draw.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-pharmacokinetics.png": {
+      "page": [
+        "/methods",
+        "/methods/pharmacokinetics"
+      ],
+      "release": null,
+      "width": 480,
+      "height": 220,
+      "alt": "A single compartment points to an unnumbered plot with a falling curve that flattens over time.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-pharmacokinetics.webp": {
+      "page": [
+        "/methods",
+        "/methods/pharmacokinetics"
+      ],
+      "release": null,
+      "width": 480,
+      "height": 220,
+      "alt": "A single compartment points to an unnumbered plot with a falling curve that flattens over time.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-pharmacokinetics@2x.png": {
+      "page": [
+        "/methods",
+        "/methods/pharmacokinetics"
+      ],
+      "release": null,
+      "width": 960,
+      "height": 440,
+      "alt": "A single compartment points to an unnumbered plot with a falling curve that flattens over time.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-pharmacokinetics@2x.webp": {
+      "page": [
+        "/methods",
+        "/methods/pharmacokinetics"
+      ],
+      "release": null,
+      "width": 960,
+      "height": 440,
+      "alt": "A single compartment points to an unnumbered plot with a falling curve that flattens over time.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-reconstitution.png": {
+      "page": [
+        "/methods",
+        "/methods/reconstitution"
+      ],
+      "release": null,
+      "width": 480,
+      "height": 220,
+      "alt": "A graduated vessel connects to a separate measurement chamber, illustrating concentration and volume.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-reconstitution.webp": {
+      "page": [
+        "/methods",
+        "/methods/reconstitution"
+      ],
+      "release": null,
+      "width": 480,
+      "height": 220,
+      "alt": "A graduated vessel connects to a separate measurement chamber, illustrating concentration and volume.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-reconstitution@2x.png": {
+      "page": [
+        "/methods",
+        "/methods/reconstitution"
+      ],
+      "release": null,
+      "width": 960,
+      "height": 440,
+      "alt": "A graduated vessel connects to a separate measurement chamber, illustrating concentration and volume.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "method-reconstitution@2x.webp": {
+      "page": [
+        "/methods",
+        "/methods/reconstitution"
+      ],
+      "release": null,
+      "width": 960,
+      "height": 440,
+      "alt": "A graduated vessel connects to a separate measurement chamber, illustrating concentration and volume.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "og-data.png": {
+      "page": "/data",
+      "release": "2026-11-18",
+      "width": 1200,
+      "height": 630,
+      "alt": "Dataset exports. Public methods and standards.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "og-data.svg": {
+      "page": "/data",
+      "release": "2026-11-18",
+      "width": 1200,
+      "height": 630,
+      "alt": "Dataset exports. Public methods and standards.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "og-evidence.png": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 1200,
+      "height": 630,
+      "alt": "Evidence Tier Schema. Public methods and standards.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "og-evidence.svg": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 1200,
+      "height": 630,
+      "alt": "Evidence Tier Schema. Public methods and standards.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "og-methods.png": {
+      "page": "/methods",
+      "release": null,
+      "width": 1200,
+      "height": 630,
+      "alt": "Calculator methods. Public methods and standards.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "og-methods.svg": {
+      "page": "/methods",
+      "release": null,
+      "width": 1200,
+      "height": 630,
+      "alt": "Calculator methods. Public methods and standards.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "og-release-0.1.0.png": {
+      "page": [
+        "/changelog#evidence-tier-0.1.0",
+        "/standards/evidence-tier/0.1.0"
+      ],
+      "release": "0.1.0",
+      "width": 1200,
+      "height": 630,
+      "alt": "Evidence Tier Schema. Release 0.1.0.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "muted"
+    },
+    "og-release-0.1.0.svg": {
+      "page": [
+        "/changelog#evidence-tier-0.1.0",
+        "/standards/evidence-tier/0.1.0"
+      ],
+      "release": "0.1.0",
+      "width": 1200,
+      "height": 630,
+      "alt": "Evidence Tier Schema. Release 0.1.0.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "muted"
+    },
+    "og-release-0.1.1.png": {
+      "page": [
+        "/changelog#evidence-tier-0.1.1",
+        "/standards/evidence-tier/0.1.1"
+      ],
+      "release": "0.1.1",
+      "width": 1200,
+      "height": 630,
+      "alt": "Evidence Tier Schema. Release 0.1.1.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "navy"
+    },
+    "og-release-0.1.1.svg": {
+      "page": [
+        "/changelog#evidence-tier-0.1.1",
+        "/standards/evidence-tier/0.1.1"
+      ],
+      "release": "0.1.1",
+      "width": 1200,
+      "height": 630,
+      "alt": "Evidence Tier Schema. Release 0.1.1.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "navy"
+    },
+    "og-site.png": {
+      "page": "*",
+      "release": null,
+      "width": 1200,
+      "height": 630,
+      "alt": "American Peptide. Public methods and citable standards.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "og-site.svg": {
+      "page": "*",
+      "release": null,
+      "width": 1200,
+      "height": 630,
+      "alt": "American Peptide. Public methods and citable standards.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "release-0.1.0.png": {
+      "page": [
+        "/changelog#evidence-tier-0.1.0",
+        "/standards/evidence-tier/0.1.0"
+      ],
+      "release": "0.1.0",
+      "width": 250,
+      "height": 120,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "muted"
+    },
+    "release-0.1.0.webp": {
+      "page": [
+        "/changelog#evidence-tier-0.1.0",
+        "/standards/evidence-tier/0.1.0"
+      ],
+      "release": "0.1.0",
+      "width": 250,
+      "height": 120,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "muted"
+    },
+    "release-0.1.0@2x.png": {
+      "page": [
+        "/changelog#evidence-tier-0.1.0",
+        "/standards/evidence-tier/0.1.0"
+      ],
+      "release": "0.1.0",
+      "width": 500,
+      "height": 240,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "muted"
+    },
+    "release-0.1.0@2x.webp": {
+      "page": [
+        "/changelog#evidence-tier-0.1.0",
+        "/standards/evidence-tier/0.1.0"
+      ],
+      "release": "0.1.0",
+      "width": 500,
+      "height": 240,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "muted"
+    },
+    "release-0.1.1.png": {
+      "page": [
+        "/changelog#evidence-tier-0.1.1",
+        "/standards/evidence-tier/0.1.1"
+      ],
+      "release": "0.1.1",
+      "width": 250,
+      "height": 120,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "navy"
+    },
+    "release-0.1.1.webp": {
+      "page": [
+        "/changelog#evidence-tier-0.1.1",
+        "/standards/evidence-tier/0.1.1"
+      ],
+      "release": "0.1.1",
+      "width": 250,
+      "height": 120,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "navy"
+    },
+    "release-0.1.1@2x.png": {
+      "page": [
+        "/changelog#evidence-tier-0.1.1",
+        "/standards/evidence-tier/0.1.1"
+      ],
+      "release": "0.1.1",
+      "width": 500,
+      "height": 240,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "navy"
+    },
+    "release-0.1.1@2x.webp": {
+      "page": [
+        "/changelog#evidence-tier-0.1.1",
+        "/standards/evidence-tier/0.1.1"
+      ],
+      "release": "0.1.1",
+      "width": 500,
+      "height": 240,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "accent": "navy"
+    },
+    "schema-flow-stacked.svg": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 320,
+      "height": 570,
+      "alt": "Four connected stages show the evidence pipeline in order: claim, source, tier, and citation.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "schema-flow-stacked@2x.png": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 640,
+      "height": 1140,
+      "alt": "Four connected stages show the evidence pipeline in order: claim, source, tier, and citation.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "schema-flow.svg": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 960,
+      "height": 210,
+      "alt": "Four connected stages show the evidence pipeline in order: claim, source, tier, and citation.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "schema-flow@2x.png": {
+      "page": "/standards/evidence-tier",
+      "release": "0.1.1",
+      "width": 1920,
+      "height": 420,
+      "alt": "Four connected stages show the evidence pipeline in order: claim, source, tier, and citation.",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  }
+}
