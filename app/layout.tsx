@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
-import { COM, HOME_DESCRIPTION, HOME_TITLE, NAV, SITE, SITE_NAME } from "@/lib/site";
+import { HOME_DESCRIPTION, HOME_TITLE, NAV, SITE, SITE_NAME } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
 
 const sans = Source_Sans_3({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
@@ -50,25 +50,33 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <footer className="footer">
             <div className="wrap">
               <div className="footer-groups">
-                <div>
-                  <strong>American Peptide</strong>
+                <div className="footer-identity">
+                  <Link href="/" className="footer-wordmark">{SITE_NAME}</Link>
                   <p>Open standards, methods, and research data.</p>
                 </div>
-                <nav aria-label="Project">
-                  <strong>Project</strong>
+                <nav aria-label="Publications">
+                  <h2>Publications</h2>
                   <ul>
+                    {NAV.filter(({ href }) => href !== "/about").map(({ href, label }) => (
+                      <li key={href}><Link href={href}>{label}</Link></li>
+                    ))}
+                  </ul>
+                </nav>
+                <nav aria-label="Project">
+                  <h2>Project</h2>
+                  <ul>
+                    <li><Link href="/about">About</Link></li>
                     <li><Link href="/changelog">Changelog</Link></li>
                     <li><Link href="/errata">Errata</Link></li>
-                    <li><Link href="/cite">How to cite</Link></li>
+                    <li><Link href="/cite">Citation guide</Link></li>
                     <li><Link href="/about#licensing">Licensing</Link></li>
                   </ul>
                 </nav>
-                <div>
-                  <strong>Related property</strong>
-                  <p><a href={COM}>AmericanPeptide.com — Interactive tools</a></p>
-                </div>
               </div>
-              <PageCitation />
+              <div className="footer-meta">
+                <p>© 2026 AmericanPeptide.Org</p>
+                <PageCitation />
+              </div>
             </div>
           </footer>
         </div>
