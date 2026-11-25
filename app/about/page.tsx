@@ -53,7 +53,7 @@ export default function AboutPage() {
       </p>
       <h2 id="licensing">Licensing and reuse</h2>
       <p>
-        The specification, schemas, datasets, and <Link href="/assets/LICENSE.md">artwork</Link> are available under{" "}
+        The specification, schemas, datasets, and <a href="/assets/LICENSE.md">artwork</a> are available under{" "}
         <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The{" "}
         <Link href="/open-source">calculator modules</Link> are available under the MIT License.
       </p>
