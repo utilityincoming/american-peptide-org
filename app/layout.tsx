@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
-import { HOME_DESCRIPTION, HOME_TITLE, NAV, PROJECT_NAME, SITE, SITE_NAME } from "@/lib/site";
+import { HOME_DESCRIPTION, HOME_TITLE, NAV, SITE, SITE_NAME } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
 
 const sans = Source_Sans_3({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
@@ -74,7 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </nav>
               </div>
               <div className="footer-meta">
-                <p>© 2026 {PROJECT_NAME}</p>
+                <p>© 2026 AmericanPeptide.Org</p>
                 <PageCitation />
               </div>
             </div>
