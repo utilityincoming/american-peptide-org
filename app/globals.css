@@ -135,7 +135,9 @@ th { background: #e7eef5; color: var(--navy-deep); font-weight: 650; }
   color: var(--muted);
   font-size: 0.88rem;
 }
-.footer .wrap { display: flex; flex-wrap: wrap; gap: 0.6rem 1.4rem; justify-content: space-between; }
+.footer-groups { display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: space-between; }
+.footer-groups p { margin: 0.4rem 0; }
+.footer-groups ul { list-style: none; padding: 0; margin: 0.4rem 0; }
 
 dl.defs { display: grid; gap: 0.8rem; }
 dl.defs div { background: white; border: 1px solid var(--line); border-radius: 0.7rem; padding: 0.8rem 1rem; }

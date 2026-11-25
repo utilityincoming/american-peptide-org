@@ -2,7 +2,7 @@
   "name": "american-peptide-org",
   "version": "0.1.0",
   "private": true,
-  "description": "Methods and standards home for American Peptide. Evidence tier schema, calculator methodology, and open dataset exports.",
+  "description": "Public standards, scientific methods, reference implementations, and open datasets from the American Peptide Project.",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

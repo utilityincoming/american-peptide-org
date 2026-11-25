@@ -18,7 +18,7 @@ export default function Page() {
       <h1>Reconstitution</h1>
       <MethodIllustration id="reconstitution" />
       <p className="meta">
-        Tool: <a href={`${COM}/tools/reconstitution-calculator`}>{COM}/tools/reconstitution-calculator</a>
+        <a href={`${COM}/tools/reconstitution-calculator`}>Open the interactive reconstitution calculator on AmericanPeptide.com</a>
         {" · "}
         Module: <code>packages/calculators/reconstitution.ts</code>
       </p>

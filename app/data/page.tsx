@@ -3,18 +3,45 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { citation, citationFile } from "@/lib/citations";
 import { DATASET_SNAPSHOT } from "@/lib/releases";
+import { publisher, SITE, SITE_NAME, website } from "@/lib/site";
 import datasets from "@/public/data/2026-11-18/manifest.json";
 
 export const metadata: Metadata = {
   title: "Open data",
   description: "Versioned CC BY 4.0 exports with checksums and field schemas.",
-  openGraph: { images: [{ url: "/assets/og-data.png", width: 1200, height: 630, alt: "Dataset exports. Public methods and standards." }] },
+  openGraph: { type: "website", siteName: SITE_NAME, url: "/data", images: [{ url: "/assets/og-data.png", width: 1200, height: 630, alt: "Dataset exports. Public methods and standards." }] },
   twitter: { card: "summary_large_image", images: ["/assets/og-data.png"] },
   alternates: { canonical: "/data" },
 };
 
 export default function DataPage() {
+  const formats: Record<string, string> = {
+    json: "application/json",
+    csv: "text/csv",
+    parquet: "application/vnd.apache.parquet",
+  };
+  const ld = {
+    "@context": "https://schema.org",
+    "@graph": datasets.map((dataset) => ({
+      "@type": "Dataset",
+      "@id": `${SITE}${dataset.files.json.url}#dataset`,
+      url: `${SITE}/data#${dataset.id}`,
+      name: dataset.title,
+      description: `${dataset.title}, a versioned export with ${dataset.rowCount} rows and a published field schema.`,
+      version: dataset.snapshot,
+      license: dataset.license,
+      creator: publisher,
+      isPartOf: website,
+      distribution: Object.entries(dataset.files).map(([format, file]) => ({
+        "@type": "DataDownload",
+        encodingFormat: formats[format],
+        contentUrl: `${SITE}${file.url}`,
+      })),
+    })),
+  };
+
   return <article className="prose">
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
     <p className="kicker">Data · CC BY 4.0</p>
     <h1>Dataset exports</h1>
       <SectionHero name="data" />

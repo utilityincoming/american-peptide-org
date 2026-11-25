@@ -1,3 +1,4 @@
+import { SITE_NAME } from "@/lib/site";
 import { SectionHero, SchemaFlow } from "@/components/AssetPicture";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -5,7 +6,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Evidence Tier Schema",
   description: "Version index for the American Peptide Evidence Tier Schema.",
-  openGraph: { images: [{ url: "/assets/og-evidence.png", width: 1200, height: 630, alt: "Evidence Tier Schema. Public methods and standards." }] },
+  openGraph: { type: "website", siteName: SITE_NAME, url: "/standards/evidence-tier", images: [{ url: "/assets/og-evidence.png", width: 1200, height: 630, alt: "Evidence Tier Schema. Public methods and standards." }] },
   twitter: { card: "summary_large_image", images: ["/assets/og-evidence.png"] },
   alternates: { canonical: "/standards/evidence-tier" },
 };
@@ -16,8 +17,7 @@ export default function StandardsIndex() {
       <p className="kicker">Standard</p>
       <h1 className="page-title">Evidence Tier Schema</h1>
       <p className="lede">
-        Claim-level provenance for peptide reference data, and the grading the catalog on americanpeptide.com applies
-        to every figure it shows. A tier says where a number came from. It does not say how confident the prose
+        A claim-level provenance standard for peptide reference data. A tier says where a number came from. It does not say how confident the prose
         sounds, and it is not a study-design ladder.
       </p>
       <SectionHero name="evidence" />

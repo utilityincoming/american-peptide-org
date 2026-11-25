@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
-import { NAV, SITE } from "@/lib/site";
+import { COM, HOME_DESCRIPTION, HOME_TITLE, NAV, SITE, SITE_NAME } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
 
 const sans = Source_Sans_3({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
@@ -11,9 +11,8 @@ const serif = Source_Serif_4({ subsets: ["latin"], variable: "--font-serif", dis
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
-  title: { default: "American Peptide · public methods", template: "%s · American Peptide" },
-  description:
-    "Public methods and citable standards for American Peptide. The evidence-tier schema, calculator methodology, and open dataset exports.",
+  title: { default: HOME_TITLE, template: "%s · American Peptide" },
+  description: HOME_DESCRIPTION,
   alternates: { canonical: "/" },
   icons: {
     icon: [
@@ -22,20 +21,8 @@ export const metadata: Metadata = {
     ],
     apple: [{ url: "/assets/icon-180.png", sizes: "180x180", type: "image/png" }],
   },
-  openGraph: {
-    type: "website",
-    siteName: "American Peptide · public methods",
-    url: SITE,
-    title: "American Peptide · public methods",
-    description:
-      "Public methods and citable standards for American Peptide. The evidence-tier schema, calculator methodology, and open dataset exports.",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "American Peptide · public methods",
-    description:
-      "Public methods and citable standards for American Peptide. The evidence-tier schema, calculator methodology, and open dataset exports.",
-  },
+  openGraph: { type: "website", siteName: SITE_NAME },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -47,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="top">
             <Link href="/" className="brand">
               <strong>American Peptide</strong>
-              <span>public methods</span>
+              <span>standards &amp; methods</span>
             </Link>
             <nav className="nav" aria-label="Primary">
               {NAV.map((item) => (
@@ -62,14 +49,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </main>
           <footer className="footer">
             <div className="wrap">
+              <div className="footer-groups">
+                <div>
+                  <strong>American Peptide</strong>
+                  <p>Open standards, methods, and research data.</p>
+                </div>
+                <nav aria-label="Project">
+                  <strong>Project</strong>
+                  <ul>
+                    <li><Link href="/changelog">Changelog</Link></li>
+                    <li><Link href="/errata">Errata</Link></li>
+                    <li><Link href="/cite">How to cite</Link></li>
+                    <li><Link href="/about#licensing">Licensing</Link></li>
+                  </ul>
+                </nav>
+                <div>
+                  <strong>Related property</strong>
+                  <p><a href={COM}>AmericanPeptide.com — Interactive tools</a></p>
+                </div>
+              </div>
               <PageCitation />
-              <p>
-                Public methods and research reference. Companion site: <a href="https://americanpeptide.com">americanpeptide.com</a>.
-              </p>
-              <p>
-                    Specifications and datasets: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
-                    Calculator modules: <a href="/open-source">MIT</a>. Artwork: <a href="/assets/LICENSE.md">CC BY 4.0</a>. <a href="/cite">How to cite</a>.
-              </p>
             </div>
           </footer>
         </div>

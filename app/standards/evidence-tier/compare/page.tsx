@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import SchemaDiff from "@/components/SchemaDiff";
 import { releases, releasePath } from "@/lib/releases";
 
-export const metadata = { title: "Compare Evidence Tier Schema releases", alternates: { canonical: "/standards/evidence-tier/compare" } };
+export const metadata = { title: "Compare Evidence Tier Schema releases", description: "Compare published Evidence Tier Schema versions and see the fields and rules that changed.", alternates: { canonical: "/standards/evidence-tier/compare" } };
 
 export default async function ComparePage() {
   const schemas = Object.fromEntries(await Promise.all(releases.map(async ({ version }) => [
