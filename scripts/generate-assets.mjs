@@ -152,7 +152,7 @@ if (!release) {
     await raster(`icon-${size}`, svg(size, size, group(0, 0, size / 32, icon), undefined, undefined, true),
       size, size, "*", { formats: ["png"], densities: [1] });
   }
-  await social("og-site", "American Peptide", "Public methods and citable standards", tier, "*");
+  await social("og-site", "American Peptide", "Standards, methods and research data", tier, "*");
   for (const version of (await readFile(new URL("../lib/releases.ts", import.meta.url), "utf8")).matchAll(/version: "([0-9.]+)"/g)) {
     const previousAccent = previous.files[`release-${version[1]}.png`]?.accent;
     await releaseAssets(version[1], previousAccent && palette[previousAccent] ? previousAccent :

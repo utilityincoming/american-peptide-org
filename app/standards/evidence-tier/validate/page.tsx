@@ -1,6 +1,6 @@
 import SchemaValidator from "@/components/SchemaValidator";
 
-export const metadata = { title: "Validate an Evidence Tier claim", alternates: { canonical: "/standards/evidence-tier/validate" } };
+export const metadata = { title: "Validate an Evidence Tier claim", description: "Check an example or your own claim against a published Evidence Tier JSON Schema.", alternates: { canonical: "/standards/evidence-tier/validate" } };
 
 export default function ValidatePage() {
   return <article className="prose">

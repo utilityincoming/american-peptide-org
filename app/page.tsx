@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HOME_DESCRIPTION, publisher, website } from "@/lib/site";
 
 const CARDS = [
   {
@@ -30,25 +31,20 @@ const CARDS = [
 export default function HomePage() {
   const ld = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "American Peptide public methods",
-    url: "https://americanpeptide.org/",
-    description:
-      "Companion site to americanpeptide.com. Publishes the evidence tier schema, calculator methodology, and open data.",
-    publisher: { "@type": "Organization", name: "American Peptide Project", url: "https://americanpeptide.org/" },
+    ...website,
+    description: HOME_DESCRIPTION,
+    publisher,
   };
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <section className="hero">
-        <p className="kicker">Companion to americanpeptide.com</p>
+        <p className="kicker">The American Peptide Project</p>
         <h1>Standards you can cite.</h1>
-        <p className="lede">
-          americanpeptide.com runs the catalog, the agent, and the bench calculators. This site is the record those
-          tools follow: the evidence-tier schema, the math behind each calculator, and the tables under an open
-          license.
-        </p>
+        <p className="lede">Open standards, transparent scientific methodology, and citable research data for peptide science.</p>
+        <p>Explore the evidence framework, mathematical foundations, reference implementations, and versioned datasets that underpin the American Peptide Project.</p>
+        <p><Link href="/cite">How to cite a publication</Link> · <Link href="/open-source">Implement the specifications</Link></p>
       </section>
       <div className="grid">
         {CARDS.map((card) => (

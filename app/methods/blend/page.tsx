@@ -18,7 +18,7 @@ export default function Page() {
       <h1>Blend draws</h1>
       <MethodIllustration id="blend" />
       <p className="meta">
-        Tool: <a href={`${COM}/tools/blend-calculator`}>{COM}/tools/blend-calculator</a>
+        <a href={`${COM}/tools/blend-calculator`}>Open the interactive blend calculator on AmericanPeptide.com</a>
         {" · "}
         Module: <code>packages/calculators/blend.ts</code>
       </p>

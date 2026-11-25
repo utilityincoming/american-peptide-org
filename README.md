@@ -1,6 +1,6 @@
-# American Peptide · public methods
+# American Peptide · open standards, methods, and research data
 
-Companion site to [americanpeptide.com](https://americanpeptide.com). The .com runs the catalog and the calculators. This repository publishes how those numbers are made.
+This repository builds the public standards, methodology, and data publication of the American Peptide Project. See [About the project](https://americanpeptide.org/about) for the scope, licensing, and relationship to the interactive tools.
 
 | URL | Contents |
 | --- | --- |

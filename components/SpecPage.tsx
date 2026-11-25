@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { headingSlug, Markdown } from "@/lib/markdown";
-import { SITE } from "@/lib/site";
+import { publisher, SITE, website } from "@/lib/site";
 
 export function SpecPage({
   file,
@@ -30,7 +30,10 @@ export function SpecPage({
     url: `${SITE}${canonical}`,
     isAccessibleForFree: true,
     license: "https://creativecommons.org/licenses/by/4.0/",
-    author: { "@type": "Organization", name: "American Peptide Project", url: SITE },
+    author: publisher,
+    publisher: { "@id": publisher["@id"] },
+    isPartOf: website,
+    "@id": `${SITE}${canonical}#article`,
     citation: `American Peptide Project. Evidence Tier Schema, version ${version}. 18 November 2026. ${SITE}${canonical}`,
   };
   return (
