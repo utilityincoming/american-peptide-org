@@ -42,9 +42,16 @@ export default function HomePage() {
       <section className="hero">
         <p className="kicker">The American Peptide Project</p>
         <h1>Standards you can cite.</h1>
-        <p className="lede">Open standards, transparent scientific methodology, and citable research data for peptide science.</p>
-        <p>Explore the evidence framework, mathematical foundations, reference implementations, and versioned datasets that underpin the American Peptide Project.</p>
-        <p><Link href="/cite">How to cite a publication</Link> · <Link href="/open-source">Implement the specifications</Link></p>
+        <p className="lede">
+          American Peptide is an American peptide company building open research infrastructure. We publish
+          evidence standards, scientific methods, and versioned datasets at no cost, with open-source code
+          you can inspect and reuse.
+        </p>
+        <p>
+          <Link href="/standards/evidence-tier">Read the evidence standard</Link>
+          {" · "}
+          <Link href="/open-source">Explore the open-source code</Link>
+        </p>
       </section>
       <div className="grid">
         {CARDS.map((card) => (
