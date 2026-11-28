@@ -76,3 +76,21 @@
     --visual-amber: #f2ca8b;
   }
 }
+
+.releaseLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.releaseCitations {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0.85rem 0 0;
+}
+
+.releaseCitations dt { font-weight: 650; }
+.releaseCitations dd { margin: 0; }
