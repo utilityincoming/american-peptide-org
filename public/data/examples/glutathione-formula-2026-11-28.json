@@ -1,0 +1,18 @@
+{
+  "id": "pubchem-124886-formula-2026-11-28",
+  "field": "molecular_formula",
+  "value": "C10H17N3O6S",
+  "tier": "reference",
+  "freshness": "current",
+  "estimate_kind": "identity",
+  "scope_note": "This formula describes the compound registered as PubChem CID 124886. It does not identify or characterize a physical sample.",
+  "provenance": {
+    "source_type": "registry",
+    "source_name": "PubChem",
+    "source_id": "124886",
+    "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/124886",
+    "method": "PubChem PUG REST MolecularFormula property lookup by CID.",
+    "retrieved_at": "2026-11-28T05:44:11Z",
+    "schema_version": "0.1.1"
+  }
+}

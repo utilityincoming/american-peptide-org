@@ -1,10 +1,11 @@
+import { ClaimSourceTrace } from "@/components/ClaimSourceTrace";
 import { WorkedExample } from "@/components/WorkedExample";
 import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Example claims",
-  description: "Two Evidence Tier Schema 0.1.1 claims: a vendor price and a rodent half-life, with the freshness window each one uses.",
+  description: "Trace a public PubChem record to an Evidence Tier claim, then compare two illustrative examples of freshness and scope.",
   alternates: { canonical: "/standards/evidence-tier/examples" },
 };
 
@@ -14,10 +15,12 @@ export default function ExamplesPage() {
       <p className="kicker">Schema 0.1.1</p>
       <h1>Example claims</h1>
       <p>
-        These are not catalog rows. They are the smallest records that satisfy{" "}
-        <a href="/standards/evidence-tier/0.1.1/schema.json">schema 0.1.1</a>, written so the two axes and erratum{" "}
-        <Link href="/errata#e-001">E-001</Link> can be checked against a file.
+        See how a registry value becomes a claim under{" "}
+        <a href="/standards/evidence-tier/0.1.1/schema.json">schema 0.1.1</a>.
+        The illustrative fixtures below show how freshness and scope rules work.
       </p>
+
+      <ClaimSourceTrace />
 
       <h2>Vendor price</h2>
       <p>

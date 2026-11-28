@@ -94,3 +94,12 @@
 
 .releaseCitations dt { font-weight: 650; }
 .releaseCitations dd { margin: 0; }
+
+.traceFields {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0.75rem 0 0;
+}
+
+.traceFields dt { font-weight: 650; }
+.traceFields dd { margin: 0; }
