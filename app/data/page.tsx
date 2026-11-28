@@ -1,3 +1,4 @@
+import { compoundHistoryPath } from "@/lib/compound-history";
 import { ReleasePanel } from "@/components/ReleasePanel";
 import visualStyles from "@/components/PublicationVisuals.module.css";
 import { SectionHero } from "@/components/AssetPicture";
@@ -101,6 +102,7 @@ export default function DataPage() {
     </section>
     {datasets.map((dataset) => <section key={dataset.id} id={dataset.id}>
       <h2>{dataset.title}</h2>
+      {dataset.id === "compounds" && <p><Link href={compoundHistoryPath}>Compound identity release history</Link></p>}
       <p>{dataset.rowCount} rows · Snapshot <time dateTime={dataset.snapshot}>{dataset.snapshot}</time> · <a href={dataset.license}>CC BY 4.0</a></p>
       {dataset.id === "trials-index" && <p>Five results per query at retrieval. Re-query <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> for current status.</p>}
       <div className="table-scroll"><table className="file-table">

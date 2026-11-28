@@ -45,3 +45,15 @@ and the SVG geometry. Generate one release with
 second argument. Commit its new assets and both manifest copies with the
 release. See [the illustration style guide](assets/STYLE.md) and
 [asset manifest](assets/manifest.json).
+
+## Compound identity release history
+
+After publishing a dated compound identity snapshot and manifest, append a
+release to `lib/compound-history.ts` with its date and the date of its published
+predecessor. Keep existing release dates and predecessor links fixed. The build
+verifies the JSON checksum and row count against the manifest. Records are
+matched by slug, and list order is compared as stored.
+
+Use the corresponding `changeId` as a release note key when a change has a
+documented reason and source URL. The dated release page renders a permanent
+link for each added record, removed record, or changed field.
