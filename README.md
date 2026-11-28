@@ -10,9 +10,10 @@ This repository builds the public standards, methodology, and data publication o
 | [/changelog](https://americanpeptide.org/changelog) | Public changelog |
 | [/errata](https://americanpeptide.org/errata) | Corrections, including E-001 |
 | [/open-source](https://americanpeptide.org/open-source) | Calculator modules and JSON Schema |
+Use Node.js 26.x to build the site.
 
 ```
-npm install
+npm ci
 npm test
 npm run dev
 ```

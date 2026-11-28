@@ -28,7 +28,7 @@ export default function OpenSourcePage() {
         License: MIT. The written method, including edge cases the types do not express, is under{" "}
         <Link href="/methods">/methods</Link>.
       </p>
-      <pre className="formula">{`node --experimental-strip-types --test packages/calculators/calculators.test.ts`}</pre>
+      <pre className="formula">{`node --test packages/calculators/calculators.test.ts`}</pre>
       {methods.map((method) => <section key={method.id} id={method.id}>
         <h3>{method.title}</h3>
         <p><a href={calculatorSource(method.id)} download>Download {method.id}.ts</a>{" · "}

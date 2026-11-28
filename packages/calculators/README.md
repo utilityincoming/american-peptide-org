@@ -11,6 +11,6 @@ Reference implementations of the bench math that [americanpeptide.com](https://a
 
 Methodology, assumptions, and edge cases: [americanpeptide.org/methods](https://americanpeptide.org/methods).
 
-These files are TypeScript with no dependencies. Node 22+ can run the tests with `node --experimental-strip-types --test packages/calculators/calculators.test.ts`.
+These files are TypeScript with no dependencies. Node 22.18+ can run the tests with `node --test packages/calculators/calculators.test.ts`.
 
 MIT License.
