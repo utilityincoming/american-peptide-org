@@ -42,3 +42,10 @@ test("0.1.1 examples match the published claim schema", () => {
     checkClaim(claim, name);
   }
 });
+
+test("the sourced registry claim follows the published claim schema", () => {
+  const file = "glutathione-formula-2026-11-28.json";
+  const claim = JSON.parse(readFileSync(new URL(`../../public/data/examples/${file}`, import.meta.url), "utf8"));
+  checkClaim(claim, file);
+  assert.equal(claim.provenance.source_url, `https://pubchem.ncbi.nlm.nih.gov/compound/${claim.provenance.source_id}`);
+});
