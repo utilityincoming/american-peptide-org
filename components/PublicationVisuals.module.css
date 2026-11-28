@@ -134,3 +134,17 @@
 @media (max-width: 36rem) {
   .changeValues { grid-template-columns: minmax(0, 1fr); }
 }
+
+.methodOverview {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 0.7rem 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.methodOverview dl { margin: 0; }
+
+@media (max-width: 36rem) {
+  .methodOverview { grid-template-columns: minmax(0, 1fr); }
+}
