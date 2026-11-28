@@ -1,3 +1,4 @@
+import styles from "@/components/PublicationVisuals.module.css";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -36,8 +37,24 @@ export default async function CompoundRelease({ params }: Props) {
     <article className="prose">
       <p className="kicker"><Link href={compoundHistoryPath}>Compound identity release history</Link></p>
       <h1>Compound identity release · {snapshot}</h1>
-      <p>{current.rows.length} records · <a href={current.url}>Snapshot JSON</a> · <a href={current.manifest}>Snapshot manifest</a></p>
-      {previous ? (
+      <section className={styles.panel} aria-labelledby="snapshot-summary">
+        <h2 id="snapshot-summary">{previous ? "Snapshot details" : "Baseline snapshot"}</h2>
+        {!previous && <p>This is the first dated compound identity snapshot. A comparison requires a second published snapshot.</p>}
+        <dl className={styles.snapshotFacts}>
+          <div><dt>Release date</dt><dd><time dateTime={current.date}>{current.date}</time></dd></div>
+          <div><dt>Records</dt><dd>{current.rows.length}</dd></div>
+          <div className={styles.checksum}>
+            <dt>Snapshot JSON checksum · SHA-256</dt>
+            <dd><code>{current.sha256}</code></dd>
+          </div>
+        </dl>
+        <p>To verify the download, compare its SHA-256 hash to the checksum above.</p>
+        <ul className={styles.releaseLinks}>
+          <li><a href={current.url} download>Download snapshot JSON</a></li>
+          <li><a href={current.manifest}>View snapshot manifest</a></li>
+        </ul>
+      </section>
+      {previous && (
         <>
           <h2>Changes since {previous.date}</h2>
           <p><a href={previous.url}>Previous snapshot JSON</a> · <a href={previous.manifest}>Previous manifest</a></p>
@@ -50,9 +67,15 @@ export default async function CompoundRelease({ params }: Props) {
               <section key={id} id={id} className="cite">
                 <h3>{change.name} · {change.kind === "changed" ? change.field : change.kind}</h3>
                 {change.kind === "changed" && (
-                  <dl className="defs" style={{ overflowWrap: "anywhere" }}>
-                    <div><dt>Before</dt><dd><code>{display(change.before)}</code></dd></div>
-                    <div><dt>After</dt><dd><code>{display(change.after)}</code></dd></div>
+                  <dl className={styles.changeValues}>
+                    <div className={styles.node}>
+                      <dt>Before · <time dateTime={previous.date}>{previous.date}</time></dt>
+                      <dd><code>{display(change.before)}</code></dd>
+                    </div>
+                    <div className={styles.node}>
+                      <dt>After · <time dateTime={current.date}>{current.date}</time></dt>
+                      <dd><code>{display(change.after)}</code></dd>
+                    </div>
                   </dl>
                 )}
                 {note ? <p>{note.reason} · <a href={note.source}>Supporting source</a></p> : <p>No reason documented.</p>}
@@ -60,11 +83,6 @@ export default async function CompoundRelease({ params }: Props) {
               </section>
             );
           })}
-        </>
-      ) : (
-        <>
-          <h2>Baseline snapshot</h2>
-          <p>This is the first dated compound identity snapshot. A comparison requires a second published snapshot.</p>
         </>
       )}
       <p>American Peptide Project · Compound identity release · <time dateTime={snapshot}>{snapshot}</time></p>

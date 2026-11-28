@@ -34,5 +34,5 @@ export function readCompoundSnapshot(date: string) {
   if (data.version !== date || indexRows(data.compounds).size !== entry.rowCount) {
     throw new Error(`Compound snapshot version or row count mismatch: ${date}`);
   }
-  return { date, url, rows: data.compounds, manifest: `/data/${date}/manifest.json` };
+  return { date, url, rows: data.compounds, sha256: entry.files.json.sha256, manifest: `/data/${date}/manifest.json` };
 }
