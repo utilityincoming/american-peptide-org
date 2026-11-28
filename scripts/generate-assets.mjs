@@ -68,7 +68,7 @@ const erratum = rect(47, 20, 91, 108, paper) + path("M62 44h56m-56 19h45m-45 19h
   path("M127 61h20v25h-20m20-12h28", crimson) + circle(181, 74, 4, crimson, "none");
 const empty = rect(59, 23, 79, 101, paper) + lines(3, (i) => path(`M73 ${51 + i * 18}h50`, line));
 const icon = rect(0, 0, 32, 32, deep, "none", 6) +
-  path("M8 20V8h12m-8 16V12h12m-8 4h8v8h-8Z", paper);
+  `<path fill="${paper}" fill-rule="evenodd" d="M4 24 10 8h12a6 6 0 0 1 0 12h-3l1.5 4h-4.25l-1.5-4h-5L8.25 24ZM11.25 16h2l-1-2.75ZM16 12l1.5 4H22a2 2 0 0 0 0-4Z"/>`;
 const marker = (color) => rect(25, 22, 200, 77, secondary, "none") + rect(41, 36, 168, 49, paper, color) +
   path("M59 49v23m-8-11h16m114-12v23m-8-11h16", color) + rect(90, 54, 70, 14, color, "none");
 
@@ -148,7 +148,7 @@ if (!release) {
   }
   await raster("erratum-marker", svg(220, 148, erratum), 220, 148, "/errata#e-001", { release: "0.1.1" });
   await raster("empty-record", svg(200, 148, empty), 200, 148, "/standards/evidence-tier/validate");
-  for (const size of [32, 180, 512]) {
+  for (const size of [16, 32, 180, 512]) {
     await raster(`icon-${size}`, svg(size, size, group(0, 0, size / 32, icon), undefined, undefined, true),
       size, size, "*", { formats: ["png"], densities: [1] });
   }

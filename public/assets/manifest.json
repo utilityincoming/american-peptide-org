@@ -232,6 +232,17 @@
       "sourceRevision": "archival-plates-v1",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
+    "icon-16.png": {
+      "page": "*",
+      "release": null,
+      "width": 16,
+      "height": 16,
+      "alt": "",
+      "source": "scripts/generate-assets.mjs",
+      "brief": "assets/STYLE.md#artwork-brief",
+      "sourceRevision": "archival-plates-v1",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
     "icon-180.png": {
       "page": "*",
       "release": null,
