@@ -1,3 +1,4 @@
+import { WorkedExample } from "@/components/WorkedExample";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -29,17 +30,7 @@ export default function ExamplesPage() {
 estimate_kind  commercial
 window         30 days`}</pre>
 
-      <h2>Rodent half-life</h2>
-      <p>
-        <a href="/standards/evidence-tier/0.1.1/examples/rodent-half-life.json">rodent-half-life.json</a> is{" "}
-        <code>preclinical</code> and <code>pharmacokinetic</code>, scoped <code>rat.sc</code>. No kind override
-        applies, so the tier window is 24 months. The scope note is mandatory because the tier is below{" "}
-        <code>clinical</code>. A later human subcutaneous figure cannot supersede this row: the scopes differ.
-      </p>
-      <pre className="formula">{`tier           preclinical
-estimate_kind  pharmacokinetic
-scope          rat.sc
-window         24 months`}</pre>
+      <WorkedExample />
 
       <p>
         Normative rules: <Link href="/standards/evidence-tier/v0.1#4-freshness-and-revalidation">freshness</Link> and{" "}

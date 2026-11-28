@@ -1,3 +1,4 @@
+import visualStyles from "@/components/PublicationVisuals.module.css";
 import { SectionHero } from "@/components/AssetPicture";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -46,7 +47,34 @@ export default function DataPage() {
     <h1>Dataset exports</h1>
       <SectionHero name="data" />
     <p>Attribute the American Peptide Project and link to the snapshot you used. PubChem and ClinicalTrials.gov remain the upstream records.</p>
-    <p><a href={`/data/${DATASET_SNAPSHOT}/manifest.json`}>Download the machine-readable manifest</a>.</p>
+    <section className={visualStyles.panel} aria-label="Snapshot comparison">
+      <table className={visualStyles.snapshotTable}>
+        <caption>Compare dataset snapshots</caption>
+        <thead>
+          <tr><th scope="col">Dataset</th><th scope="col">Snapshot</th><th scope="col">Downloads</th></tr>
+        </thead>
+        <tbody>
+          {datasets.map(({ id, title, rowCount, snapshot, files }) => (
+            <tr key={id}>
+              <th scope="row"><a href={`#${id}`}>{title}</a><br />{rowCount} rows</th>
+              <td><time dateTime={snapshot}>{snapshot}</time></td>
+              <td>
+                <ul className={visualStyles.formats}>
+                  {Object.entries(files).map(([format, file]) => (
+                    <li key={format}>
+                      <a href={file.url} download aria-label={`Download ${title} as ${format.toUpperCase()}`}>
+                        {format.toUpperCase()}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <a href={`/data/${DATASET_SNAPSHOT}/manifest.json`}>Download the machine-readable manifest</a>
+    </section>
     {datasets.map((dataset) => <section key={dataset.id} id={dataset.id}>
       <h2>{dataset.title}</h2>
       <p>{dataset.rowCount} rows · Snapshot <time dateTime={dataset.snapshot}>{dataset.snapshot}</time> · <a href={dataset.license}>CC BY 4.0</a></p>

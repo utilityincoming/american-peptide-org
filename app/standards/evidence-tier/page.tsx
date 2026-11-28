@@ -1,3 +1,4 @@
+import { EvidenceTierDiagram } from "@/components/EvidenceTierDiagram";
 import { SITE_NAME } from "@/lib/site";
 import { SectionHero, SchemaFlow } from "@/components/AssetPicture";
 import type { Metadata } from "next";
@@ -22,6 +23,7 @@ export default function StandardsIndex() {
       </p>
       <SectionHero name="evidence" />
       <SchemaFlow />
+      <EvidenceTierDiagram />
       <div className="grid">
         <Link href="/standards/evidence-tier/compare" className="card">
           <h2>Compare releases</h2><p>See what changed between two releases.</p>
