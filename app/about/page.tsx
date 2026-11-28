@@ -1,6 +1,7 @@
+import { PropertyRelationship } from "@/components/PropertyRelationship";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { COM, publisher, REPO, SITE, website } from "@/lib/site";
+import { publisher, REPO, SITE, website } from "@/lib/site";
 
 const description =
   "What the American Peptide Project publishes, how to cite and reuse its work, and how its publications relate to the interactive tools.";
@@ -31,12 +32,7 @@ export default function AboutPage() {
         AmericanPeptide.org publishes public evidence standards, scientific and computational methods,
         reference implementations, and versioned datasets for peptide science.
       </p>
-      <h2>Publications and tools</h2>
-      <p>
-        AmericanPeptide.org publishes the specifications and research data.{" "}
-        <a href={COM}>AmericanPeptide.com</a> provides interactive calculators and a research catalog.
-        Where a published method has a corresponding tool, the method page links to it.
-      </p>
+      <PropertyRelationship />
       <h2>Evidence and methodology</h2>
       <p>
         The <Link href="/standards/evidence-tier">Evidence Tier Schema</Link> defines how factual claims
