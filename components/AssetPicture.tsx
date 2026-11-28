@@ -1,3 +1,5 @@
+import assets from "@/assets/manifest.json";
+
 type AssetPictureProps = {
   name: string;
   width: number;
@@ -17,7 +19,7 @@ export function AssetPicture({ name, width, height, alt, eager }: AssetPicturePr
 
 export function SectionHero({ name }: { name: "evidence" | "methods" | "data" }) {
   return <div className="section-art">
-    <AssetPicture name={`hero-${name}`} width={1200} height={630} alt="" eager />
+    <AssetPicture name={`hero-${name}`} width={1200} height={630} alt={assets.files[`hero-${name}.png`].alt} eager />
   </div>;
 }
 

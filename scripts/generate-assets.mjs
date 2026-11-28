@@ -47,8 +47,6 @@ const tier = glyphs.map((glyph, index) => group(28 + index * 92, 24 + index * 35
 const vessel = path("M35 20h112m-101 0v147q0 16 16 16h58q16 0 16-16V20") +
   path("M48 108h86v58q0 14-14 14H62q-14 0-14-14Z", "none", secondary) +
   lines(6, (i) => path(`M111 ${45 + i * 21}h${i % 2 ? 11 : 21}`)) + path("M49 108h84", brass);
-const ruler = rect(0, 0, 54, 198, secondary) + lines(12, (i) => path(`M1 ${12 + i * 15}h${i % 3 ? 13 : 25}`));
-const measures = group(75, 33, 1.25, vessel) + group(317, 35, 1, ruler);
 const grid = rect(24, 26, 310, 184, paper) + rect(25, 27, 308, 37, secondary, "none") +
   rect(150, 102, 85, 37, secondary, "none") +
   lines(4, (i) => path(`M24 ${64 + i * 37}h310`, line)) + path("M150 27v182m85-182v182", line) +
@@ -64,6 +62,14 @@ const screen = rect(54, 27, 376, 160, paper) + rect(169, 28, 144, 158, secondary
   path("M148 131c57 0 67-68 126-68s68 68 125 68", brass);
 const pk = rect(33, 75, 93, 71, secondary) + circle(80, 111, 13, paper) + arrow(127, 111, 58, brass) +
   path("M215 35v145h220", muted) + path("M223 51c38 78 99 111 190 117", navy);
+const methodsPlate = [recon, blend, screen, pk].map((diagram, index) => {
+  const x = (index % 2) * 220;
+  const y = Math.floor(index / 2) * 112 + 12;
+  return group(x, y, 1,
+    rect(0, 0, 208, 100, index % 2 ? secondary : paper, line, 3) +
+    group(10, 7, 0.39, diagram));
+}).join("");
+const methodsAlt = "Four diagrams illustrate liquid measurement, combined inputs, a screening window, and a decay curve.";
 const erratum = rect(47, 20, 91, 108, paper) + path("M62 44h56m-56 19h45m-45 19h49m-49 19h37", line) +
   path("M127 61h20v25h-20m20-12h28", crimson) + circle(181, 74, 4, crimson, "none");
 const empty = rect(59, 23, 79, 101, paper) + lines(3, (i) => path(`M73 ${51 + i * 18}h50`, line));
@@ -112,12 +118,12 @@ async function releaseAssets(version, token) {
 }
 
 if (!release) {
-  for (const [id, title, body, page, releaseVersion] of [
+  for (const [id, title, body, page, releaseVersion, alt] of [
     ["evidence", "Evidence Tier Schema", tier, "/standards/evidence-tier", "0.1.1"],
-    ["methods", "Calculator methods", measures, "/methods", null],
+    ["methods", "Calculator methods", methodsPlate, "/methods", null, methodsAlt],
     ["data", "Dataset exports", grid, "/data", "2026-11-18"],
   ]) {
-    await raster(`hero-${id}`, svg(1200, 630, group(205, 70, 1.85, body)), 1200, 630, page, { release: releaseVersion });
+    await raster(`hero-${id}`, svg(1200, 630, group(205, 70, 1.85, body)), 1200, 630, page, { release: releaseVersion, alt });
     await social(`og-${id}`, title, "Public methods and standards", body, page, releaseVersion);
   }
   for (const [id, body, alt] of [
