@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </nav>
               </div>
               <div className="footer-meta">
-                <p>© 2026 AmericanPeptide.Org</p>
+                <p>© 2027 AmericanPeptide.org</p>
                 <PageCitation />
               </div>
             </div>
