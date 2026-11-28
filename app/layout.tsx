@@ -68,8 +68,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <li><Link href="/about">About</Link></li>
                     <li><Link href="/changelog">Changelog</Link></li>
                     <li><Link href="/errata">Errata</Link></li>
-                    <li><Link href="/cite">Citation guide</Link></li>
-                    <li><Link href="/about#licensing">Licensing</Link></li>
                   </ul>
                 </nav>
               </div>
