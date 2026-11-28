@@ -1,3 +1,7 @@
+import { ReleasePanel } from "@/components/ReleasePanel";
+import styles from "@/components/PublicationVisuals.module.css";
+import { citation, citationFile, citationLicense } from "@/lib/citations";
+import { releases, releasePath } from "@/lib/releases";
 import { EvidenceTierDiagram } from "@/components/EvidenceTierDiagram";
 import { SITE_NAME } from "@/lib/site";
 import { SectionHero, SchemaFlow } from "@/components/AssetPicture";
@@ -13,6 +17,10 @@ export const metadata: Metadata = {
 };
 
 export default function StandardsIndex() {
+  const release = releases[releases.length - 1];
+  const spec = releasePath(release.version);
+  const record = citation(spec)!;
+
   return (
     <article>
       <p className="kicker">Standard</p>
@@ -21,6 +29,19 @@ export default function StandardsIndex() {
         A claim-level provenance standard for peptide reference data. A tier says where a number came from. It does not say how confident the prose
         sounds, and it is not a study-design ladder.
       </p>
+      <ReleasePanel
+        title="Cite and reuse the current schema"
+        version={<>Version <strong>{release.version}</strong></>}
+        license={citationLicense}
+      >
+        <ul className={styles.releaseLinks}>
+          <li><Link href={spec}>Pinned specification</Link></li>
+          <li><a href={`${spec}/schema.json`} download>JSON Schema</a></li>
+          <li><a href={citationFile(record.key, "bib")} download>BibTeX</a></li>
+          <li><a href={citationFile(record.key, "json")}>DataCite metadata</a></li>
+          <li><Link href={`/changelog#${release.notes}`}>Release notes</Link></li>
+        </ul>
+      </ReleasePanel>
       <SectionHero name="evidence" />
       <SchemaFlow />
       <EvidenceTierDiagram />
@@ -35,11 +56,6 @@ export default function StandardsIndex() {
           <p className="kicker">Cite this URL</p>
           <h2>v0.1</h2>
           <p>Frozen to schema 0.1.1, the first public text. JSON Schema included.</p>
-        </Link>
-        <Link href="/standards/evidence-tier/0.1.1" className="card">
-          <p className="kicker">Patch pin</p>
-          <h2>0.1.1</h2>
-          <p>Same frozen text as v0.1. Use this path when a citation must name the patch.</p>
         </Link>
         <Link href="/standards/evidence-tier/examples" className="card">
           <p className="kicker">Worked records</p>

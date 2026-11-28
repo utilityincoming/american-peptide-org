@@ -1,3 +1,4 @@
+import { ReleasePanel } from "@/components/ReleasePanel";
 import visualStyles from "@/components/PublicationVisuals.module.css";
 import { SectionHero } from "@/components/AssetPicture";
 import type { Metadata } from "next";
@@ -47,6 +48,30 @@ export default function DataPage() {
     <h1>Dataset exports</h1>
       <SectionHero name="data" />
     <p>Attribute the American Peptide Project and link to the snapshot you used. PubChem and ClinicalTrials.gov remain the upstream records.</p>
+    <ReleasePanel
+      title="Cite and reuse this dataset snapshot"
+      version={<>Snapshot <time dateTime={DATASET_SNAPSHOT}>{DATASET_SNAPSHOT}</time></>}
+      license={datasets[0].license}
+    >
+      <ul className={visualStyles.releaseLinks}>
+        <li><a href={`/data/${DATASET_SNAPSHOT}/manifest.json`} download>Snapshot manifest</a></li>
+        <li><Link href={`/changelog#dataset-${DATASET_SNAPSHOT}`}>Release notes</Link></li>
+      </ul>
+      <dl className={visualStyles.releaseCitations}>
+        {datasets.map(({ id, title }) => {
+          const record = citation(`/data#${id}`)!;
+          return (
+            <div key={id}>
+              <dt>{title}</dt>
+              <dd className={visualStyles.releaseLinks}>
+                <a href={citationFile(record.key, "bib")} download aria-label={`BibTeX for ${title}`}>BibTeX</a>
+                <a href={citationFile(record.key, "json")} aria-label={`DataCite metadata for ${title}`}>DataCite metadata</a>
+              </dd>
+            </div>
+          );
+        })}
+      </dl>
+    </ReleasePanel>
     <section className={visualStyles.panel} aria-label="Snapshot comparison">
       <table className={visualStyles.snapshotTable}>
         <caption>Compare dataset snapshots</caption>
@@ -73,14 +98,11 @@ export default function DataPage() {
           ))}
         </tbody>
       </table>
-      <a href={`/data/${DATASET_SNAPSHOT}/manifest.json`}>Download the machine-readable manifest</a>
     </section>
     {datasets.map((dataset) => <section key={dataset.id} id={dataset.id}>
       <h2>{dataset.title}</h2>
       <p>{dataset.rowCount} rows · Snapshot <time dateTime={dataset.snapshot}>{dataset.snapshot}</time> · <a href={dataset.license}>CC BY 4.0</a></p>
       {dataset.id === "trials-index" && <p>Five results per query at retrieval. Re-query <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> for current status.</p>}
-      <p className="meta"><a href={citationFile(citation(`/data#${dataset.id}`)!.key, "bib")} download>Cite dataset (BibTeX)</a>
-        {" · "}<a href={citationFile(citation(`/data#${dataset.id}`)!.key, "json")}>DataCite metadata</a></p>
       <div className="table-scroll"><table className="file-table">
         <thead><tr><th scope="col">Download</th><th scope="col">SHA-256</th></tr></thead>
         <tbody>{Object.entries(dataset.files).map(([format, file]) =>

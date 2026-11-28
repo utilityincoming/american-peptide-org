@@ -125,7 +125,7 @@ export default function ChangelogPage() {
           <Link href="/methods/blend">blends</Link>, and{" "}
           <Link href="/methods/pharmacokinetics">pharmacokinetics</Link>, matching the reference modules.
         </li>
-        <li>
+        <li id="dataset-2026-11-18">
           Released dataset snapshot 2026-11-18: compound identity (111 rows), half-life inputs (44 rows), trials
           index (25 studies), and structured references. License CC BY 4.0.
         </li>
